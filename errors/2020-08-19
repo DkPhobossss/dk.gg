@@ -1,0 +1,16 @@
+2020-08-19 22:21:17 http://dkphobos.gg/en /en:
+Site: http://dkphobos.gg
+Time: 2020-08-19 22:21:17
+Error #: 2
+Message: mb_ereg_match(): mbregex compile err: undefined type (bug)
+File: D:\Work\www\dkphobos\classes\Bootstrap.class.php
+Line: 47
+User IP: 85.91.211.181
+User ID: 0
+
+Debug backtrace:
+#1: mb_ereg_match(^[a-z]{2}?/?ajax/json/,en) called at [D:\Work\www\dkphobos\classes\Bootstrap.class.php:47]
+#2: process_query() called at [D:\Work\www\dkphobos\classes\Bootstrap.class.php:24]
+#3: run() called at [D:\Work\www\dkphobos\public_html\index.php:4]
+
+

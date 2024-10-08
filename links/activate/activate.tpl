@@ -1,0 +1,1 @@
+<?= $this->module( 'page', $this->module( 'main' , 'activate', Input::get('user_id') , Input::get('activated_hash') ) ) ?>

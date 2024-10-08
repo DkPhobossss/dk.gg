@@ -1,0 +1,114 @@
+div#content
+{
+    -webkit-border-radius   : 6px;
+    -moz-border-radius		: 6px;
+    border-radius			: 6px;
+    min-height              : 205px;
+}
+
+#cats > div.left
+{
+    width               : 296px;
+    position            : relative;
+}
+
+    #cats > div.left:nth-child(3n-1)
+    {
+        margin           : 0 8px;
+    }
+    
+    #cats > div.left:nth-child(n+4)
+    {
+        margin-top      : 8px;
+    }
+    
+        #cats > div.left img.cat
+        {
+            height              : 175px;
+            width               : 100%;
+            
+            -webkit-border-radius   : 6px 6px 0 0;
+            -moz-border-radius		: 6px 6px 0 0;
+            border-radius			: 6px 6px 0 0;
+        }
+
+    #cats h2
+    {
+        -webkit-box-sizing       : border-box; /* Safari/Chrome, other WebKit */
+        -moz-box-sizing           : border-box;    /* Firefox, other Gecko */
+        box-sizing                : border-box;         /* Opera/IE 8+ */
+
+        
+        line-height     : 32px;
+        height          : 32px;
+        padding-top     : 1px;
+
+        letter-spacing  : 1px;
+        position        : relative;
+        background-color                : #5e5e5e;
+
+        text-shadow     : 0 0 5px #000000;
+
+
+        border-style    : solid;
+        border-color    : #5e5e5e rgba(95,95,95 , 0.1) rgba(33 ,33,33 ,0.9) rgba(95,95,95 , 0.1);
+        border-width    : 1px;
+        
+        margin-bottom                   : 0;
+        
+        font-size       : 14px;
+        font-family     : Kelson_sans;
+        
+        text-transform  : uppercase;
+        text-align      : center;
+    }
+
+        #cats a[href] h2
+        {
+            background-image: url('/images/menu_main_bg.png');
+            background-repeat: repeat-x;
+            color           : #a4a4a4;
+            
+            -webkit-border-radius   : 0 0 6px 6px;
+            -moz-border-radius		: 0 0 6px 6px;
+            border-radius			: 0 0 6px 6px;
+        }
+
+
+    #cats a.selected h2, 
+    #cats a[href]:hover h2, 
+    #cats a[href]:active h2
+    {
+        color           : #C6FA00;
+        text-shadow     : 0 0 10px #C6FA00;
+    }
+
+    #cats a[href]:active h2, 
+    #cats a.selected h2
+    {
+        background-position : 0 -32px;
+    }
+
+        #cats a[href]:not(.selected):hover h2:after
+        {
+            position        : absolute; 
+            display         : block; 
+            content         : ''; 
+            background-image: url('/images/menu_main_hover.png'); 
+            background-repeat : no-repeat;
+            background-position: 50% 0;
+            height          : 1px; 
+            width           : 100%; 
+            bottom          : 0;
+        }
+
+    #cats a.selected h2:after
+    {
+        position        : absolute; 
+        display         : block; 
+        content         : ''; 
+        background-image: url('/images/menu_main_active.png'); 
+        height          : 19px; 
+        width           : 100%; 
+        bottom          : 0;
+    }

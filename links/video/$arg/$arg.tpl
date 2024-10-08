@@ -1,0 +1,1 @@
+<?= $this->module( 'page', $this->module( 'main' , 'video/id' , Link::$url_parts[1] ) ) ?>

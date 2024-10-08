@@ -1,0 +1,10 @@
+#info > div
+{
+    margin          : 5px 0;
+}
+
+    #info div > b
+    {
+        width           : 100px;
+        display         : inline-block;
+    }

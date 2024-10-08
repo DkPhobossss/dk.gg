@@ -1,0 +1,333 @@
+/*
+Copyright (c) 2003-2020, CKSource - Frederico Knabben. All rights reserved.
+For licensing, see LICENSE.md or https://ckeditor.com/legal/ckeditor-oss-license
+*/
+
+body
+{
+	/* Font */
+	/* Emoji fonts are added to visualise them nicely in Internet Explorer. */
+	font-family: sans-serif, Arial, Verdana, "Trebuchet MS", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+	font-size: 12px;
+
+	/* Text color */
+	color: #333;
+
+	/* Remove the background color to make it transparent. */
+	background-color: #fff;
+
+	margin: 20px;
+}
+
+.cke_editable
+{
+	font-size: 13px;
+	line-height: 1.6;
+
+	/* Fix for missing scrollbars with RTL texts. (#10488) */
+	word-wrap: break-word;
+}
+
+blockquote
+{
+	font-style: italic;
+	font-family: Georgia, Times, "Times New Roman", serif;
+	padding: 2px 0;
+	border-style: solid;
+	border-color: #ccc;
+	border-width: 0;
+}
+
+.cke_contents_ltr blockquote
+{
+	padding-left: 20px;
+	padding-right: 8px;
+	border-left-width: 5px;
+}
+
+.cke_contents_rtl blockquote
+{
+	padding-left: 8px;
+	padding-right: 20px;
+	border-right-width: 5px;
+}
+
+a
+{
+	color: #0782C1;
+}
+
+ol,ul,dl
+{
+	/* IE7: reset rtl list margin. (#7334) */
+	*margin-right: 0px;
+	/* Preserved spaces for list items with text direction different than the list. (#6249,#8049)*/
+	padding: 0 40px;
+}
+
+h1,h2,h3,h4,h5,h6
+{
+	font-weight: normal;
+	line-height: 1.2;
+}
+
+hr
+{
+	border: 0px;
+	border-top: 1px solid #ccc;
+}
+
+img.right
+{
+	border: 1px solid #ccc;
+	float: right;
+	margin-left: 15px;
+	padding: 5px;
+}
+
+img.left
+{
+	border: 1px solid #ccc;
+	float: left;
+	margin-right: 15px;
+	padding: 5px;
+}
+
+pre
+{
+	white-space: pre-wrap; /* CSS 2.1 */
+	word-wrap: break-word; /* IE7 */
+	-moz-tab-size: 4;
+	tab-size: 4;
+}
+
+.marker
+{
+	background-color: Yellow;
+}
+
+span[lang]
+{
+	font-style: italic;
+}
+
+figure
+{
+	text-align: center;
+	outline: solid 1px #ccc;
+	background: rgba(0,0,0,0.05);
+	padding: 10px;
+	margin: 10px 20px;
+	display: inline-block;
+}
+
+figure > figcaption
+{
+	text-align: center;
+	display: block; /* For IE8 */
+}
+
+a > img {
+	padding: 1px;
+	margin: 1px;
+	border: none;
+	outline: 1px solid #0782C1;
+}
+
+/* Widget Styles */
+.code-featured
+{
+	border: 5px solid red;
+}
+
+.math-featured
+{
+	padding: 20px;
+	box-shadow: 0 0 2px rgba(200, 0, 0, 1);
+	background-color: rgba(255, 0, 0, 0.05);
+	margin: 10px;
+}
+
+.image-clean
+{
+	border: 0;
+	background: none;
+	padding: 0;
+}
+
+.image-clean > figcaption
+{
+	font-size: .9em;
+	text-align: right;
+}
+
+.image-grayscale
+{
+	background-color: white;
+	color: #666;
+}
+
+.image-grayscale img, img.image-grayscale
+{
+	filter: grayscale(100%);
+}
+
+.embed-240p
+{
+	max-width: 426px;
+	max-height: 240px;
+	margin:0 auto;
+}
+
+.embed-360p
+{
+	max-width: 640px;
+	max-height: 360px;
+	margin:0 auto;
+}
+
+.embed-480p
+{
+	max-width: 854px;
+	max-height: 480px;
+	margin:0 auto;
+}
+
+.embed-720p
+{
+	max-width: 1280px;
+	max-height: 720px;
+	margin:0 auto;
+}
+
+.embed-1080p
+{
+	max-width: 1920px;
+	max-height: 1080px;
+	margin:0 auto;
+}
+
+
+
+
+body {
+	line-height: 24px;
+}
+body .skill_icon,
+body .item_icon,
+body .hero_icon {
+	height: 24px;
+	margin-right: 2px;
+}
+body .hero_icon {
+	width: 24px;
+}
+body h3,
+body h2 {
+	margin: 20px 0;
+}
+body h3 {
+	position: relative;
+}
+body h3:after {
+	position: absolute;
+	content: '';
+	display: block;
+	bottom: -10px;
+	left: 0;
+	right: 0;
+	border-top: 1px solid #4D8E63;
+	border-bottom: 1px solid #1D5E33;
+	opacity: 0.25;
+}
+body h4 {
+	border: 1px solid #ccc;
+	padding: 20px;
+	background-color: #f0f0f0;
+	margin-bottom: 20px;
+	color: #557e90;
+}
+body ul {
+	color: #4e5966;
+	list-style: none;
+}
+body ul li {
+	padding-left: 20px;
+	position: relative;
+	font-size: 14px;
+}
+body ul li:after {
+	content: '';
+	position: absolute;
+	height: 5px;
+	width: 5px;
+	top: 50%;
+	margin-top: -2px;
+	left: 8px;
+	background-color: #4D8E63;
+	border-radius: 50%;
+	display: inline-block;
+}
+body .views {
+	text-align: right;
+	font-size: 12px;
+	margin-top: 20px;
+	color: #ccc;
+}
+body table {
+	width: 100%;
+	border-bottom: 10px solid #4D8E63;
+	-webkit-box-shadow: 3px 3px 20px rgba(0, 0, 0, 0.5);
+	-moz-box-shadow: 3px 3px 20px rgba(0, 0, 0, 0.5);
+	box-shadow: 3px 3px 20px rgba(0, 0, 0, 0.5);
+	margin: 20px auto;
+	border-collapse: collapse;
+}
+body table.auto {
+	width: auto;
+}
+body table thead tr:last-child:before {
+	text-align: center;
+	background-color: #4D8E63;
+	color: #fff;
+}
+body table thead th {
+	background-color: #4D8E63;
+	color: #fff;
+	font-family: Kelson_sans;
+	position: relative;
+}
+body table tbody .hero_icon {
+	width: 32px;
+	height: 32px;
+	margin-right: 0;
+}
+body table tbody tr:nth-child(2n+1):before,
+body table tbody tr:nth-child(2n+1) td,
+body table tbody tr:nth-child(2n+1) th {
+	background-color: #fafafa;
+}
+body table tbody tr:last-child td {
+	padding-bottom: 5px;
+}
+body table tbody tr:before {
+	padding-left: 5px;
+	color: rgba(200, 200, 200, 0.85);
+}
+body table tbody tr:hover td,
+body table tbody tr:hover th,
+body table tbody tr:hover:before {
+	background-color: #def3e5;
+}
+body table tbody td {
+	padding: 5px;
+}
+body table th {
+	padding: 10px;
+}
+body table th {
+	font-weight: normal;
+}
+body table.has_image tbody td {
+	padding: 5px 5px 0 5px;
+}

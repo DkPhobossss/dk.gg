@@ -1,0 +1,1285 @@
+2020-08-04 22:38:14 http://95.67.115.86:15/ /:
+Site: http://dkphobos.gg
+Time: 2020-08-04 22:38:14
+Error #: 8
+Message: Undefined index: HTTP_ACCEPT_LANGUAGE
+File: D:\Work\www\dkphobos\classes\Link.class.php
+Line: 24
+User IP: 108.178.61.58
+User ID: 0
+
+Debug backtrace:
+#1: __construct() called at [D:\Work\www\dkphobos\classes\Bootstrap.class.php:53]
+#2: process_query() called at [D:\Work\www\dkphobos\classes\Bootstrap.class.php:24]
+#3: run() called at [D:\Work\www\dkphobos\public_html\index.php:4]
+
+
+2020-08-04 22:39:43 http://95.67.115.86:7681/ /:
+Site: http://dkphobos.gg
+Time: 2020-08-04 22:39:43
+Error #: 8
+Message: Undefined index: HTTP_ACCEPT_LANGUAGE
+File: D:\Work\www\dkphobos\classes\Link.class.php
+Line: 24
+User IP: 192.35.168.251
+User ID: 0
+
+Debug backtrace:
+#1: __construct() called at [D:\Work\www\dkphobos\classes\Bootstrap.class.php:53]
+#2: process_query() called at [D:\Work\www\dkphobos\classes\Bootstrap.class.php:24]
+#3: run() called at [D:\Work\www\dkphobos\public_html\index.php:4]
+
+
+2020-08-04 22:39:43 http://95.67.115.86:7681/ /:
+Site: http://dkphobos.gg
+Time: 2020-08-04 22:39:43
+Error #: 2
+Message: Cannot modify header information - headers already sent by (output started at D:\Work\www\dkphobos\classes\Session.class.php:36)
+File: D:\Work\www\dkphobos\classes\Cookie.class.php
+Line: 16
+User IP: 192.35.168.251
+User ID: 0
+
+Debug backtrace:
+#1: setcookie(lang,"ru",0,/,,,) called at [D:\Work\www\dkphobos\classes\Cookie.class.php:16]
+#2: set(lang,ru) called at [D:\Work\www\dkphobos\classes\Link.class.php:62]
+#3: __construct() called at [D:\Work\www\dkphobos\classes\Bootstrap.class.php:53]
+#4: process_query() called at [D:\Work\www\dkphobos\classes\Bootstrap.class.php:24]
+#5: run() called at [D:\Work\www\dkphobos\public_html\index.php:4]
+
+
+2020-08-04 22:39:44 http://95.67.115.86:7681/ /:
+Site: http://dkphobos.gg
+Time: 2020-08-04 22:39:44
+Error #: 8
+Message: Undefined index: HTTP_ACCEPT_LANGUAGE
+File: D:\Work\www\dkphobos\classes\Link.class.php
+Line: 24
+User IP: 192.35.168.251
+User ID: 0
+
+Debug backtrace:
+#1: __construct() called at [D:\Work\www\dkphobos\classes\Bootstrap.class.php:53]
+#2: process_query() called at [D:\Work\www\dkphobos\classes\Bootstrap.class.php:24]
+#3: run() called at [D:\Work\www\dkphobos\public_html\index.php:4]
+
+
+2020-08-04 22:40:13 http://dkphobos.gg/hidden_leaf/edit/learn/heroes/localization?&b153062=f84e35bd9ab1b1d03cfd0d73f8ae4a9f /hidden_leaf/edit/learn/heroes/localization?&b153062=f84e35bd9ab1b1d03cfd0d73f8ae4a9f:
+Site: http://dkphobos.gg
+Time: 2020-08-04 22:40:13
+Error #: 2
+Message: require_once(D:\Work\www\dkphobos\include/../classes/Parser/DB.class.php): failed to open stream: No such file or directory
+File: D:\Work\www\dkphobos\include\autoload.php
+Line: 20
+User IP: 127.0.0.1
+User ID: 1
+
+Debug backtrace:
+#1: require_once() called at [D:\Work\www\dkphobos\include\autoload.php:20]
+#2: fobi_loader(Parser\DB) called at [:]
+#3: spl_autoload_call(Parser\DB) called at [D:\Work\www\dkphobos\classes\Parser\VDF.class.php:191]
+#4: parse_abilities() called at [D:\Work\www\dkphobos\links\hidden_leaf\edit\learn\heroes\localization\localization.php:12]
+#5: include(D:\Work\www\dkphobos\links\hidden_leaf\edit\learn\heroes\localization\localization.php) called at [D:\Work\www\dkphobos\classes\Module.class.php:84]
+#6: execute() called at [D:\Work\www\dkphobos\classes\Bootstrap.class.php:56]
+#7: process_query() called at [D:\Work\www\dkphobos\classes\Bootstrap.class.php:24]
+#8: run() called at [D:\Work\www\dkphobos\public_html\index.php:4]
+
+
+2020-08-04 22:40:32 http://dkphobos.gg/hidden_leaf/edit/learn/heroes/localization?&b153062=f84e35bd9ab1b1d03cfd0d73f8ae4a9f /hidden_leaf/edit/learn/heroes/localization?&b153062=f84e35bd9ab1b1d03cfd0d73f8ae4a9f:
+Site: http://dkphobos.gg
+Time: 2020-08-04 22:40:32
+Error #: 512
+Message: mySQL query error: INSERT  INTO `dota_2_heroes_aghanim` (`hero_id` , `lang` , `ability_id` , `effect`) VALUES( 1,'russian',5006,'Увеличивает длительность оглушения. При убийстве вражеского героя добавляет дополнительную перезарядку его способности с самой долгой перезарядкой.') mySQL error: Data too long for column 'lang' at row 1  mySQL error code: 1406 
+File: D:\Work\www\dkphobos\classes\Bootstrap.class.php
+Line: 28
+User IP: 127.0.0.1
+User ID: 1
+
+Debug backtrace:
+#1: trigger_error(mySQL query error: INSERT  INTO `dota_2_heroes_aghanim` (`hero_id` , `lang` , `ability_id` , `effect`) VALUES( 1,'russian',5006,'Увеличивает длительность оглушения. При убийстве вражеского героя добавляет дополнительную перезарядку его способности с самой долгой перезарядкой.') mySQL error: Data too long for column 'lang' at row 1  mySQL error code: 1406 ,512) called at [D:\Work\www\dkphobos\classes\Bootstrap.class.php:28]
+#2: run() called at [D:\Work\www\dkphobos\public_html\index.php:4]
+
+
+2020-08-04 22:40:40 http://95.67.115.86:50012/ /:
+Site: http://dkphobos.gg
+Time: 2020-08-04 22:40:40
+Error #: 8
+Message: Undefined index: HTTP_ACCEPT_LANGUAGE
+File: D:\Work\www\dkphobos\classes\Link.class.php
+Line: 24
+User IP: 192.35.168.218
+User ID: 0
+
+Debug backtrace:
+#1: __construct() called at [D:\Work\www\dkphobos\classes\Bootstrap.class.php:53]
+#2: process_query() called at [D:\Work\www\dkphobos\classes\Bootstrap.class.php:24]
+#3: run() called at [D:\Work\www\dkphobos\public_html\index.php:4]
+
+
+2020-08-04 22:40:40 http://95.67.115.86:50012/ /:
+Site: http://dkphobos.gg
+Time: 2020-08-04 22:40:40
+Error #: 2
+Message: Cannot modify header information - headers already sent by (output started at D:\Work\www\dkphobos\classes\Session.class.php:36)
+File: D:\Work\www\dkphobos\classes\Cookie.class.php
+Line: 16
+User IP: 192.35.168.218
+User ID: 0
+
+Debug backtrace:
+#1: setcookie(lang,"ru",0,/,,,) called at [D:\Work\www\dkphobos\classes\Cookie.class.php:16]
+#2: set(lang,ru) called at [D:\Work\www\dkphobos\classes\Link.class.php:62]
+#3: __construct() called at [D:\Work\www\dkphobos\classes\Bootstrap.class.php:53]
+#4: process_query() called at [D:\Work\www\dkphobos\classes\Bootstrap.class.php:24]
+#5: run() called at [D:\Work\www\dkphobos\public_html\index.php:4]
+
+
+2020-08-04 22:40:40 http://95.67.115.86:50012/ /:
+Site: http://dkphobos.gg
+Time: 2020-08-04 22:40:40
+Error #: 8
+Message: Undefined index: HTTP_ACCEPT_LANGUAGE
+File: D:\Work\www\dkphobos\classes\Link.class.php
+Line: 24
+User IP: 192.35.168.218
+User ID: 0
+
+Debug backtrace:
+#1: __construct() called at [D:\Work\www\dkphobos\classes\Bootstrap.class.php:53]
+#2: process_query() called at [D:\Work\www\dkphobos\classes\Bootstrap.class.php:24]
+#3: run() called at [D:\Work\www\dkphobos\public_html\index.php:4]
+
+
+2020-08-04 22:45:58 http://95.67.115.86:1250/ /:
+Site: http://dkphobos.gg
+Time: 2020-08-04 22:45:58
+Error #: 8
+Message: Undefined index: HTTP_ACCEPT_LANGUAGE
+File: D:\Work\www\dkphobos\classes\Link.class.php
+Line: 24
+User IP: 92.118.160.13
+User ID: 0
+
+Debug backtrace:
+#1: __construct() called at [D:\Work\www\dkphobos\classes\Bootstrap.class.php:53]
+#2: process_query() called at [D:\Work\www\dkphobos\classes\Bootstrap.class.php:24]
+#3: run() called at [D:\Work\www\dkphobos\public_html\index.php:4]
+
+
+2020-08-04 22:46:33 http://95.67.115.86:8080/ /:
+Site: http://dkphobos.gg
+Time: 2020-08-04 22:46:33
+Error #: 8
+Message: Undefined index: HTTP_ACCEPT_LANGUAGE
+File: D:\Work\www\dkphobos\classes\Link.class.php
+Line: 24
+User IP: 95.67.217.112
+User ID: 0
+
+Debug backtrace:
+#1: __construct() called at [D:\Work\www\dkphobos\classes\Bootstrap.class.php:53]
+#2: process_query() called at [D:\Work\www\dkphobos\classes\Bootstrap.class.php:24]
+#3: run() called at [D:\Work\www\dkphobos\public_html\index.php:4]
+
+
+2020-08-04 22:46:33 http://95.67.115.86:80/ /:
+Site: http://dkphobos.gg
+Time: 2020-08-04 22:46:33
+Error #: 8
+Message: Undefined index: HTTP_ACCEPT_LANGUAGE
+File: D:\Work\www\dkphobos\classes\Link.class.php
+Line: 24
+User IP: 95.67.217.112
+User ID: 0
+
+Debug backtrace:
+#1: __construct() called at [D:\Work\www\dkphobos\classes\Bootstrap.class.php:53]
+#2: process_query() called at [D:\Work\www\dkphobos\classes\Bootstrap.class.php:24]
+#3: run() called at [D:\Work\www\dkphobos\public_html\index.php:4]
+
+
+2020-08-04 22:47:19 http://95.67.115.86:80/ /:
+Site: http://dkphobos.gg
+Time: 2020-08-04 22:47:19
+Error #: 8
+Message: Undefined index: HTTP_ACCEPT_LANGUAGE
+File: D:\Work\www\dkphobos\classes\Link.class.php
+Line: 24
+User IP: 95.67.168.113
+User ID: 0
+
+Debug backtrace:
+#1: __construct() called at [D:\Work\www\dkphobos\classes\Bootstrap.class.php:53]
+#2: process_query() called at [D:\Work\www\dkphobos\classes\Bootstrap.class.php:24]
+#3: run() called at [D:\Work\www\dkphobos\public_html\index.php:4]
+
+
+2020-08-04 22:48:58 http://dkphobos.gg/learn/heroes/Mars /learn/heroes/Mars:
+Site: http://dkphobos.gg
+Time: 2020-08-04 22:48:58
+Error #: 512
+Message: mySQL query error: SELECT 
+        `t3`.`text` as `description`,
+        `t2`.`name`, `t2`.`dmg_type`, `t2`.`mc`,`t2`.`cd`,`t2`.`img`, `t2`.`system_name`, `t2`.`dmg`, `t2`.`bkbpierce`
+        FROM
+        `dota_2_heroes_abilities` as `t1`
+        LEFT JOIN `dota_2_abilities` as `t2` ON
+            `t1`.`ability_id` = `t2`.`id`
+        WHERE `t2`.`hero_id` = 129
+        INNER JOIN`dota_2_abilities_description` as `t3` ON
+            `t3`.`ability_id` = `t2`.`id` AND
+            `t3`.`lang` = 'ru'
+        ORDER BY 
+            `t1`.`base_skill` DESC, 
+            `t1`.`ultimate` ASC mySQL error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'INNER JOIN`dota_2_abilities_description` as `t3` ON
+            `t3`.`ability_i' at line 9  mySQL error code: 1064 
+File: D:\Work\www\dkphobos\classes\Bootstrap.class.php
+Line: 28
+User IP: 127.0.0.1
+User ID: 1
+
+Debug backtrace:
+#1: trigger_error(mySQL query error: SELECT 
+        `t3`.`text` as `description`,
+        `t2`.`name`, `t2`.`dmg_type`, `t2`.`mc`,`t2`.`cd`,`t2`.`img`, `t2`.`system_name`, `t2`.`dmg`, `t2`.`bkbpierce`
+        FROM
+        `dota_2_heroes_abilities` as `t1`
+        LEFT JOIN `dota_2_abilities` as `t2` ON
+            `t1`.`ability_id` = `t2`.`id`
+        WHERE `t2`.`hero_id` = 129
+        INNER JOIN`dota_2_abilities_description` as `t3` ON
+            `t3`.`ability_id` = `t2`.`id` AND
+            `t3`.`lang` = 'ru'
+        ORDER BY 
+            `t1`.`base_skill` DESC, 
+            `t1`.`ultimate` ASC mySQL error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'INNER JOIN`dota_2_abilities_description` as `t3` ON
+            `t3`.`ability_i' at line 9  mySQL error code: 1064 ,512) called at [D:\Work\www\dkphobos\classes\Bootstrap.class.php:28]
+#2: run() called at [D:\Work\www\dkphobos\public_html\index.php:4]
+
+
+2020-08-04 22:50:11 http://95.67.115.86/ /:
+Site: http://dkphobos.gg
+Time: 2020-08-04 22:50:11
+Error #: 8
+Message: Undefined index: HTTP_ACCEPT_LANGUAGE
+File: D:\Work\www\dkphobos\classes\Link.class.php
+Line: 24
+User IP: 83.97.20.34
+User ID: 0
+
+Debug backtrace:
+#1: __construct() called at [D:\Work\www\dkphobos\classes\Bootstrap.class.php:53]
+#2: process_query() called at [D:\Work\www\dkphobos\classes\Bootstrap.class.php:24]
+#3: run() called at [D:\Work\www\dkphobos\public_html\index.php:4]
+
+
+2020-08-04 22:50:11 http://95.67.115.86/ /:
+Site: http://dkphobos.gg
+Time: 2020-08-04 22:50:11
+Error #: 2
+Message: Cannot modify header information - headers already sent by (output started at D:\Work\www\dkphobos\classes\Session.class.php:36)
+File: D:\Work\www\dkphobos\classes\Cookie.class.php
+Line: 16
+User IP: 83.97.20.34
+User ID: 0
+
+Debug backtrace:
+#1: setcookie(lang,"ru",0,/,,,) called at [D:\Work\www\dkphobos\classes\Cookie.class.php:16]
+#2: set(lang,ru) called at [D:\Work\www\dkphobos\classes\Link.class.php:62]
+#3: __construct() called at [D:\Work\www\dkphobos\classes\Bootstrap.class.php:53]
+#4: process_query() called at [D:\Work\www\dkphobos\classes\Bootstrap.class.php:24]
+#5: run() called at [D:\Work\www\dkphobos\public_html\index.php:4]
+
+
+2020-08-04 22:52:55 http://95.67.115.86:8080/ /:
+Site: http://dkphobos.gg
+Time: 2020-08-04 22:52:55
+Error #: 8
+Message: Undefined index: HTTP_ACCEPT_LANGUAGE
+File: D:\Work\www\dkphobos\classes\Link.class.php
+Line: 24
+User IP: 186.66.13.90
+User ID: 0
+
+Debug backtrace:
+#1: __construct() called at [D:\Work\www\dkphobos\classes\Bootstrap.class.php:53]
+#2: process_query() called at [D:\Work\www\dkphobos\classes\Bootstrap.class.php:24]
+#3: run() called at [D:\Work\www\dkphobos\public_html\index.php:4]
+
+
+2020-08-04 22:58:38 http://95.67.115.86:31980/ /:
+Site: http://dkphobos.gg
+Time: 2020-08-04 22:58:38
+Error #: 8
+Message: Undefined index: HTTP_ACCEPT_LANGUAGE
+File: D:\Work\www\dkphobos\classes\Link.class.php
+Line: 24
+User IP: 162.243.128.13
+User ID: 0
+
+Debug backtrace:
+#1: __construct() called at [D:\Work\www\dkphobos\classes\Bootstrap.class.php:53]
+#2: process_query() called at [D:\Work\www\dkphobos\classes\Bootstrap.class.php:24]
+#3: run() called at [D:\Work\www\dkphobos\public_html\index.php:4]
+
+
+2020-08-04 22:59:31 http://dkphobos.gg/learn/heroes/Mars /learn/heroes/Mars:
+Site: http://dkphobos.gg
+Time: 2020-08-04 22:59:31
+Error #: 8
+Message: Undefined index: ability_id
+File: D:\Work\www\dkphobos\modules\learn\hero\hero.tpl
+Line: 291
+User IP: 127.0.0.1
+User ID: 1
+
+Debug backtrace:
+#1: include(D:\Work\www\dkphobos\modules\learn\hero\hero.tpl) called at [D:\Work\www\dkphobos\classes\Module.class.php:89]
+#2: execute() called at [D:\Work\www\dkphobos\classes\Module.class.php:131]
+#3: module(/learn/hero,Mars) called at [D:\Work\www\dkphobos\modules\main\main.tpl:73]
+#4: include(D:\Work\www\dkphobos\modules\main\main.tpl) called at [D:\Work\www\dkphobos\classes\Module.class.php:89]
+#5: execute() called at [D:\Work\www\dkphobos\classes\Module.class.php:131]
+#6: module(main,learn/hero,Mars) called at [D:\Work\www\dkphobos\links\learn\heroes\$arg\$arg.tpl:3]
+#7: include(D:\Work\www\dkphobos\links\learn\heroes\$arg\$arg.tpl) called at [D:\Work\www\dkphobos\classes\Module.class.php:89]
+#8: execute() called at [D:\Work\www\dkphobos\classes\Bootstrap.class.php:56]
+#9: process_query() called at [D:\Work\www\dkphobos\classes\Bootstrap.class.php:24]
+#10: run() called at [D:\Work\www\dkphobos\public_html\index.php:4]
+
+
+2020-08-04 22:59:31 http://dkphobos.gg/learn/heroes/Mars /learn/heroes/Mars:
+Site: http://dkphobos.gg
+Time: 2020-08-04 22:59:31
+Error #: 8
+Message: Undefined index: 
+File: D:\Work\www\dkphobos\modules\learn\hero\hero.tpl
+Line: 291
+User IP: 127.0.0.1
+User ID: 1
+
+Debug backtrace:
+#1: include(D:\Work\www\dkphobos\modules\learn\hero\hero.tpl) called at [D:\Work\www\dkphobos\classes\Module.class.php:89]
+#2: execute() called at [D:\Work\www\dkphobos\classes\Module.class.php:131]
+#3: module(/learn/hero,Mars) called at [D:\Work\www\dkphobos\modules\main\main.tpl:73]
+#4: include(D:\Work\www\dkphobos\modules\main\main.tpl) called at [D:\Work\www\dkphobos\classes\Module.class.php:89]
+#5: execute() called at [D:\Work\www\dkphobos\classes\Module.class.php:131]
+#6: module(main,learn/hero,Mars) called at [D:\Work\www\dkphobos\links\learn\heroes\$arg\$arg.tpl:3]
+#7: include(D:\Work\www\dkphobos\links\learn\heroes\$arg\$arg.tpl) called at [D:\Work\www\dkphobos\classes\Module.class.php:89]
+#8: execute() called at [D:\Work\www\dkphobos\classes\Bootstrap.class.php:56]
+#9: process_query() called at [D:\Work\www\dkphobos\classes\Bootstrap.class.php:24]
+#10: run() called at [D:\Work\www\dkphobos\public_html\index.php:4]
+
+
+2020-08-04 22:59:31 http://dkphobos.gg/learn/heroes/Mars /learn/heroes/Mars:
+Site: http://dkphobos.gg
+Time: 2020-08-04 22:59:31
+Error #: 8
+Message: Undefined index: ability_id
+File: D:\Work\www\dkphobos\modules\learn\hero\hero.tpl
+Line: 291
+User IP: 127.0.0.1
+User ID: 1
+
+Debug backtrace:
+#1: include(D:\Work\www\dkphobos\modules\learn\hero\hero.tpl) called at [D:\Work\www\dkphobos\classes\Module.class.php:89]
+#2: execute() called at [D:\Work\www\dkphobos\classes\Module.class.php:131]
+#3: module(/learn/hero,Mars) called at [D:\Work\www\dkphobos\modules\main\main.tpl:73]
+#4: include(D:\Work\www\dkphobos\modules\main\main.tpl) called at [D:\Work\www\dkphobos\classes\Module.class.php:89]
+#5: execute() called at [D:\Work\www\dkphobos\classes\Module.class.php:131]
+#6: module(main,learn/hero,Mars) called at [D:\Work\www\dkphobos\links\learn\heroes\$arg\$arg.tpl:3]
+#7: include(D:\Work\www\dkphobos\links\learn\heroes\$arg\$arg.tpl) called at [D:\Work\www\dkphobos\classes\Module.class.php:89]
+#8: execute() called at [D:\Work\www\dkphobos\classes\Bootstrap.class.php:56]
+#9: process_query() called at [D:\Work\www\dkphobos\classes\Bootstrap.class.php:24]
+#10: run() called at [D:\Work\www\dkphobos\public_html\index.php:4]
+
+
+2020-08-04 22:59:31 http://dkphobos.gg/learn/heroes/Mars /learn/heroes/Mars:
+Site: http://dkphobos.gg
+Time: 2020-08-04 22:59:31
+Error #: 8
+Message: Undefined index: 
+File: D:\Work\www\dkphobos\modules\learn\hero\hero.tpl
+Line: 291
+User IP: 127.0.0.1
+User ID: 1
+
+Debug backtrace:
+#1: include(D:\Work\www\dkphobos\modules\learn\hero\hero.tpl) called at [D:\Work\www\dkphobos\classes\Module.class.php:89]
+#2: execute() called at [D:\Work\www\dkphobos\classes\Module.class.php:131]
+#3: module(/learn/hero,Mars) called at [D:\Work\www\dkphobos\modules\main\main.tpl:73]
+#4: include(D:\Work\www\dkphobos\modules\main\main.tpl) called at [D:\Work\www\dkphobos\classes\Module.class.php:89]
+#5: execute() called at [D:\Work\www\dkphobos\classes\Module.class.php:131]
+#6: module(main,learn/hero,Mars) called at [D:\Work\www\dkphobos\links\learn\heroes\$arg\$arg.tpl:3]
+#7: include(D:\Work\www\dkphobos\links\learn\heroes\$arg\$arg.tpl) called at [D:\Work\www\dkphobos\classes\Module.class.php:89]
+#8: execute() called at [D:\Work\www\dkphobos\classes\Bootstrap.class.php:56]
+#9: process_query() called at [D:\Work\www\dkphobos\classes\Bootstrap.class.php:24]
+#10: run() called at [D:\Work\www\dkphobos\public_html\index.php:4]
+
+
+2020-08-04 22:59:31 http://dkphobos.gg/learn/heroes/Mars /learn/heroes/Mars:
+Site: http://dkphobos.gg
+Time: 2020-08-04 22:59:31
+Error #: 8
+Message: Undefined index: ability_id
+File: D:\Work\www\dkphobos\modules\learn\hero\hero.tpl
+Line: 291
+User IP: 127.0.0.1
+User ID: 1
+
+Debug backtrace:
+#1: include(D:\Work\www\dkphobos\modules\learn\hero\hero.tpl) called at [D:\Work\www\dkphobos\classes\Module.class.php:89]
+#2: execute() called at [D:\Work\www\dkphobos\classes\Module.class.php:131]
+#3: module(/learn/hero,Mars) called at [D:\Work\www\dkphobos\modules\main\main.tpl:73]
+#4: include(D:\Work\www\dkphobos\modules\main\main.tpl) called at [D:\Work\www\dkphobos\classes\Module.class.php:89]
+#5: execute() called at [D:\Work\www\dkphobos\classes\Module.class.php:131]
+#6: module(main,learn/hero,Mars) called at [D:\Work\www\dkphobos\links\learn\heroes\$arg\$arg.tpl:3]
+#7: include(D:\Work\www\dkphobos\links\learn\heroes\$arg\$arg.tpl) called at [D:\Work\www\dkphobos\classes\Module.class.php:89]
+#8: execute() called at [D:\Work\www\dkphobos\classes\Bootstrap.class.php:56]
+#9: process_query() called at [D:\Work\www\dkphobos\classes\Bootstrap.class.php:24]
+#10: run() called at [D:\Work\www\dkphobos\public_html\index.php:4]
+
+
+2020-08-04 22:59:31 http://dkphobos.gg/learn/heroes/Mars /learn/heroes/Mars:
+Site: http://dkphobos.gg
+Time: 2020-08-04 22:59:31
+Error #: 8
+Message: Undefined index: 
+File: D:\Work\www\dkphobos\modules\learn\hero\hero.tpl
+Line: 291
+User IP: 127.0.0.1
+User ID: 1
+
+Debug backtrace:
+#1: include(D:\Work\www\dkphobos\modules\learn\hero\hero.tpl) called at [D:\Work\www\dkphobos\classes\Module.class.php:89]
+#2: execute() called at [D:\Work\www\dkphobos\classes\Module.class.php:131]
+#3: module(/learn/hero,Mars) called at [D:\Work\www\dkphobos\modules\main\main.tpl:73]
+#4: include(D:\Work\www\dkphobos\modules\main\main.tpl) called at [D:\Work\www\dkphobos\classes\Module.class.php:89]
+#5: execute() called at [D:\Work\www\dkphobos\classes\Module.class.php:131]
+#6: module(main,learn/hero,Mars) called at [D:\Work\www\dkphobos\links\learn\heroes\$arg\$arg.tpl:3]
+#7: include(D:\Work\www\dkphobos\links\learn\heroes\$arg\$arg.tpl) called at [D:\Work\www\dkphobos\classes\Module.class.php:89]
+#8: execute() called at [D:\Work\www\dkphobos\classes\Bootstrap.class.php:56]
+#9: process_query() called at [D:\Work\www\dkphobos\classes\Bootstrap.class.php:24]
+#10: run() called at [D:\Work\www\dkphobos\public_html\index.php:4]
+
+
+2020-08-04 22:59:31 http://dkphobos.gg/learn/heroes/Mars /learn/heroes/Mars:
+Site: http://dkphobos.gg
+Time: 2020-08-04 22:59:31
+Error #: 8
+Message: Undefined index: ability_id
+File: D:\Work\www\dkphobos\modules\learn\hero\hero.tpl
+Line: 291
+User IP: 127.0.0.1
+User ID: 1
+
+Debug backtrace:
+#1: include(D:\Work\www\dkphobos\modules\learn\hero\hero.tpl) called at [D:\Work\www\dkphobos\classes\Module.class.php:89]
+#2: execute() called at [D:\Work\www\dkphobos\classes\Module.class.php:131]
+#3: module(/learn/hero,Mars) called at [D:\Work\www\dkphobos\modules\main\main.tpl:73]
+#4: include(D:\Work\www\dkphobos\modules\main\main.tpl) called at [D:\Work\www\dkphobos\classes\Module.class.php:89]
+#5: execute() called at [D:\Work\www\dkphobos\classes\Module.class.php:131]
+#6: module(main,learn/hero,Mars) called at [D:\Work\www\dkphobos\links\learn\heroes\$arg\$arg.tpl:3]
+#7: include(D:\Work\www\dkphobos\links\learn\heroes\$arg\$arg.tpl) called at [D:\Work\www\dkphobos\classes\Module.class.php:89]
+#8: execute() called at [D:\Work\www\dkphobos\classes\Bootstrap.class.php:56]
+#9: process_query() called at [D:\Work\www\dkphobos\classes\Bootstrap.class.php:24]
+#10: run() called at [D:\Work\www\dkphobos\public_html\index.php:4]
+
+
+2020-08-04 22:59:31 http://dkphobos.gg/learn/heroes/Mars /learn/heroes/Mars:
+Site: http://dkphobos.gg
+Time: 2020-08-04 22:59:31
+Error #: 8
+Message: Undefined index: 
+File: D:\Work\www\dkphobos\modules\learn\hero\hero.tpl
+Line: 291
+User IP: 127.0.0.1
+User ID: 1
+
+Debug backtrace:
+#1: include(D:\Work\www\dkphobos\modules\learn\hero\hero.tpl) called at [D:\Work\www\dkphobos\classes\Module.class.php:89]
+#2: execute() called at [D:\Work\www\dkphobos\classes\Module.class.php:131]
+#3: module(/learn/hero,Mars) called at [D:\Work\www\dkphobos\modules\main\main.tpl:73]
+#4: include(D:\Work\www\dkphobos\modules\main\main.tpl) called at [D:\Work\www\dkphobos\classes\Module.class.php:89]
+#5: execute() called at [D:\Work\www\dkphobos\classes\Module.class.php:131]
+#6: module(main,learn/hero,Mars) called at [D:\Work\www\dkphobos\links\learn\heroes\$arg\$arg.tpl:3]
+#7: include(D:\Work\www\dkphobos\links\learn\heroes\$arg\$arg.tpl) called at [D:\Work\www\dkphobos\classes\Module.class.php:89]
+#8: execute() called at [D:\Work\www\dkphobos\classes\Bootstrap.class.php:56]
+#9: process_query() called at [D:\Work\www\dkphobos\classes\Bootstrap.class.php:24]
+#10: run() called at [D:\Work\www\dkphobos\public_html\index.php:4]
+
+
+2020-08-04 22:59:31 http://dkphobos.gg/learn/heroes/Mars /learn/heroes/Mars:
+Site: http://dkphobos.gg
+Time: 2020-08-04 22:59:31
+Error #: 8
+Message: Undefined index: effect
+File: D:\Work\www\dkphobos\modules\learn\hero\hero.tpl
+Line: 294
+User IP: 127.0.0.1
+User ID: 1
+
+Debug backtrace:
+#1: include(D:\Work\www\dkphobos\modules\learn\hero\hero.tpl) called at [D:\Work\www\dkphobos\classes\Module.class.php:89]
+#2: execute() called at [D:\Work\www\dkphobos\classes\Module.class.php:131]
+#3: module(/learn/hero,Mars) called at [D:\Work\www\dkphobos\modules\main\main.tpl:73]
+#4: include(D:\Work\www\dkphobos\modules\main\main.tpl) called at [D:\Work\www\dkphobos\classes\Module.class.php:89]
+#5: execute() called at [D:\Work\www\dkphobos\classes\Module.class.php:131]
+#6: module(main,learn/hero,Mars) called at [D:\Work\www\dkphobos\links\learn\heroes\$arg\$arg.tpl:3]
+#7: include(D:\Work\www\dkphobos\links\learn\heroes\$arg\$arg.tpl) called at [D:\Work\www\dkphobos\classes\Module.class.php:89]
+#8: execute() called at [D:\Work\www\dkphobos\classes\Bootstrap.class.php:56]
+#9: process_query() called at [D:\Work\www\dkphobos\classes\Bootstrap.class.php:24]
+#10: run() called at [D:\Work\www\dkphobos\public_html\index.php:4]
+
+
+2020-08-04 22:59:31 http://dkphobos.gg/learn/heroes/Mars /learn/heroes/Mars:
+Site: http://dkphobos.gg
+Time: 2020-08-04 22:59:31
+Error #: 2
+Message: Illegal string offset 'ability_id'
+File: D:\Work\www\dkphobos\modules\learn\hero\hero.tpl
+Line: 291
+User IP: 127.0.0.1
+User ID: 1
+
+Debug backtrace:
+#1: include(D:\Work\www\dkphobos\modules\learn\hero\hero.tpl) called at [D:\Work\www\dkphobos\classes\Module.class.php:89]
+#2: execute() called at [D:\Work\www\dkphobos\classes\Module.class.php:131]
+#3: module(/learn/hero,Mars) called at [D:\Work\www\dkphobos\modules\main\main.tpl:73]
+#4: include(D:\Work\www\dkphobos\modules\main\main.tpl) called at [D:\Work\www\dkphobos\classes\Module.class.php:89]
+#5: execute() called at [D:\Work\www\dkphobos\classes\Module.class.php:131]
+#6: module(main,learn/hero,Mars) called at [D:\Work\www\dkphobos\links\learn\heroes\$arg\$arg.tpl:3]
+#7: include(D:\Work\www\dkphobos\links\learn\heroes\$arg\$arg.tpl) called at [D:\Work\www\dkphobos\classes\Module.class.php:89]
+#8: execute() called at [D:\Work\www\dkphobos\classes\Bootstrap.class.php:56]
+#9: process_query() called at [D:\Work\www\dkphobos\classes\Bootstrap.class.php:24]
+#10: run() called at [D:\Work\www\dkphobos\public_html\index.php:4]
+
+
+2020-08-04 22:59:31 http://dkphobos.gg/learn/heroes/Mars /learn/heroes/Mars:
+Site: http://dkphobos.gg
+Time: 2020-08-04 22:59:31
+Error #: 8
+Message: Undefined index: d
+File: D:\Work\www\dkphobos\modules\learn\hero\hero.tpl
+Line: 291
+User IP: 127.0.0.1
+User ID: 1
+
+Debug backtrace:
+#1: include(D:\Work\www\dkphobos\modules\learn\hero\hero.tpl) called at [D:\Work\www\dkphobos\classes\Module.class.php:89]
+#2: execute() called at [D:\Work\www\dkphobos\classes\Module.class.php:131]
+#3: module(/learn/hero,Mars) called at [D:\Work\www\dkphobos\modules\main\main.tpl:73]
+#4: include(D:\Work\www\dkphobos\modules\main\main.tpl) called at [D:\Work\www\dkphobos\classes\Module.class.php:89]
+#5: execute() called at [D:\Work\www\dkphobos\classes\Module.class.php:131]
+#6: module(main,learn/hero,Mars) called at [D:\Work\www\dkphobos\links\learn\heroes\$arg\$arg.tpl:3]
+#7: include(D:\Work\www\dkphobos\links\learn\heroes\$arg\$arg.tpl) called at [D:\Work\www\dkphobos\classes\Module.class.php:89]
+#8: execute() called at [D:\Work\www\dkphobos\classes\Bootstrap.class.php:56]
+#9: process_query() called at [D:\Work\www\dkphobos\classes\Bootstrap.class.php:24]
+#10: run() called at [D:\Work\www\dkphobos\public_html\index.php:4]
+
+
+2020-08-04 22:59:31 http://dkphobos.gg/learn/heroes/Mars /learn/heroes/Mars:
+Site: http://dkphobos.gg
+Time: 2020-08-04 22:59:31
+Error #: 2
+Message: Illegal string offset 'ability_id'
+File: D:\Work\www\dkphobos\modules\learn\hero\hero.tpl
+Line: 291
+User IP: 127.0.0.1
+User ID: 1
+
+Debug backtrace:
+#1: include(D:\Work\www\dkphobos\modules\learn\hero\hero.tpl) called at [D:\Work\www\dkphobos\classes\Module.class.php:89]
+#2: execute() called at [D:\Work\www\dkphobos\classes\Module.class.php:131]
+#3: module(/learn/hero,Mars) called at [D:\Work\www\dkphobos\modules\main\main.tpl:73]
+#4: include(D:\Work\www\dkphobos\modules\main\main.tpl) called at [D:\Work\www\dkphobos\classes\Module.class.php:89]
+#5: execute() called at [D:\Work\www\dkphobos\classes\Module.class.php:131]
+#6: module(main,learn/hero,Mars) called at [D:\Work\www\dkphobos\links\learn\heroes\$arg\$arg.tpl:3]
+#7: include(D:\Work\www\dkphobos\links\learn\heroes\$arg\$arg.tpl) called at [D:\Work\www\dkphobos\classes\Module.class.php:89]
+#8: execute() called at [D:\Work\www\dkphobos\classes\Bootstrap.class.php:56]
+#9: process_query() called at [D:\Work\www\dkphobos\classes\Bootstrap.class.php:24]
+#10: run() called at [D:\Work\www\dkphobos\public_html\index.php:4]
+
+
+2020-08-04 22:59:31 http://dkphobos.gg/learn/heroes/Mars /learn/heroes/Mars:
+Site: http://dkphobos.gg
+Time: 2020-08-04 22:59:31
+Error #: 8
+Message: Undefined index: d
+File: D:\Work\www\dkphobos\modules\learn\hero\hero.tpl
+Line: 291
+User IP: 127.0.0.1
+User ID: 1
+
+Debug backtrace:
+#1: include(D:\Work\www\dkphobos\modules\learn\hero\hero.tpl) called at [D:\Work\www\dkphobos\classes\Module.class.php:89]
+#2: execute() called at [D:\Work\www\dkphobos\classes\Module.class.php:131]
+#3: module(/learn/hero,Mars) called at [D:\Work\www\dkphobos\modules\main\main.tpl:73]
+#4: include(D:\Work\www\dkphobos\modules\main\main.tpl) called at [D:\Work\www\dkphobos\classes\Module.class.php:89]
+#5: execute() called at [D:\Work\www\dkphobos\classes\Module.class.php:131]
+#6: module(main,learn/hero,Mars) called at [D:\Work\www\dkphobos\links\learn\heroes\$arg\$arg.tpl:3]
+#7: include(D:\Work\www\dkphobos\links\learn\heroes\$arg\$arg.tpl) called at [D:\Work\www\dkphobos\classes\Module.class.php:89]
+#8: execute() called at [D:\Work\www\dkphobos\classes\Bootstrap.class.php:56]
+#9: process_query() called at [D:\Work\www\dkphobos\classes\Bootstrap.class.php:24]
+#10: run() called at [D:\Work\www\dkphobos\public_html\index.php:4]
+
+
+2020-08-04 22:59:31 http://dkphobos.gg/learn/heroes/Mars /learn/heroes/Mars:
+Site: http://dkphobos.gg
+Time: 2020-08-04 22:59:31
+Error #: 2
+Message: Illegal string offset 'ability_id'
+File: D:\Work\www\dkphobos\modules\learn\hero\hero.tpl
+Line: 291
+User IP: 127.0.0.1
+User ID: 1
+
+Debug backtrace:
+#1: include(D:\Work\www\dkphobos\modules\learn\hero\hero.tpl) called at [D:\Work\www\dkphobos\classes\Module.class.php:89]
+#2: execute() called at [D:\Work\www\dkphobos\classes\Module.class.php:131]
+#3: module(/learn/hero,Mars) called at [D:\Work\www\dkphobos\modules\main\main.tpl:73]
+#4: include(D:\Work\www\dkphobos\modules\main\main.tpl) called at [D:\Work\www\dkphobos\classes\Module.class.php:89]
+#5: execute() called at [D:\Work\www\dkphobos\classes\Module.class.php:131]
+#6: module(main,learn/hero,Mars) called at [D:\Work\www\dkphobos\links\learn\heroes\$arg\$arg.tpl:3]
+#7: include(D:\Work\www\dkphobos\links\learn\heroes\$arg\$arg.tpl) called at [D:\Work\www\dkphobos\classes\Module.class.php:89]
+#8: execute() called at [D:\Work\www\dkphobos\classes\Bootstrap.class.php:56]
+#9: process_query() called at [D:\Work\www\dkphobos\classes\Bootstrap.class.php:24]
+#10: run() called at [D:\Work\www\dkphobos\public_html\index.php:4]
+
+
+2020-08-04 22:59:31 http://dkphobos.gg/learn/heroes/Mars /learn/heroes/Mars:
+Site: http://dkphobos.gg
+Time: 2020-08-04 22:59:31
+Error #: 8
+Message: Undefined index: d
+File: D:\Work\www\dkphobos\modules\learn\hero\hero.tpl
+Line: 291
+User IP: 127.0.0.1
+User ID: 1
+
+Debug backtrace:
+#1: include(D:\Work\www\dkphobos\modules\learn\hero\hero.tpl) called at [D:\Work\www\dkphobos\classes\Module.class.php:89]
+#2: execute() called at [D:\Work\www\dkphobos\classes\Module.class.php:131]
+#3: module(/learn/hero,Mars) called at [D:\Work\www\dkphobos\modules\main\main.tpl:73]
+#4: include(D:\Work\www\dkphobos\modules\main\main.tpl) called at [D:\Work\www\dkphobos\classes\Module.class.php:89]
+#5: execute() called at [D:\Work\www\dkphobos\classes\Module.class.php:131]
+#6: module(main,learn/hero,Mars) called at [D:\Work\www\dkphobos\links\learn\heroes\$arg\$arg.tpl:3]
+#7: include(D:\Work\www\dkphobos\links\learn\heroes\$arg\$arg.tpl) called at [D:\Work\www\dkphobos\classes\Module.class.php:89]
+#8: execute() called at [D:\Work\www\dkphobos\classes\Bootstrap.class.php:56]
+#9: process_query() called at [D:\Work\www\dkphobos\classes\Bootstrap.class.php:24]
+#10: run() called at [D:\Work\www\dkphobos\public_html\index.php:4]
+
+
+2020-08-04 22:59:31 http://dkphobos.gg/learn/heroes/Mars /learn/heroes/Mars:
+Site: http://dkphobos.gg
+Time: 2020-08-04 22:59:31
+Error #: 2
+Message: Illegal string offset 'ability_id'
+File: D:\Work\www\dkphobos\modules\learn\hero\hero.tpl
+Line: 291
+User IP: 127.0.0.1
+User ID: 1
+
+Debug backtrace:
+#1: include(D:\Work\www\dkphobos\modules\learn\hero\hero.tpl) called at [D:\Work\www\dkphobos\classes\Module.class.php:89]
+#2: execute() called at [D:\Work\www\dkphobos\classes\Module.class.php:131]
+#3: module(/learn/hero,Mars) called at [D:\Work\www\dkphobos\modules\main\main.tpl:73]
+#4: include(D:\Work\www\dkphobos\modules\main\main.tpl) called at [D:\Work\www\dkphobos\classes\Module.class.php:89]
+#5: execute() called at [D:\Work\www\dkphobos\classes\Module.class.php:131]
+#6: module(main,learn/hero,Mars) called at [D:\Work\www\dkphobos\links\learn\heroes\$arg\$arg.tpl:3]
+#7: include(D:\Work\www\dkphobos\links\learn\heroes\$arg\$arg.tpl) called at [D:\Work\www\dkphobos\classes\Module.class.php:89]
+#8: execute() called at [D:\Work\www\dkphobos\classes\Bootstrap.class.php:56]
+#9: process_query() called at [D:\Work\www\dkphobos\classes\Bootstrap.class.php:24]
+#10: run() called at [D:\Work\www\dkphobos\public_html\index.php:4]
+
+
+2020-08-04 22:59:31 http://dkphobos.gg/learn/heroes/Mars /learn/heroes/Mars:
+Site: http://dkphobos.gg
+Time: 2020-08-04 22:59:31
+Error #: 8
+Message: Undefined index: d
+File: D:\Work\www\dkphobos\modules\learn\hero\hero.tpl
+Line: 291
+User IP: 127.0.0.1
+User ID: 1
+
+Debug backtrace:
+#1: include(D:\Work\www\dkphobos\modules\learn\hero\hero.tpl) called at [D:\Work\www\dkphobos\classes\Module.class.php:89]
+#2: execute() called at [D:\Work\www\dkphobos\classes\Module.class.php:131]
+#3: module(/learn/hero,Mars) called at [D:\Work\www\dkphobos\modules\main\main.tpl:73]
+#4: include(D:\Work\www\dkphobos\modules\main\main.tpl) called at [D:\Work\www\dkphobos\classes\Module.class.php:89]
+#5: execute() called at [D:\Work\www\dkphobos\classes\Module.class.php:131]
+#6: module(main,learn/hero,Mars) called at [D:\Work\www\dkphobos\links\learn\heroes\$arg\$arg.tpl:3]
+#7: include(D:\Work\www\dkphobos\links\learn\heroes\$arg\$arg.tpl) called at [D:\Work\www\dkphobos\classes\Module.class.php:89]
+#8: execute() called at [D:\Work\www\dkphobos\classes\Bootstrap.class.php:56]
+#9: process_query() called at [D:\Work\www\dkphobos\classes\Bootstrap.class.php:24]
+#10: run() called at [D:\Work\www\dkphobos\public_html\index.php:4]
+
+
+2020-08-04 22:59:31 http://dkphobos.gg/learn/heroes/Mars /learn/heroes/Mars:
+Site: http://dkphobos.gg
+Time: 2020-08-04 22:59:31
+Error #: 2
+Message: Illegal string offset 'effect'
+File: D:\Work\www\dkphobos\modules\learn\hero\hero.tpl
+Line: 294
+User IP: 127.0.0.1
+User ID: 1
+
+Debug backtrace:
+#1: include(D:\Work\www\dkphobos\modules\learn\hero\hero.tpl) called at [D:\Work\www\dkphobos\classes\Module.class.php:89]
+#2: execute() called at [D:\Work\www\dkphobos\classes\Module.class.php:131]
+#3: module(/learn/hero,Mars) called at [D:\Work\www\dkphobos\modules\main\main.tpl:73]
+#4: include(D:\Work\www\dkphobos\modules\main\main.tpl) called at [D:\Work\www\dkphobos\classes\Module.class.php:89]
+#5: execute() called at [D:\Work\www\dkphobos\classes\Module.class.php:131]
+#6: module(main,learn/hero,Mars) called at [D:\Work\www\dkphobos\links\learn\heroes\$arg\$arg.tpl:3]
+#7: include(D:\Work\www\dkphobos\links\learn\heroes\$arg\$arg.tpl) called at [D:\Work\www\dkphobos\classes\Module.class.php:89]
+#8: execute() called at [D:\Work\www\dkphobos\classes\Bootstrap.class.php:56]
+#9: process_query() called at [D:\Work\www\dkphobos\classes\Bootstrap.class.php:24]
+#10: run() called at [D:\Work\www\dkphobos\public_html\index.php:4]
+
+
+2020-08-04 23:00:01 http://dkphobos.gg/learn/heroes/Mars /learn/heroes/Mars:
+Site: http://dkphobos.gg
+Time: 2020-08-04 23:00:01
+Error #: 8
+Message: Undefined index: ability_id
+File: D:\Work\www\dkphobos\modules\learn\hero\hero.tpl
+Line: 291
+User IP: 127.0.0.1
+User ID: 1
+
+Debug backtrace:
+#1: include(D:\Work\www\dkphobos\modules\learn\hero\hero.tpl) called at [D:\Work\www\dkphobos\classes\Module.class.php:89]
+#2: execute() called at [D:\Work\www\dkphobos\classes\Module.class.php:131]
+#3: module(/learn/hero,Mars) called at [D:\Work\www\dkphobos\modules\main\main.tpl:73]
+#4: include(D:\Work\www\dkphobos\modules\main\main.tpl) called at [D:\Work\www\dkphobos\classes\Module.class.php:89]
+#5: execute() called at [D:\Work\www\dkphobos\classes\Module.class.php:131]
+#6: module(main,learn/hero,Mars) called at [D:\Work\www\dkphobos\links\learn\heroes\$arg\$arg.tpl:3]
+#7: include(D:\Work\www\dkphobos\links\learn\heroes\$arg\$arg.tpl) called at [D:\Work\www\dkphobos\classes\Module.class.php:89]
+#8: execute() called at [D:\Work\www\dkphobos\classes\Bootstrap.class.php:56]
+#9: process_query() called at [D:\Work\www\dkphobos\classes\Bootstrap.class.php:24]
+#10: run() called at [D:\Work\www\dkphobos\public_html\index.php:4]
+
+
+2020-08-04 23:00:01 http://dkphobos.gg/learn/heroes/Mars /learn/heroes/Mars:
+Site: http://dkphobos.gg
+Time: 2020-08-04 23:00:01
+Error #: 8
+Message: Undefined index: 
+File: D:\Work\www\dkphobos\modules\learn\hero\hero.tpl
+Line: 291
+User IP: 127.0.0.1
+User ID: 1
+
+Debug backtrace:
+#1: include(D:\Work\www\dkphobos\modules\learn\hero\hero.tpl) called at [D:\Work\www\dkphobos\classes\Module.class.php:89]
+#2: execute() called at [D:\Work\www\dkphobos\classes\Module.class.php:131]
+#3: module(/learn/hero,Mars) called at [D:\Work\www\dkphobos\modules\main\main.tpl:73]
+#4: include(D:\Work\www\dkphobos\modules\main\main.tpl) called at [D:\Work\www\dkphobos\classes\Module.class.php:89]
+#5: execute() called at [D:\Work\www\dkphobos\classes\Module.class.php:131]
+#6: module(main,learn/hero,Mars) called at [D:\Work\www\dkphobos\links\learn\heroes\$arg\$arg.tpl:3]
+#7: include(D:\Work\www\dkphobos\links\learn\heroes\$arg\$arg.tpl) called at [D:\Work\www\dkphobos\classes\Module.class.php:89]
+#8: execute() called at [D:\Work\www\dkphobos\classes\Bootstrap.class.php:56]
+#9: process_query() called at [D:\Work\www\dkphobos\classes\Bootstrap.class.php:24]
+#10: run() called at [D:\Work\www\dkphobos\public_html\index.php:4]
+
+
+2020-08-04 23:00:01 http://dkphobos.gg/learn/heroes/Mars /learn/heroes/Mars:
+Site: http://dkphobos.gg
+Time: 2020-08-04 23:00:01
+Error #: 8
+Message: Undefined index: ability_id
+File: D:\Work\www\dkphobos\modules\learn\hero\hero.tpl
+Line: 291
+User IP: 127.0.0.1
+User ID: 1
+
+Debug backtrace:
+#1: include(D:\Work\www\dkphobos\modules\learn\hero\hero.tpl) called at [D:\Work\www\dkphobos\classes\Module.class.php:89]
+#2: execute() called at [D:\Work\www\dkphobos\classes\Module.class.php:131]
+#3: module(/learn/hero,Mars) called at [D:\Work\www\dkphobos\modules\main\main.tpl:73]
+#4: include(D:\Work\www\dkphobos\modules\main\main.tpl) called at [D:\Work\www\dkphobos\classes\Module.class.php:89]
+#5: execute() called at [D:\Work\www\dkphobos\classes\Module.class.php:131]
+#6: module(main,learn/hero,Mars) called at [D:\Work\www\dkphobos\links\learn\heroes\$arg\$arg.tpl:3]
+#7: include(D:\Work\www\dkphobos\links\learn\heroes\$arg\$arg.tpl) called at [D:\Work\www\dkphobos\classes\Module.class.php:89]
+#8: execute() called at [D:\Work\www\dkphobos\classes\Bootstrap.class.php:56]
+#9: process_query() called at [D:\Work\www\dkphobos\classes\Bootstrap.class.php:24]
+#10: run() called at [D:\Work\www\dkphobos\public_html\index.php:4]
+
+
+2020-08-04 23:00:01 http://dkphobos.gg/learn/heroes/Mars /learn/heroes/Mars:
+Site: http://dkphobos.gg
+Time: 2020-08-04 23:00:01
+Error #: 8
+Message: Undefined index: 
+File: D:\Work\www\dkphobos\modules\learn\hero\hero.tpl
+Line: 291
+User IP: 127.0.0.1
+User ID: 1
+
+Debug backtrace:
+#1: include(D:\Work\www\dkphobos\modules\learn\hero\hero.tpl) called at [D:\Work\www\dkphobos\classes\Module.class.php:89]
+#2: execute() called at [D:\Work\www\dkphobos\classes\Module.class.php:131]
+#3: module(/learn/hero,Mars) called at [D:\Work\www\dkphobos\modules\main\main.tpl:73]
+#4: include(D:\Work\www\dkphobos\modules\main\main.tpl) called at [D:\Work\www\dkphobos\classes\Module.class.php:89]
+#5: execute() called at [D:\Work\www\dkphobos\classes\Module.class.php:131]
+#6: module(main,learn/hero,Mars) called at [D:\Work\www\dkphobos\links\learn\heroes\$arg\$arg.tpl:3]
+#7: include(D:\Work\www\dkphobos\links\learn\heroes\$arg\$arg.tpl) called at [D:\Work\www\dkphobos\classes\Module.class.php:89]
+#8: execute() called at [D:\Work\www\dkphobos\classes\Bootstrap.class.php:56]
+#9: process_query() called at [D:\Work\www\dkphobos\classes\Bootstrap.class.php:24]
+#10: run() called at [D:\Work\www\dkphobos\public_html\index.php:4]
+
+
+2020-08-04 23:00:01 http://dkphobos.gg/learn/heroes/Mars /learn/heroes/Mars:
+Site: http://dkphobos.gg
+Time: 2020-08-04 23:00:01
+Error #: 8
+Message: Undefined index: ability_id
+File: D:\Work\www\dkphobos\modules\learn\hero\hero.tpl
+Line: 291
+User IP: 127.0.0.1
+User ID: 1
+
+Debug backtrace:
+#1: include(D:\Work\www\dkphobos\modules\learn\hero\hero.tpl) called at [D:\Work\www\dkphobos\classes\Module.class.php:89]
+#2: execute() called at [D:\Work\www\dkphobos\classes\Module.class.php:131]
+#3: module(/learn/hero,Mars) called at [D:\Work\www\dkphobos\modules\main\main.tpl:73]
+#4: include(D:\Work\www\dkphobos\modules\main\main.tpl) called at [D:\Work\www\dkphobos\classes\Module.class.php:89]
+#5: execute() called at [D:\Work\www\dkphobos\classes\Module.class.php:131]
+#6: module(main,learn/hero,Mars) called at [D:\Work\www\dkphobos\links\learn\heroes\$arg\$arg.tpl:3]
+#7: include(D:\Work\www\dkphobos\links\learn\heroes\$arg\$arg.tpl) called at [D:\Work\www\dkphobos\classes\Module.class.php:89]
+#8: execute() called at [D:\Work\www\dkphobos\classes\Bootstrap.class.php:56]
+#9: process_query() called at [D:\Work\www\dkphobos\classes\Bootstrap.class.php:24]
+#10: run() called at [D:\Work\www\dkphobos\public_html\index.php:4]
+
+
+2020-08-04 23:00:01 http://dkphobos.gg/learn/heroes/Mars /learn/heroes/Mars:
+Site: http://dkphobos.gg
+Time: 2020-08-04 23:00:01
+Error #: 8
+Message: Undefined index: 
+File: D:\Work\www\dkphobos\modules\learn\hero\hero.tpl
+Line: 291
+User IP: 127.0.0.1
+User ID: 1
+
+Debug backtrace:
+#1: include(D:\Work\www\dkphobos\modules\learn\hero\hero.tpl) called at [D:\Work\www\dkphobos\classes\Module.class.php:89]
+#2: execute() called at [D:\Work\www\dkphobos\classes\Module.class.php:131]
+#3: module(/learn/hero,Mars) called at [D:\Work\www\dkphobos\modules\main\main.tpl:73]
+#4: include(D:\Work\www\dkphobos\modules\main\main.tpl) called at [D:\Work\www\dkphobos\classes\Module.class.php:89]
+#5: execute() called at [D:\Work\www\dkphobos\classes\Module.class.php:131]
+#6: module(main,learn/hero,Mars) called at [D:\Work\www\dkphobos\links\learn\heroes\$arg\$arg.tpl:3]
+#7: include(D:\Work\www\dkphobos\links\learn\heroes\$arg\$arg.tpl) called at [D:\Work\www\dkphobos\classes\Module.class.php:89]
+#8: execute() called at [D:\Work\www\dkphobos\classes\Bootstrap.class.php:56]
+#9: process_query() called at [D:\Work\www\dkphobos\classes\Bootstrap.class.php:24]
+#10: run() called at [D:\Work\www\dkphobos\public_html\index.php:4]
+
+
+2020-08-04 23:00:01 http://dkphobos.gg/learn/heroes/Mars /learn/heroes/Mars:
+Site: http://dkphobos.gg
+Time: 2020-08-04 23:00:01
+Error #: 8
+Message: Undefined index: ability_id
+File: D:\Work\www\dkphobos\modules\learn\hero\hero.tpl
+Line: 291
+User IP: 127.0.0.1
+User ID: 1
+
+Debug backtrace:
+#1: include(D:\Work\www\dkphobos\modules\learn\hero\hero.tpl) called at [D:\Work\www\dkphobos\classes\Module.class.php:89]
+#2: execute() called at [D:\Work\www\dkphobos\classes\Module.class.php:131]
+#3: module(/learn/hero,Mars) called at [D:\Work\www\dkphobos\modules\main\main.tpl:73]
+#4: include(D:\Work\www\dkphobos\modules\main\main.tpl) called at [D:\Work\www\dkphobos\classes\Module.class.php:89]
+#5: execute() called at [D:\Work\www\dkphobos\classes\Module.class.php:131]
+#6: module(main,learn/hero,Mars) called at [D:\Work\www\dkphobos\links\learn\heroes\$arg\$arg.tpl:3]
+#7: include(D:\Work\www\dkphobos\links\learn\heroes\$arg\$arg.tpl) called at [D:\Work\www\dkphobos\classes\Module.class.php:89]
+#8: execute() called at [D:\Work\www\dkphobos\classes\Bootstrap.class.php:56]
+#9: process_query() called at [D:\Work\www\dkphobos\classes\Bootstrap.class.php:24]
+#10: run() called at [D:\Work\www\dkphobos\public_html\index.php:4]
+
+
+2020-08-04 23:00:01 http://dkphobos.gg/learn/heroes/Mars /learn/heroes/Mars:
+Site: http://dkphobos.gg
+Time: 2020-08-04 23:00:01
+Error #: 8
+Message: Undefined index: 
+File: D:\Work\www\dkphobos\modules\learn\hero\hero.tpl
+Line: 291
+User IP: 127.0.0.1
+User ID: 1
+
+Debug backtrace:
+#1: include(D:\Work\www\dkphobos\modules\learn\hero\hero.tpl) called at [D:\Work\www\dkphobos\classes\Module.class.php:89]
+#2: execute() called at [D:\Work\www\dkphobos\classes\Module.class.php:131]
+#3: module(/learn/hero,Mars) called at [D:\Work\www\dkphobos\modules\main\main.tpl:73]
+#4: include(D:\Work\www\dkphobos\modules\main\main.tpl) called at [D:\Work\www\dkphobos\classes\Module.class.php:89]
+#5: execute() called at [D:\Work\www\dkphobos\classes\Module.class.php:131]
+#6: module(main,learn/hero,Mars) called at [D:\Work\www\dkphobos\links\learn\heroes\$arg\$arg.tpl:3]
+#7: include(D:\Work\www\dkphobos\links\learn\heroes\$arg\$arg.tpl) called at [D:\Work\www\dkphobos\classes\Module.class.php:89]
+#8: execute() called at [D:\Work\www\dkphobos\classes\Bootstrap.class.php:56]
+#9: process_query() called at [D:\Work\www\dkphobos\classes\Bootstrap.class.php:24]
+#10: run() called at [D:\Work\www\dkphobos\public_html\index.php:4]
+
+
+2020-08-04 23:00:01 http://dkphobos.gg/learn/heroes/Mars /learn/heroes/Mars:
+Site: http://dkphobos.gg
+Time: 2020-08-04 23:00:01
+Error #: 8
+Message: Undefined index: effect
+File: D:\Work\www\dkphobos\modules\learn\hero\hero.tpl
+Line: 294
+User IP: 127.0.0.1
+User ID: 1
+
+Debug backtrace:
+#1: include(D:\Work\www\dkphobos\modules\learn\hero\hero.tpl) called at [D:\Work\www\dkphobos\classes\Module.class.php:89]
+#2: execute() called at [D:\Work\www\dkphobos\classes\Module.class.php:131]
+#3: module(/learn/hero,Mars) called at [D:\Work\www\dkphobos\modules\main\main.tpl:73]
+#4: include(D:\Work\www\dkphobos\modules\main\main.tpl) called at [D:\Work\www\dkphobos\classes\Module.class.php:89]
+#5: execute() called at [D:\Work\www\dkphobos\classes\Module.class.php:131]
+#6: module(main,learn/hero,Mars) called at [D:\Work\www\dkphobos\links\learn\heroes\$arg\$arg.tpl:3]
+#7: include(D:\Work\www\dkphobos\links\learn\heroes\$arg\$arg.tpl) called at [D:\Work\www\dkphobos\classes\Module.class.php:89]
+#8: execute() called at [D:\Work\www\dkphobos\classes\Bootstrap.class.php:56]
+#9: process_query() called at [D:\Work\www\dkphobos\classes\Bootstrap.class.php:24]
+#10: run() called at [D:\Work\www\dkphobos\public_html\index.php:4]
+
+
+2020-08-04 23:00:01 http://dkphobos.gg/learn/heroes/Mars /learn/heroes/Mars:
+Site: http://dkphobos.gg
+Time: 2020-08-04 23:00:01
+Error #: 2
+Message: Illegal string offset 'ability_id'
+File: D:\Work\www\dkphobos\modules\learn\hero\hero.tpl
+Line: 291
+User IP: 127.0.0.1
+User ID: 1
+
+Debug backtrace:
+#1: include(D:\Work\www\dkphobos\modules\learn\hero\hero.tpl) called at [D:\Work\www\dkphobos\classes\Module.class.php:89]
+#2: execute() called at [D:\Work\www\dkphobos\classes\Module.class.php:131]
+#3: module(/learn/hero,Mars) called at [D:\Work\www\dkphobos\modules\main\main.tpl:73]
+#4: include(D:\Work\www\dkphobos\modules\main\main.tpl) called at [D:\Work\www\dkphobos\classes\Module.class.php:89]
+#5: execute() called at [D:\Work\www\dkphobos\classes\Module.class.php:131]
+#6: module(main,learn/hero,Mars) called at [D:\Work\www\dkphobos\links\learn\heroes\$arg\$arg.tpl:3]
+#7: include(D:\Work\www\dkphobos\links\learn\heroes\$arg\$arg.tpl) called at [D:\Work\www\dkphobos\classes\Module.class.php:89]
+#8: execute() called at [D:\Work\www\dkphobos\classes\Bootstrap.class.php:56]
+#9: process_query() called at [D:\Work\www\dkphobos\classes\Bootstrap.class.php:24]
+#10: run() called at [D:\Work\www\dkphobos\public_html\index.php:4]
+
+
+2020-08-04 23:00:01 http://dkphobos.gg/learn/heroes/Mars /learn/heroes/Mars:
+Site: http://dkphobos.gg
+Time: 2020-08-04 23:00:01
+Error #: 8
+Message: Undefined index: d
+File: D:\Work\www\dkphobos\modules\learn\hero\hero.tpl
+Line: 291
+User IP: 127.0.0.1
+User ID: 1
+
+Debug backtrace:
+#1: include(D:\Work\www\dkphobos\modules\learn\hero\hero.tpl) called at [D:\Work\www\dkphobos\classes\Module.class.php:89]
+#2: execute() called at [D:\Work\www\dkphobos\classes\Module.class.php:131]
+#3: module(/learn/hero,Mars) called at [D:\Work\www\dkphobos\modules\main\main.tpl:73]
+#4: include(D:\Work\www\dkphobos\modules\main\main.tpl) called at [D:\Work\www\dkphobos\classes\Module.class.php:89]
+#5: execute() called at [D:\Work\www\dkphobos\classes\Module.class.php:131]
+#6: module(main,learn/hero,Mars) called at [D:\Work\www\dkphobos\links\learn\heroes\$arg\$arg.tpl:3]
+#7: include(D:\Work\www\dkphobos\links\learn\heroes\$arg\$arg.tpl) called at [D:\Work\www\dkphobos\classes\Module.class.php:89]
+#8: execute() called at [D:\Work\www\dkphobos\classes\Bootstrap.class.php:56]
+#9: process_query() called at [D:\Work\www\dkphobos\classes\Bootstrap.class.php:24]
+#10: run() called at [D:\Work\www\dkphobos\public_html\index.php:4]
+
+
+2020-08-04 23:00:01 http://dkphobos.gg/learn/heroes/Mars /learn/heroes/Mars:
+Site: http://dkphobos.gg
+Time: 2020-08-04 23:00:01
+Error #: 2
+Message: Illegal string offset 'ability_id'
+File: D:\Work\www\dkphobos\modules\learn\hero\hero.tpl
+Line: 291
+User IP: 127.0.0.1
+User ID: 1
+
+Debug backtrace:
+#1: include(D:\Work\www\dkphobos\modules\learn\hero\hero.tpl) called at [D:\Work\www\dkphobos\classes\Module.class.php:89]
+#2: execute() called at [D:\Work\www\dkphobos\classes\Module.class.php:131]
+#3: module(/learn/hero,Mars) called at [D:\Work\www\dkphobos\modules\main\main.tpl:73]
+#4: include(D:\Work\www\dkphobos\modules\main\main.tpl) called at [D:\Work\www\dkphobos\classes\Module.class.php:89]
+#5: execute() called at [D:\Work\www\dkphobos\classes\Module.class.php:131]
+#6: module(main,learn/hero,Mars) called at [D:\Work\www\dkphobos\links\learn\heroes\$arg\$arg.tpl:3]
+#7: include(D:\Work\www\dkphobos\links\learn\heroes\$arg\$arg.tpl) called at [D:\Work\www\dkphobos\classes\Module.class.php:89]
+#8: execute() called at [D:\Work\www\dkphobos\classes\Bootstrap.class.php:56]
+#9: process_query() called at [D:\Work\www\dkphobos\classes\Bootstrap.class.php:24]
+#10: run() called at [D:\Work\www\dkphobos\public_html\index.php:4]
+
+
+2020-08-04 23:00:01 http://dkphobos.gg/learn/heroes/Mars /learn/heroes/Mars:
+Site: http://dkphobos.gg
+Time: 2020-08-04 23:00:01
+Error #: 8
+Message: Undefined index: d
+File: D:\Work\www\dkphobos\modules\learn\hero\hero.tpl
+Line: 291
+User IP: 127.0.0.1
+User ID: 1
+
+Debug backtrace:
+#1: include(D:\Work\www\dkphobos\modules\learn\hero\hero.tpl) called at [D:\Work\www\dkphobos\classes\Module.class.php:89]
+#2: execute() called at [D:\Work\www\dkphobos\classes\Module.class.php:131]
+#3: module(/learn/hero,Mars) called at [D:\Work\www\dkphobos\modules\main\main.tpl:73]
+#4: include(D:\Work\www\dkphobos\modules\main\main.tpl) called at [D:\Work\www\dkphobos\classes\Module.class.php:89]
+#5: execute() called at [D:\Work\www\dkphobos\classes\Module.class.php:131]
+#6: module(main,learn/hero,Mars) called at [D:\Work\www\dkphobos\links\learn\heroes\$arg\$arg.tpl:3]
+#7: include(D:\Work\www\dkphobos\links\learn\heroes\$arg\$arg.tpl) called at [D:\Work\www\dkphobos\classes\Module.class.php:89]
+#8: execute() called at [D:\Work\www\dkphobos\classes\Bootstrap.class.php:56]
+#9: process_query() called at [D:\Work\www\dkphobos\classes\Bootstrap.class.php:24]
+#10: run() called at [D:\Work\www\dkphobos\public_html\index.php:4]
+
+
+2020-08-04 23:00:01 http://dkphobos.gg/learn/heroes/Mars /learn/heroes/Mars:
+Site: http://dkphobos.gg
+Time: 2020-08-04 23:00:01
+Error #: 2
+Message: Illegal string offset 'ability_id'
+File: D:\Work\www\dkphobos\modules\learn\hero\hero.tpl
+Line: 291
+User IP: 127.0.0.1
+User ID: 1
+
+Debug backtrace:
+#1: include(D:\Work\www\dkphobos\modules\learn\hero\hero.tpl) called at [D:\Work\www\dkphobos\classes\Module.class.php:89]
+#2: execute() called at [D:\Work\www\dkphobos\classes\Module.class.php:131]
+#3: module(/learn/hero,Mars) called at [D:\Work\www\dkphobos\modules\main\main.tpl:73]
+#4: include(D:\Work\www\dkphobos\modules\main\main.tpl) called at [D:\Work\www\dkphobos\classes\Module.class.php:89]
+#5: execute() called at [D:\Work\www\dkphobos\classes\Module.class.php:131]
+#6: module(main,learn/hero,Mars) called at [D:\Work\www\dkphobos\links\learn\heroes\$arg\$arg.tpl:3]
+#7: include(D:\Work\www\dkphobos\links\learn\heroes\$arg\$arg.tpl) called at [D:\Work\www\dkphobos\classes\Module.class.php:89]
+#8: execute() called at [D:\Work\www\dkphobos\classes\Bootstrap.class.php:56]
+#9: process_query() called at [D:\Work\www\dkphobos\classes\Bootstrap.class.php:24]
+#10: run() called at [D:\Work\www\dkphobos\public_html\index.php:4]
+
+
+2020-08-04 23:00:01 http://dkphobos.gg/learn/heroes/Mars /learn/heroes/Mars:
+Site: http://dkphobos.gg
+Time: 2020-08-04 23:00:01
+Error #: 8
+Message: Undefined index: d
+File: D:\Work\www\dkphobos\modules\learn\hero\hero.tpl
+Line: 291
+User IP: 127.0.0.1
+User ID: 1
+
+Debug backtrace:
+#1: include(D:\Work\www\dkphobos\modules\learn\hero\hero.tpl) called at [D:\Work\www\dkphobos\classes\Module.class.php:89]
+#2: execute() called at [D:\Work\www\dkphobos\classes\Module.class.php:131]
+#3: module(/learn/hero,Mars) called at [D:\Work\www\dkphobos\modules\main\main.tpl:73]
+#4: include(D:\Work\www\dkphobos\modules\main\main.tpl) called at [D:\Work\www\dkphobos\classes\Module.class.php:89]
+#5: execute() called at [D:\Work\www\dkphobos\classes\Module.class.php:131]
+#6: module(main,learn/hero,Mars) called at [D:\Work\www\dkphobos\links\learn\heroes\$arg\$arg.tpl:3]
+#7: include(D:\Work\www\dkphobos\links\learn\heroes\$arg\$arg.tpl) called at [D:\Work\www\dkphobos\classes\Module.class.php:89]
+#8: execute() called at [D:\Work\www\dkphobos\classes\Bootstrap.class.php:56]
+#9: process_query() called at [D:\Work\www\dkphobos\classes\Bootstrap.class.php:24]
+#10: run() called at [D:\Work\www\dkphobos\public_html\index.php:4]
+
+
+2020-08-04 23:00:01 http://dkphobos.gg/learn/heroes/Mars /learn/heroes/Mars:
+Site: http://dkphobos.gg
+Time: 2020-08-04 23:00:01
+Error #: 2
+Message: Illegal string offset 'ability_id'
+File: D:\Work\www\dkphobos\modules\learn\hero\hero.tpl
+Line: 291
+User IP: 127.0.0.1
+User ID: 1
+
+Debug backtrace:
+#1: include(D:\Work\www\dkphobos\modules\learn\hero\hero.tpl) called at [D:\Work\www\dkphobos\classes\Module.class.php:89]
+#2: execute() called at [D:\Work\www\dkphobos\classes\Module.class.php:131]
+#3: module(/learn/hero,Mars) called at [D:\Work\www\dkphobos\modules\main\main.tpl:73]
+#4: include(D:\Work\www\dkphobos\modules\main\main.tpl) called at [D:\Work\www\dkphobos\classes\Module.class.php:89]
+#5: execute() called at [D:\Work\www\dkphobos\classes\Module.class.php:131]
+#6: module(main,learn/hero,Mars) called at [D:\Work\www\dkphobos\links\learn\heroes\$arg\$arg.tpl:3]
+#7: include(D:\Work\www\dkphobos\links\learn\heroes\$arg\$arg.tpl) called at [D:\Work\www\dkphobos\classes\Module.class.php:89]
+#8: execute() called at [D:\Work\www\dkphobos\classes\Bootstrap.class.php:56]
+#9: process_query() called at [D:\Work\www\dkphobos\classes\Bootstrap.class.php:24]
+#10: run() called at [D:\Work\www\dkphobos\public_html\index.php:4]
+
+
+2020-08-04 23:00:01 http://dkphobos.gg/learn/heroes/Mars /learn/heroes/Mars:
+Site: http://dkphobos.gg
+Time: 2020-08-04 23:00:01
+Error #: 8
+Message: Undefined index: d
+File: D:\Work\www\dkphobos\modules\learn\hero\hero.tpl
+Line: 291
+User IP: 127.0.0.1
+User ID: 1
+
+Debug backtrace:
+#1: include(D:\Work\www\dkphobos\modules\learn\hero\hero.tpl) called at [D:\Work\www\dkphobos\classes\Module.class.php:89]
+#2: execute() called at [D:\Work\www\dkphobos\classes\Module.class.php:131]
+#3: module(/learn/hero,Mars) called at [D:\Work\www\dkphobos\modules\main\main.tpl:73]
+#4: include(D:\Work\www\dkphobos\modules\main\main.tpl) called at [D:\Work\www\dkphobos\classes\Module.class.php:89]
+#5: execute() called at [D:\Work\www\dkphobos\classes\Module.class.php:131]
+#6: module(main,learn/hero,Mars) called at [D:\Work\www\dkphobos\links\learn\heroes\$arg\$arg.tpl:3]
+#7: include(D:\Work\www\dkphobos\links\learn\heroes\$arg\$arg.tpl) called at [D:\Work\www\dkphobos\classes\Module.class.php:89]
+#8: execute() called at [D:\Work\www\dkphobos\classes\Bootstrap.class.php:56]
+#9: process_query() called at [D:\Work\www\dkphobos\classes\Bootstrap.class.php:24]
+#10: run() called at [D:\Work\www\dkphobos\public_html\index.php:4]
+
+
+2020-08-04 23:00:01 http://dkphobos.gg/learn/heroes/Mars /learn/heroes/Mars:
+Site: http://dkphobos.gg
+Time: 2020-08-04 23:00:01
+Error #: 2
+Message: Illegal string offset 'effect'
+File: D:\Work\www\dkphobos\modules\learn\hero\hero.tpl
+Line: 294
+User IP: 127.0.0.1
+User ID: 1
+
+Debug backtrace:
+#1: include(D:\Work\www\dkphobos\modules\learn\hero\hero.tpl) called at [D:\Work\www\dkphobos\classes\Module.class.php:89]
+#2: execute() called at [D:\Work\www\dkphobos\classes\Module.class.php:131]
+#3: module(/learn/hero,Mars) called at [D:\Work\www\dkphobos\modules\main\main.tpl:73]
+#4: include(D:\Work\www\dkphobos\modules\main\main.tpl) called at [D:\Work\www\dkphobos\classes\Module.class.php:89]
+#5: execute() called at [D:\Work\www\dkphobos\classes\Module.class.php:131]
+#6: module(main,learn/hero,Mars) called at [D:\Work\www\dkphobos\links\learn\heroes\$arg\$arg.tpl:3]
+#7: include(D:\Work\www\dkphobos\links\learn\heroes\$arg\$arg.tpl) called at [D:\Work\www\dkphobos\classes\Module.class.php:89]
+#8: execute() called at [D:\Work\www\dkphobos\classes\Bootstrap.class.php:56]
+#9: process_query() called at [D:\Work\www\dkphobos\classes\Bootstrap.class.php:24]
+#10: run() called at [D:\Work\www\dkphobos\public_html\index.php:4]
+
+
+2020-08-04 23:00:27 http:/// /:
+Site: http://dkphobos.gg
+Time: 2020-08-04 23:00:27
+Error #: 8
+Message: Undefined index: HTTP_ACCEPT_LANGUAGE
+File: D:\Work\www\dkphobos\classes\Link.class.php
+Line: 24
+User IP: 178.62.47.158
+User ID: 0
+
+Debug backtrace:
+#1: __construct() called at [D:\Work\www\dkphobos\classes\Bootstrap.class.php:53]
+#2: process_query() called at [D:\Work\www\dkphobos\classes\Bootstrap.class.php:24]
+#3: run() called at [D:\Work\www\dkphobos\public_html\index.php:4]
+
+
+2020-08-04 23:00:27 http:/// /:
+Site: http://dkphobos.gg
+Time: 2020-08-04 23:00:27
+Error #: 2
+Message: Cannot modify header information - headers already sent by (output started at D:\Work\www\dkphobos\classes\Session.class.php:36)
+File: D:\Work\www\dkphobos\classes\Cookie.class.php
+Line: 16
+User IP: 178.62.47.158
+User ID: 0
+
+Debug backtrace:
+#1: setcookie(lang,"ru",0,/,,,) called at [D:\Work\www\dkphobos\classes\Cookie.class.php:16]
+#2: set(lang,ru) called at [D:\Work\www\dkphobos\classes\Link.class.php:62]
+#3: __construct() called at [D:\Work\www\dkphobos\classes\Bootstrap.class.php:53]
+#4: process_query() called at [D:\Work\www\dkphobos\classes\Bootstrap.class.php:24]
+#5: run() called at [D:\Work\www\dkphobos\public_html\index.php:4]
+
+
+2020-08-04 23:05:17 http:/// /:
+Site: http://dkphobos.gg
+Time: 2020-08-04 23:05:17
+Error #: 8
+Message: Undefined index: HTTP_ACCEPT_LANGUAGE
+File: D:\Work\www\dkphobos\classes\Link.class.php
+Line: 24
+User IP: 78.108.177.50
+User ID: 0
+
+Debug backtrace:
+#1: __construct() called at [D:\Work\www\dkphobos\classes\Bootstrap.class.php:53]
+#2: process_query() called at [D:\Work\www\dkphobos\classes\Bootstrap.class.php:24]
+#3: run() called at [D:\Work\www\dkphobos\public_html\index.php:4]
+
+
+2020-08-04 23:05:17 http:/// /:
+Site: http://dkphobos.gg
+Time: 2020-08-04 23:05:17
+Error #: 2
+Message: Cannot modify header information - headers already sent by (output started at D:\Work\www\dkphobos\classes\Link.class.php:24)
+File: D:\Work\www\dkphobos\classes\Cookie.class.php
+Line: 16
+User IP: 78.108.177.50
+User ID: 0
+
+Debug backtrace:
+#1: setcookie(lang,"ru",0,/,,,) called at [D:\Work\www\dkphobos\classes\Cookie.class.php:16]
+#2: set(lang,ru) called at [D:\Work\www\dkphobos\classes\Link.class.php:62]
+#3: __construct() called at [D:\Work\www\dkphobos\classes\Bootstrap.class.php:53]
+#4: process_query() called at [D:\Work\www\dkphobos\classes\Bootstrap.class.php:24]
+#5: run() called at [D:\Work\www\dkphobos\public_html\index.php:4]
+
+
+2020-08-04 23:06:10 http://95.67.115.86:8080/ /:
+Site: http://dkphobos.gg
+Time: 2020-08-04 23:06:10
+Error #: 8
+Message: Undefined index: HTTP_ACCEPT_LANGUAGE
+File: D:\Work\www\dkphobos\classes\Link.class.php
+Line: 24
+User IP: 95.67.118.233
+User ID: 0
+
+Debug backtrace:
+#1: __construct() called at [D:\Work\www\dkphobos\classes\Bootstrap.class.php:53]
+#2: process_query() called at [D:\Work\www\dkphobos\classes\Bootstrap.class.php:24]
+#3: run() called at [D:\Work\www\dkphobos\public_html\index.php:4]
+
+
+2020-08-04 23:06:10 http://95.67.115.86:80/ /:
+Site: http://dkphobos.gg
+Time: 2020-08-04 23:06:10
+Error #: 8
+Message: Undefined index: HTTP_ACCEPT_LANGUAGE
+File: D:\Work\www\dkphobos\classes\Link.class.php
+Line: 24
+User IP: 95.67.118.233
+User ID: 0
+
+Debug backtrace:
+#1: __construct() called at [D:\Work\www\dkphobos\classes\Bootstrap.class.php:53]
+#2: process_query() called at [D:\Work\www\dkphobos\classes\Bootstrap.class.php:24]
+#3: run() called at [D:\Work\www\dkphobos\public_html\index.php:4]
+
+
+2020-08-04 23:09:21 http://95.67.115.86:80/?XDEBUG_SESSION_START=phpstorm /?XDEBUG_SESSION_START=phpstorm:
+Site: http://dkphobos.gg
+Time: 2020-08-04 23:09:21
+Error #: 8
+Message: Undefined index: HTTP_ACCEPT_LANGUAGE
+File: D:\Work\www\dkphobos\classes\Link.class.php
+Line: 24
+User IP: 195.54.160.21
+User ID: 0
+
+Debug backtrace:
+#1: __construct() called at [D:\Work\www\dkphobos\classes\Bootstrap.class.php:53]
+#2: process_query() called at [D:\Work\www\dkphobos\classes\Bootstrap.class.php:24]
+#3: run() called at [D:\Work\www\dkphobos\public_html\index.php:4]
+
+
+2020-08-04 23:11:35 http://95.67.115.86:80/ /:
+Site: http://dkphobos.gg
+Time: 2020-08-04 23:11:35
+Error #: 8
+Message: Undefined index: HTTP_ACCEPT_LANGUAGE
+File: D:\Work\www\dkphobos\classes\Link.class.php
+Line: 24
+User IP: 95.67.30.98
+User ID: 0
+
+Debug backtrace:
+#1: __construct() called at [D:\Work\www\dkphobos\classes\Bootstrap.class.php:53]
+#2: process_query() called at [D:\Work\www\dkphobos\classes\Bootstrap.class.php:24]
+#3: run() called at [D:\Work\www\dkphobos\public_html\index.php:4]
+
+

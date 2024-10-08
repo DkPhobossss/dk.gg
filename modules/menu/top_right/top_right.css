@@ -1,0 +1,65 @@
+header#header div.top > div.right
+{
+    width               : 120px;
+    border-top      : 1px solid #000;
+    border-bottom   : 1px solid #000;
+}
+
+header#header div.top > div.right > div
+{
+    background          : url('/images/menu_top_bg.png') repeat-x scroll 1px 0px;
+    background-color: #000;
+    height          : 20px;
+    padding         : 1px 1px 1px 7px;
+    
+    border-style    : solid;
+    border-color    : rgba(33 ,33,33 ,0.9) rgba(95,95,95 , 0.1) rgba(33,33,33,0.7) rgba(95,95,95 , 0.1);
+    border-width    : 1px;
+}
+
+header#header div.top .basket
+{
+    display         : inline-block;
+    width           : 37px;
+    height          : 37px;
+    position        : absolute;
+    top             : -6px;
+    right           : 65px;
+    background-image : url('/images/basket_37.png');
+}
+
+
+header#header div.top div.languages
+{
+    margin-right        : 2px;
+    padding-left        : 3px;
+    border-left         : 1px solid #000;
+    height              : 20px;
+    line-height         : 20px;
+}
+
+    header#header div.top div.languages a.inline_block
+    {
+        width			: 24px;
+        height			: 18px;
+    }
+
+    header#header div.top div.languages a.inline_block:not([href])
+    {
+        cursor              : default;
+    }
+
+    header#header div.top div.languages a.inline_block:hover, header#header div.top div.languages a.inline_block:not([href])
+    {
+        background-position : 0 100%;
+    }
+
+    header#header div.top div.languages a.lang_ru
+    {
+        background-image    : url('/images/flag_ru.png');
+    }
+
+    header#header div.top div.languages a.lang_en
+    {
+        background-image    : url('/images/flag_en.png');
+    }

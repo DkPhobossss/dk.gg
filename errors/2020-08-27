@@ -1,0 +1,16 @@
+2020-08-27 17:57:35 http://web-dengi.nethttp://web-dengi.net/HttpRequest/spider3.ashx?ip=95.67.115.86&port=53281&mn=PRX3&c=1&r=205692 http://web-dengi.net/HttpRequest/spider3.ashx?ip=95.67.115.86&port=53281&mn=PRX3&c=1&r=205692:
+Site: http://dkphobos.gg
+Time: 2020-08-27 17:57:35
+Error #: 2
+Message: mb_ereg_match(): mbregex compile err: undefined type (bug)
+File: D:\Work\www\dkphobos\classes\Bootstrap.class.php
+Line: 47
+User IP: 94.244.138.21
+User ID: 0
+
+Debug backtrace:
+#1: mb_ereg_match(^[a-z]{2}?/?ajax/json/,ttp://web-dengi.net/HttpRequest/spider3.ashx) called at [D:\Work\www\dkphobos\classes\Bootstrap.class.php:47]
+#2: process_query() called at [D:\Work\www\dkphobos\classes\Bootstrap.class.php:24]
+#3: run() called at [D:\Work\www\dkphobos\public_html\index.php:4]
+
+

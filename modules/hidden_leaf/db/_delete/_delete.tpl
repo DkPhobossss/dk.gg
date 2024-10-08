@@ -1,0 +1,1 @@
+<?=Output::delete_success()?>

@@ -1,0 +1,1 @@
+<?= $this->module( 'page', $this->module( 'main', 'shop/product' , Link::$url_parts[1] , Link::$url_parts[2] ) ) ?>

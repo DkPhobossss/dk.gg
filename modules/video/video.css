@@ -1,0 +1,17 @@
+#cats h2
+{
+    font-family             : Arial , Tahoma !important;
+    text-transform          : none;
+    white-space             : nowrap;
+    padding-top             : 0;
+}
+
+#cats > div.left img.cat
+{
+    height                  : 167px;
+}
+
+#cats a.block > img
+{
+    border-top              : 30px solid #000;
+}

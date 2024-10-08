@@ -1,0 +1,1 @@
+<?= $this->module( 'page', $this->module( 'main' , 'read/news_show', Link::$url_parts[1] , 1 ) ) ?>

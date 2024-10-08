@@ -1,0 +1,40 @@
+div.system
+{
+    width                   : 960px;
+    padding                 : 20px;
+    margin                  : 0 auto;
+    color                   : #999;
+}
+
+    div.system input[type=password] , div.system input[type=text] , x-dropdown , x-ajax-input
+    {
+        width               : 180px;
+    }
+
+    div.system .short
+    {
+        width               : 110px;
+    }
+
+    div.system label
+    {
+        margin-bottom       : 10px;
+    }
+
+    div.system label , div.system label > *:first-child
+    {
+        display             : block;
+    }
+
+
+div.system h1
+{
+    margin-bottom       : 30px;
+}
+
+div.system .button , div.system button
+{
+    box-shadow              : 0 0 10px #000;
+    -moz-box-shadow         : 0 0 10px #000;
+    -webkit-box-shadow      : 0 0 10px #000;
+}

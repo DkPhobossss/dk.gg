@@ -1,0 +1,742 @@
+2020-08-16 00:00:57 http://95.67.115.86:83/ /:
+Site: http://dkphobos.gg
+Time: 2020-08-16 00:00:57
+Error #: 8
+Message: Undefined index: HTTP_ACCEPT_LANGUAGE
+File: D:\Work\www\dkphobos\classes\Link.class.php
+Line: 24
+User IP: 185.39.9.34
+User ID: 0
+
+Debug backtrace:
+#1: __construct() called at [D:\Work\www\dkphobos\classes\Bootstrap.class.php:53]
+#2: process_query() called at [D:\Work\www\dkphobos\classes\Bootstrap.class.php:24]
+#3: run() called at [D:\Work\www\dkphobos\public_html\index.php:4]
+
+
+2020-08-16 00:01:29 http:/// /:
+Site: http://dkphobos.gg
+Time: 2020-08-16 00:01:29
+Error #: 8
+Message: Undefined index: HTTP_ACCEPT_LANGUAGE
+File: D:\Work\www\dkphobos\classes\Link.class.php
+Line: 24
+User IP: 83.97.20.34
+User ID: 0
+
+Debug backtrace:
+#1: __construct() called at [D:\Work\www\dkphobos\classes\Bootstrap.class.php:53]
+#2: process_query() called at [D:\Work\www\dkphobos\classes\Bootstrap.class.php:24]
+#3: run() called at [D:\Work\www\dkphobos\public_html\index.php:4]
+
+
+2020-08-16 00:01:29 http:/// /:
+Site: http://dkphobos.gg
+Time: 2020-08-16 00:01:29
+Error #: 2
+Message: Cannot modify header information - headers already sent by (output started at D:\Work\www\dkphobos\classes\Session.class.php:36)
+File: D:\Work\www\dkphobos\classes\Cookie.class.php
+Line: 16
+User IP: 83.97.20.34
+User ID: 0
+
+Debug backtrace:
+#1: setcookie(lang,"ru",0,/,,,) called at [D:\Work\www\dkphobos\classes\Cookie.class.php:16]
+#2: set(lang,ru) called at [D:\Work\www\dkphobos\classes\Link.class.php:62]
+#3: __construct() called at [D:\Work\www\dkphobos\classes\Bootstrap.class.php:53]
+#4: process_query() called at [D:\Work\www\dkphobos\classes\Bootstrap.class.php:24]
+#5: run() called at [D:\Work\www\dkphobos\public_html\index.php:4]
+
+
+2020-08-16 00:04:06 http://95.67.115.86:88/ /:
+Site: http://dkphobos.gg
+Time: 2020-08-16 00:04:06
+Error #: 8
+Message: Undefined index: HTTP_ACCEPT_LANGUAGE
+File: D:\Work\www\dkphobos\classes\Link.class.php
+Line: 24
+User IP: 192.35.168.80
+User ID: 0
+
+Debug backtrace:
+#1: __construct() called at [D:\Work\www\dkphobos\classes\Bootstrap.class.php:53]
+#2: process_query() called at [D:\Work\www\dkphobos\classes\Bootstrap.class.php:24]
+#3: run() called at [D:\Work\www\dkphobos\public_html\index.php:4]
+
+
+2020-08-16 00:12:22 http://95.67.115.86:8901/ /:
+Site: http://dkphobos.gg
+Time: 2020-08-16 00:12:22
+Error #: 8
+Message: Undefined index: HTTP_ACCEPT_LANGUAGE
+File: D:\Work\www\dkphobos\classes\Link.class.php
+Line: 24
+User IP: 192.35.168.200
+User ID: 0
+
+Debug backtrace:
+#1: __construct() called at [D:\Work\www\dkphobos\classes\Bootstrap.class.php:53]
+#2: process_query() called at [D:\Work\www\dkphobos\classes\Bootstrap.class.php:24]
+#3: run() called at [D:\Work\www\dkphobos\public_html\index.php:4]
+
+
+2020-08-16 00:12:22 http://95.67.115.86:8901/ /:
+Site: http://dkphobos.gg
+Time: 2020-08-16 00:12:22
+Error #: 2
+Message: Cannot modify header information - headers already sent by (output started at D:\Work\www\dkphobos\classes\Session.class.php:36)
+File: D:\Work\www\dkphobos\classes\Cookie.class.php
+Line: 16
+User IP: 192.35.168.200
+User ID: 0
+
+Debug backtrace:
+#1: setcookie(lang,"ru",0,/,,,) called at [D:\Work\www\dkphobos\classes\Cookie.class.php:16]
+#2: set(lang,ru) called at [D:\Work\www\dkphobos\classes\Link.class.php:62]
+#3: __construct() called at [D:\Work\www\dkphobos\classes\Bootstrap.class.php:53]
+#4: process_query() called at [D:\Work\www\dkphobos\classes\Bootstrap.class.php:24]
+#5: run() called at [D:\Work\www\dkphobos\public_html\index.php:4]
+
+
+2020-08-16 00:12:22 http://95.67.115.86:8901/ /:
+Site: http://dkphobos.gg
+Time: 2020-08-16 00:12:22
+Error #: 8
+Message: Undefined index: HTTP_ACCEPT_LANGUAGE
+File: D:\Work\www\dkphobos\classes\Link.class.php
+Line: 24
+User IP: 192.35.168.200
+User ID: 0
+
+Debug backtrace:
+#1: __construct() called at [D:\Work\www\dkphobos\classes\Bootstrap.class.php:53]
+#2: process_query() called at [D:\Work\www\dkphobos\classes\Bootstrap.class.php:24]
+#3: run() called at [D:\Work\www\dkphobos\public_html\index.php:4]
+
+
+2020-08-16 00:13:03 http://95.67.115.86:8080/ /:
+Site: http://dkphobos.gg
+Time: 2020-08-16 00:13:03
+Error #: 8
+Message: Undefined index: HTTP_ACCEPT_LANGUAGE
+File: D:\Work\www\dkphobos\classes\Link.class.php
+Line: 24
+User IP: 95.67.168.113
+User ID: 0
+
+Debug backtrace:
+#1: __construct() called at [D:\Work\www\dkphobos\classes\Bootstrap.class.php:53]
+#2: process_query() called at [D:\Work\www\dkphobos\classes\Bootstrap.class.php:24]
+#3: run() called at [D:\Work\www\dkphobos\public_html\index.php:4]
+
+
+2020-08-16 00:13:03 http://95.67.115.86:80/ /:
+Site: http://dkphobos.gg
+Time: 2020-08-16 00:13:03
+Error #: 8
+Message: Undefined index: HTTP_ACCEPT_LANGUAGE
+File: D:\Work\www\dkphobos\classes\Link.class.php
+Line: 24
+User IP: 95.67.168.113
+User ID: 0
+
+Debug backtrace:
+#1: __construct() called at [D:\Work\www\dkphobos\classes\Bootstrap.class.php:53]
+#2: process_query() called at [D:\Work\www\dkphobos\classes\Bootstrap.class.php:24]
+#3: run() called at [D:\Work\www\dkphobos\public_html\index.php:4]
+
+
+2020-08-16 00:14:12 http://95.67.115.86:8901/ /:
+Site: http://dkphobos.gg
+Time: 2020-08-16 00:14:12
+Error #: 8
+Message: Undefined index: HTTP_ACCEPT_LANGUAGE
+File: D:\Work\www\dkphobos\classes\Link.class.php
+Line: 24
+User IP: 192.35.169.48
+User ID: 0
+
+Debug backtrace:
+#1: __construct() called at [D:\Work\www\dkphobos\classes\Bootstrap.class.php:53]
+#2: process_query() called at [D:\Work\www\dkphobos\classes\Bootstrap.class.php:24]
+#3: run() called at [D:\Work\www\dkphobos\public_html\index.php:4]
+
+
+2020-08-16 00:14:12 http://95.67.115.86:8901/ /:
+Site: http://dkphobos.gg
+Time: 2020-08-16 00:14:12
+Error #: 2
+Message: Cannot modify header information - headers already sent by (output started at D:\Work\www\dkphobos\classes\Session.class.php:36)
+File: D:\Work\www\dkphobos\classes\Cookie.class.php
+Line: 16
+User IP: 192.35.169.48
+User ID: 0
+
+Debug backtrace:
+#1: setcookie(lang,"ru",0,/,,,) called at [D:\Work\www\dkphobos\classes\Cookie.class.php:16]
+#2: set(lang,ru) called at [D:\Work\www\dkphobos\classes\Link.class.php:62]
+#3: __construct() called at [D:\Work\www\dkphobos\classes\Bootstrap.class.php:53]
+#4: process_query() called at [D:\Work\www\dkphobos\classes\Bootstrap.class.php:24]
+#5: run() called at [D:\Work\www\dkphobos\public_html\index.php:4]
+
+
+2020-08-16 00:16:09 http://95.67.115.86:80/ /:
+Site: http://dkphobos.gg
+Time: 2020-08-16 00:16:09
+Error #: 8
+Message: Undefined index: HTTP_ACCEPT_LANGUAGE
+File: D:\Work\www\dkphobos\classes\Link.class.php
+Line: 24
+User IP: 95.67.84.202
+User ID: 0
+
+Debug backtrace:
+#1: __construct() called at [D:\Work\www\dkphobos\classes\Bootstrap.class.php:53]
+#2: process_query() called at [D:\Work\www\dkphobos\classes\Bootstrap.class.php:24]
+#3: run() called at [D:\Work\www\dkphobos\public_html\index.php:4]
+
+
+2020-08-16 00:17:29 http:/// /:
+Site: http://dkphobos.gg
+Time: 2020-08-16 00:17:29
+Error #: 8
+Message: Undefined index: HTTP_ACCEPT_LANGUAGE
+File: D:\Work\www\dkphobos\classes\Link.class.php
+Line: 24
+User IP: 46.174.191.32
+User ID: 0
+
+Debug backtrace:
+#1: __construct() called at [D:\Work\www\dkphobos\classes\Bootstrap.class.php:53]
+#2: process_query() called at [D:\Work\www\dkphobos\classes\Bootstrap.class.php:24]
+#3: run() called at [D:\Work\www\dkphobos\public_html\index.php:4]
+
+
+2020-08-16 00:17:29 http:/// /:
+Site: http://dkphobos.gg
+Time: 2020-08-16 00:17:29
+Error #: 2
+Message: Cannot modify header information - headers already sent by (output started at D:\Work\www\dkphobos\classes\Link.class.php:24)
+File: D:\Work\www\dkphobos\classes\Cookie.class.php
+Line: 16
+User IP: 46.174.191.32
+User ID: 0
+
+Debug backtrace:
+#1: setcookie(lang,"ru",0,/,,,) called at [D:\Work\www\dkphobos\classes\Cookie.class.php:16]
+#2: set(lang,ru) called at [D:\Work\www\dkphobos\classes\Link.class.php:62]
+#3: __construct() called at [D:\Work\www\dkphobos\classes\Bootstrap.class.php:53]
+#4: process_query() called at [D:\Work\www\dkphobos\classes\Bootstrap.class.php:24]
+#5: run() called at [D:\Work\www\dkphobos\public_html\index.php:4]
+
+
+2020-08-16 00:21:08 http://95.67.115.86:80/ /:
+Site: http://dkphobos.gg
+Time: 2020-08-16 00:21:08
+Error #: 8
+Message: Undefined index: HTTP_ACCEPT_LANGUAGE
+File: D:\Work\www\dkphobos\classes\Link.class.php
+Line: 24
+User IP: 95.67.239.249
+User ID: 0
+
+Debug backtrace:
+#1: __construct() called at [D:\Work\www\dkphobos\classes\Bootstrap.class.php:53]
+#2: process_query() called at [D:\Work\www\dkphobos\classes\Bootstrap.class.php:24]
+#3: run() called at [D:\Work\www\dkphobos\public_html\index.php:4]
+
+
+2020-08-16 00:23:19 http://95.67.115.86:8080/ /:
+Site: http://dkphobos.gg
+Time: 2020-08-16 00:23:19
+Error #: 8
+Message: Undefined index: HTTP_ACCEPT_LANGUAGE
+File: D:\Work\www\dkphobos\classes\Link.class.php
+Line: 24
+User IP: 192.35.168.218
+User ID: 0
+
+Debug backtrace:
+#1: __construct() called at [D:\Work\www\dkphobos\classes\Bootstrap.class.php:53]
+#2: process_query() called at [D:\Work\www\dkphobos\classes\Bootstrap.class.php:24]
+#3: run() called at [D:\Work\www\dkphobos\public_html\index.php:4]
+
+
+2020-08-16 00:23:19 http://95.67.115.86:8080/ /:
+Site: http://dkphobos.gg
+Time: 2020-08-16 00:23:19
+Error #: 2
+Message: Cannot modify header information - headers already sent by (output started at D:\Work\www\dkphobos\classes\Session.class.php:36)
+File: D:\Work\www\dkphobos\classes\Cookie.class.php
+Line: 16
+User IP: 192.35.168.218
+User ID: 0
+
+Debug backtrace:
+#1: setcookie(lang,"ru",0,/,,,) called at [D:\Work\www\dkphobos\classes\Cookie.class.php:16]
+#2: set(lang,ru) called at [D:\Work\www\dkphobos\classes\Link.class.php:62]
+#3: __construct() called at [D:\Work\www\dkphobos\classes\Bootstrap.class.php:53]
+#4: process_query() called at [D:\Work\www\dkphobos\classes\Bootstrap.class.php:24]
+#5: run() called at [D:\Work\www\dkphobos\public_html\index.php:4]
+
+
+2020-08-16 00:23:20 http://95.67.115.86:8080/ /:
+Site: http://dkphobos.gg
+Time: 2020-08-16 00:23:20
+Error #: 8
+Message: Undefined index: HTTP_ACCEPT_LANGUAGE
+File: D:\Work\www\dkphobos\classes\Link.class.php
+Line: 24
+User IP: 192.35.168.218
+User ID: 0
+
+Debug backtrace:
+#1: __construct() called at [D:\Work\www\dkphobos\classes\Bootstrap.class.php:53]
+#2: process_query() called at [D:\Work\www\dkphobos\classes\Bootstrap.class.php:24]
+#3: run() called at [D:\Work\www\dkphobos\public_html\index.php:4]
+
+
+2020-08-16 00:25:13 http://95.67.115.86:9312/ /:
+Site: http://dkphobos.gg
+Time: 2020-08-16 00:25:13
+Error #: 8
+Message: Undefined index: HTTP_ACCEPT_LANGUAGE
+File: D:\Work\www\dkphobos\classes\Link.class.php
+Line: 24
+User IP: 192.35.168.249
+User ID: 0
+
+Debug backtrace:
+#1: __construct() called at [D:\Work\www\dkphobos\classes\Bootstrap.class.php:53]
+#2: process_query() called at [D:\Work\www\dkphobos\classes\Bootstrap.class.php:24]
+#3: run() called at [D:\Work\www\dkphobos\public_html\index.php:4]
+
+
+2020-08-16 00:25:13 http://95.67.115.86:9312/ /:
+Site: http://dkphobos.gg
+Time: 2020-08-16 00:25:13
+Error #: 2
+Message: Cannot modify header information - headers already sent by (output started at D:\Work\www\dkphobos\classes\Session.class.php:36)
+File: D:\Work\www\dkphobos\classes\Cookie.class.php
+Line: 16
+User IP: 192.35.168.249
+User ID: 0
+
+Debug backtrace:
+#1: setcookie(lang,"ru",0,/,,,) called at [D:\Work\www\dkphobos\classes\Cookie.class.php:16]
+#2: set(lang,ru) called at [D:\Work\www\dkphobos\classes\Link.class.php:62]
+#3: __construct() called at [D:\Work\www\dkphobos\classes\Bootstrap.class.php:53]
+#4: process_query() called at [D:\Work\www\dkphobos\classes\Bootstrap.class.php:24]
+#5: run() called at [D:\Work\www\dkphobos\public_html\index.php:4]
+
+
+2020-08-16 00:25:14 http://95.67.115.86:9312/ /:
+Site: http://dkphobos.gg
+Time: 2020-08-16 00:25:14
+Error #: 8
+Message: Undefined index: HTTP_ACCEPT_LANGUAGE
+File: D:\Work\www\dkphobos\classes\Link.class.php
+Line: 24
+User IP: 192.35.168.249
+User ID: 0
+
+Debug backtrace:
+#1: __construct() called at [D:\Work\www\dkphobos\classes\Bootstrap.class.php:53]
+#2: process_query() called at [D:\Work\www\dkphobos\classes\Bootstrap.class.php:24]
+#3: run() called at [D:\Work\www\dkphobos\public_html\index.php:4]
+
+
+2020-08-16 00:25:22 http://95.67.115.86:9999/ /:
+Site: http://dkphobos.gg
+Time: 2020-08-16 00:25:22
+Error #: 8
+Message: Undefined index: HTTP_ACCEPT_LANGUAGE
+File: D:\Work\www\dkphobos\classes\Link.class.php
+Line: 24
+User IP: 172.105.224.72
+User ID: 0
+
+Debug backtrace:
+#1: __construct() called at [D:\Work\www\dkphobos\classes\Bootstrap.class.php:53]
+#2: process_query() called at [D:\Work\www\dkphobos\classes\Bootstrap.class.php:24]
+#3: run() called at [D:\Work\www\dkphobos\public_html\index.php:4]
+
+
+2020-08-16 00:27:38 http://95.67.115.86:9312/ /:
+Site: http://dkphobos.gg
+Time: 2020-08-16 00:27:38
+Error #: 8
+Message: Undefined index: HTTP_ACCEPT_LANGUAGE
+File: D:\Work\www\dkphobos\classes\Link.class.php
+Line: 24
+User IP: 192.35.169.48
+User ID: 0
+
+Debug backtrace:
+#1: __construct() called at [D:\Work\www\dkphobos\classes\Bootstrap.class.php:53]
+#2: process_query() called at [D:\Work\www\dkphobos\classes\Bootstrap.class.php:24]
+#3: run() called at [D:\Work\www\dkphobos\public_html\index.php:4]
+
+
+2020-08-16 00:27:38 http://95.67.115.86:9312/ /:
+Site: http://dkphobos.gg
+Time: 2020-08-16 00:27:38
+Error #: 2
+Message: Cannot modify header information - headers already sent by (output started at D:\Work\www\dkphobos\classes\Session.class.php:36)
+File: D:\Work\www\dkphobos\classes\Cookie.class.php
+Line: 16
+User IP: 192.35.169.48
+User ID: 0
+
+Debug backtrace:
+#1: setcookie(lang,"ru",0,/,,,) called at [D:\Work\www\dkphobos\classes\Cookie.class.php:16]
+#2: set(lang,ru) called at [D:\Work\www\dkphobos\classes\Link.class.php:62]
+#3: __construct() called at [D:\Work\www\dkphobos\classes\Bootstrap.class.php:53]
+#4: process_query() called at [D:\Work\www\dkphobos\classes\Bootstrap.class.php:24]
+#5: run() called at [D:\Work\www\dkphobos\public_html\index.php:4]
+
+
+2020-08-16 00:31:15 http://95.67.115.86:6010/ /:
+Site: http://dkphobos.gg
+Time: 2020-08-16 00:31:15
+Error #: 8
+Message: Undefined index: HTTP_ACCEPT_LANGUAGE
+File: D:\Work\www\dkphobos\classes\Link.class.php
+Line: 24
+User IP: 192.35.168.218
+User ID: 0
+
+Debug backtrace:
+#1: __construct() called at [D:\Work\www\dkphobos\classes\Bootstrap.class.php:53]
+#2: process_query() called at [D:\Work\www\dkphobos\classes\Bootstrap.class.php:24]
+#3: run() called at [D:\Work\www\dkphobos\public_html\index.php:4]
+
+
+2020-08-16 00:31:15 http://95.67.115.86:6010/ /:
+Site: http://dkphobos.gg
+Time: 2020-08-16 00:31:15
+Error #: 2
+Message: Cannot modify header information - headers already sent by (output started at D:\Work\www\dkphobos\classes\Session.class.php:36)
+File: D:\Work\www\dkphobos\classes\Cookie.class.php
+Line: 16
+User IP: 192.35.168.218
+User ID: 0
+
+Debug backtrace:
+#1: setcookie(lang,"ru",0,/,,,) called at [D:\Work\www\dkphobos\classes\Cookie.class.php:16]
+#2: set(lang,ru) called at [D:\Work\www\dkphobos\classes\Link.class.php:62]
+#3: __construct() called at [D:\Work\www\dkphobos\classes\Bootstrap.class.php:53]
+#4: process_query() called at [D:\Work\www\dkphobos\classes\Bootstrap.class.php:24]
+#5: run() called at [D:\Work\www\dkphobos\public_html\index.php:4]
+
+
+2020-08-16 00:31:15 http://95.67.115.86:6010/ /:
+Site: http://dkphobos.gg
+Time: 2020-08-16 00:31:15
+Error #: 8
+Message: Undefined index: HTTP_ACCEPT_LANGUAGE
+File: D:\Work\www\dkphobos\classes\Link.class.php
+Line: 24
+User IP: 192.35.168.218
+User ID: 0
+
+Debug backtrace:
+#1: __construct() called at [D:\Work\www\dkphobos\classes\Bootstrap.class.php:53]
+#2: process_query() called at [D:\Work\www\dkphobos\classes\Bootstrap.class.php:24]
+#3: run() called at [D:\Work\www\dkphobos\public_html\index.php:4]
+
+
+2020-08-16 00:33:25 http://95.67.115.86:6010/ /:
+Site: http://dkphobos.gg
+Time: 2020-08-16 00:33:25
+Error #: 8
+Message: Undefined index: HTTP_ACCEPT_LANGUAGE
+File: D:\Work\www\dkphobos\classes\Link.class.php
+Line: 24
+User IP: 192.35.169.48
+User ID: 0
+
+Debug backtrace:
+#1: __construct() called at [D:\Work\www\dkphobos\classes\Bootstrap.class.php:53]
+#2: process_query() called at [D:\Work\www\dkphobos\classes\Bootstrap.class.php:24]
+#3: run() called at [D:\Work\www\dkphobos\public_html\index.php:4]
+
+
+2020-08-16 00:33:25 http://95.67.115.86:6010/ /:
+Site: http://dkphobos.gg
+Time: 2020-08-16 00:33:25
+Error #: 2
+Message: Cannot modify header information - headers already sent by (output started at D:\Work\www\dkphobos\classes\Session.class.php:36)
+File: D:\Work\www\dkphobos\classes\Cookie.class.php
+Line: 16
+User IP: 192.35.169.48
+User ID: 0
+
+Debug backtrace:
+#1: setcookie(lang,"ru",0,/,,,) called at [D:\Work\www\dkphobos\classes\Cookie.class.php:16]
+#2: set(lang,ru) called at [D:\Work\www\dkphobos\classes\Link.class.php:62]
+#3: __construct() called at [D:\Work\www\dkphobos\classes\Bootstrap.class.php:53]
+#4: process_query() called at [D:\Work\www\dkphobos\classes\Bootstrap.class.php:24]
+#5: run() called at [D:\Work\www\dkphobos\public_html\index.php:4]
+
+
+2020-08-16 00:40:55 http://95.67.115.86/ /:
+Site: http://dkphobos.gg
+Time: 2020-08-16 00:40:55
+Error #: 8
+Message: Undefined index: HTTP_ACCEPT_LANGUAGE
+File: D:\Work\www\dkphobos\classes\Link.class.php
+Line: 24
+User IP: 185.181.102.18
+User ID: 0
+
+Debug backtrace:
+#1: __construct() called at [D:\Work\www\dkphobos\classes\Bootstrap.class.php:53]
+#2: process_query() called at [D:\Work\www\dkphobos\classes\Bootstrap.class.php:24]
+#3: run() called at [D:\Work\www\dkphobos\public_html\index.php:4]
+
+
+2020-08-16 00:40:55 http://95.67.115.86/ /:
+Site: http://dkphobos.gg
+Time: 2020-08-16 00:40:55
+Error #: 2
+Message: Cannot modify header information - headers already sent by (output started at D:\Work\www\dkphobos\classes\Session.class.php:36)
+File: D:\Work\www\dkphobos\classes\Cookie.class.php
+Line: 16
+User IP: 185.181.102.18
+User ID: 0
+
+Debug backtrace:
+#1: setcookie(lang,"ru",0,/,,,) called at [D:\Work\www\dkphobos\classes\Cookie.class.php:16]
+#2: set(lang,ru) called at [D:\Work\www\dkphobos\classes\Link.class.php:62]
+#3: __construct() called at [D:\Work\www\dkphobos\classes\Bootstrap.class.php:53]
+#4: process_query() called at [D:\Work\www\dkphobos\classes\Bootstrap.class.php:24]
+#5: run() called at [D:\Work\www\dkphobos\public_html\index.php:4]
+
+
+2020-08-16 00:41:37 http://95.67.115.86/ /:
+Site: http://dkphobos.gg
+Time: 2020-08-16 00:41:37
+Error #: 8
+Message: Undefined index: HTTP_ACCEPT_LANGUAGE
+File: D:\Work\www\dkphobos\classes\Link.class.php
+Line: 24
+User IP: 198.20.99.130
+User ID: 0
+
+Debug backtrace:
+#1: __construct() called at [D:\Work\www\dkphobos\classes\Bootstrap.class.php:53]
+#2: process_query() called at [D:\Work\www\dkphobos\classes\Bootstrap.class.php:24]
+#3: run() called at [D:\Work\www\dkphobos\public_html\index.php:4]
+
+
+2020-08-16 00:54:54 http://95.67.115.86:80/ /:
+Site: http://dkphobos.gg
+Time: 2020-08-16 00:54:54
+Error #: 8
+Message: Undefined index: HTTP_ACCEPT_LANGUAGE
+File: D:\Work\www\dkphobos\classes\Link.class.php
+Line: 24
+User IP: 95.67.147.230
+User ID: 0
+
+Debug backtrace:
+#1: __construct() called at [D:\Work\www\dkphobos\classes\Bootstrap.class.php:53]
+#2: process_query() called at [D:\Work\www\dkphobos\classes\Bootstrap.class.php:24]
+#3: run() called at [D:\Work\www\dkphobos\public_html\index.php:4]
+
+
+2020-08-16 00:56:30 http://95.67.115.86:80/ /:
+Site: http://dkphobos.gg
+Time: 2020-08-16 00:56:30
+Error #: 8
+Message: Undefined index: HTTP_ACCEPT_LANGUAGE
+File: D:\Work\www\dkphobos\classes\Link.class.php
+Line: 24
+User IP: 95.67.30.98
+User ID: 0
+
+Debug backtrace:
+#1: __construct() called at [D:\Work\www\dkphobos\classes\Bootstrap.class.php:53]
+#2: process_query() called at [D:\Work\www\dkphobos\classes\Bootstrap.class.php:24]
+#3: run() called at [D:\Work\www\dkphobos\public_html\index.php:4]
+
+
+2020-08-16 00:57:39 http://95.67.115.86:8080/ /:
+Site: http://dkphobos.gg
+Time: 2020-08-16 00:57:39
+Error #: 8
+Message: Undefined index: HTTP_ACCEPT_LANGUAGE
+File: D:\Work\www\dkphobos\classes\Link.class.php
+Line: 24
+User IP: 95.67.90.200
+User ID: 0
+
+Debug backtrace:
+#1: __construct() called at [D:\Work\www\dkphobos\classes\Bootstrap.class.php:53]
+#2: process_query() called at [D:\Work\www\dkphobos\classes\Bootstrap.class.php:24]
+#3: run() called at [D:\Work\www\dkphobos\public_html\index.php:4]
+
+
+2020-08-16 00:59:39 http://95.67.115.86:80/ /:
+Site: http://dkphobos.gg
+Time: 2020-08-16 00:59:39
+Error #: 8
+Message: Undefined index: HTTP_ACCEPT_LANGUAGE
+File: D:\Work\www\dkphobos\classes\Link.class.php
+Line: 24
+User IP: 95.67.105.21
+User ID: 0
+
+Debug backtrace:
+#1: __construct() called at [D:\Work\www\dkphobos\classes\Bootstrap.class.php:53]
+#2: process_query() called at [D:\Work\www\dkphobos\classes\Bootstrap.class.php:24]
+#3: run() called at [D:\Work\www\dkphobos\public_html\index.php:4]
+
+
+2020-08-16 01:02:20 http://95.67.115.86:80/ /:
+Site: http://dkphobos.gg
+Time: 2020-08-16 01:02:20
+Error #: 8
+Message: Undefined index: HTTP_ACCEPT_LANGUAGE
+File: D:\Work\www\dkphobos\classes\Link.class.php
+Line: 24
+User IP: 95.67.168.113
+User ID: 0
+
+Debug backtrace:
+#1: __construct() called at [D:\Work\www\dkphobos\classes\Bootstrap.class.php:53]
+#2: process_query() called at [D:\Work\www\dkphobos\classes\Bootstrap.class.php:24]
+#3: run() called at [D:\Work\www\dkphobos\public_html\index.php:4]
+
+
+2020-08-16 01:02:43 http://95.67.115.86/ /:
+Site: http://dkphobos.gg
+Time: 2020-08-16 01:02:43
+Error #: 8
+Message: Undefined index: HTTP_ACCEPT_LANGUAGE
+File: D:\Work\www\dkphobos\classes\Link.class.php
+Line: 24
+User IP: 83.97.20.34
+User ID: 0
+
+Debug backtrace:
+#1: __construct() called at [D:\Work\www\dkphobos\classes\Bootstrap.class.php:53]
+#2: process_query() called at [D:\Work\www\dkphobos\classes\Bootstrap.class.php:24]
+#3: run() called at [D:\Work\www\dkphobos\public_html\index.php:4]
+
+
+2020-08-16 01:02:43 http://95.67.115.86/ /:
+Site: http://dkphobos.gg
+Time: 2020-08-16 01:02:43
+Error #: 2
+Message: Cannot modify header information - headers already sent by (output started at D:\Work\www\dkphobos\classes\Session.class.php:36)
+File: D:\Work\www\dkphobos\classes\Cookie.class.php
+Line: 16
+User IP: 83.97.20.34
+User ID: 0
+
+Debug backtrace:
+#1: setcookie(lang,"ru",0,/,,,) called at [D:\Work\www\dkphobos\classes\Cookie.class.php:16]
+#2: set(lang,ru) called at [D:\Work\www\dkphobos\classes\Link.class.php:62]
+#3: __construct() called at [D:\Work\www\dkphobos\classes\Bootstrap.class.php:53]
+#4: process_query() called at [D:\Work\www\dkphobos\classes\Bootstrap.class.php:24]
+#5: run() called at [D:\Work\www\dkphobos\public_html\index.php:4]
+
+
+2020-08-16 01:02:52 http://95.67.115.86:12189/ /:
+Site: http://dkphobos.gg
+Time: 2020-08-16 01:02:52
+Error #: 8
+Message: Undefined index: HTTP_ACCEPT_LANGUAGE
+File: D:\Work\www\dkphobos\classes\Link.class.php
+Line: 24
+User IP: 192.35.168.218
+User ID: 0
+
+Debug backtrace:
+#1: __construct() called at [D:\Work\www\dkphobos\classes\Bootstrap.class.php:53]
+#2: process_query() called at [D:\Work\www\dkphobos\classes\Bootstrap.class.php:24]
+#3: run() called at [D:\Work\www\dkphobos\public_html\index.php:4]
+
+
+2020-08-16 01:03:17 http://95.67.115.86:6161/ /:
+Site: http://dkphobos.gg
+Time: 2020-08-16 01:03:17
+Error #: 8
+Message: Undefined index: HTTP_ACCEPT_LANGUAGE
+File: D:\Work\www\dkphobos\classes\Link.class.php
+Line: 24
+User IP: 192.35.168.250
+User ID: 0
+
+Debug backtrace:
+#1: __construct() called at [D:\Work\www\dkphobos\classes\Bootstrap.class.php:53]
+#2: process_query() called at [D:\Work\www\dkphobos\classes\Bootstrap.class.php:24]
+#3: run() called at [D:\Work\www\dkphobos\public_html\index.php:4]
+
+
+2020-08-16 01:03:45 http://95.67.115.86:4840/ /:
+Site: http://dkphobos.gg
+Time: 2020-08-16 01:03:45
+Error #: 8
+Message: Undefined index: HTTP_ACCEPT_LANGUAGE
+File: D:\Work\www\dkphobos\classes\Link.class.php
+Line: 24
+User IP: 223.71.167.164
+User ID: 0
+
+Debug backtrace:
+#1: __construct() called at [D:\Work\www\dkphobos\classes\Bootstrap.class.php:53]
+#2: process_query() called at [D:\Work\www\dkphobos\classes\Bootstrap.class.php:24]
+#3: run() called at [D:\Work\www\dkphobos\public_html\index.php:4]
+
+
+2020-08-16 01:04:00 http://95.67.115.86:20476/ /:
+Site: http://dkphobos.gg
+Time: 2020-08-16 01:04:00
+Error #: 8
+Message: Undefined index: HTTP_ACCEPT_LANGUAGE
+File: D:\Work\www\dkphobos\classes\Link.class.php
+Line: 24
+User IP: 223.71.167.164
+User ID: 0
+
+Debug backtrace:
+#1: __construct() called at [D:\Work\www\dkphobos\classes\Bootstrap.class.php:53]
+#2: process_query() called at [D:\Work\www\dkphobos\classes\Bootstrap.class.php:24]
+#3: run() called at [D:\Work\www\dkphobos\public_html\index.php:4]
+
+
+2020-08-16 01:04:53 http://95.67.115.86:80/ /:
+Site: http://dkphobos.gg
+Time: 2020-08-16 01:04:53
+Error #: 8
+Message: Undefined index: HTTP_ACCEPT_LANGUAGE
+File: D:\Work\www\dkphobos\classes\Link.class.php
+Line: 24
+User IP: 95.67.118.233
+User ID: 0
+
+Debug backtrace:
+#1: __construct() called at [D:\Work\www\dkphobos\classes\Bootstrap.class.php:53]
+#2: process_query() called at [D:\Work\www\dkphobos\classes\Bootstrap.class.php:24]
+#3: run() called at [D:\Work\www\dkphobos\public_html\index.php:4]
+
+
+2020-08-16 01:04:53 http://95.67.115.86:8080/ /:
+Site: http://dkphobos.gg
+Time: 2020-08-16 01:04:53
+Error #: 8
+Message: Undefined index: HTTP_ACCEPT_LANGUAGE
+File: D:\Work\www\dkphobos\classes\Link.class.php
+Line: 24
+User IP: 95.67.118.233
+User ID: 0
+
+Debug backtrace:
+#1: __construct() called at [D:\Work\www\dkphobos\classes\Bootstrap.class.php:53]
+#2: process_query() called at [D:\Work\www\dkphobos\classes\Bootstrap.class.php:24]
+#3: run() called at [D:\Work\www\dkphobos\public_html\index.php:4]
+
+

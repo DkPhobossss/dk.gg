@@ -1,0 +1,16 @@
+2020-08-22 14:52:29 http://95.67.115.86:8080/ /:
+Site: http://dkphobos.gg
+Time: 2020-08-22 14:52:29
+Error #: 2
+Message: mb_ereg_match(): mbregex compile err: fail to memory allocation
+File: D:\Work\www\dkphobos\classes\Bootstrap.class.php
+Line: 47
+User IP: 95.67.84.202
+User ID: 0
+
+Debug backtrace:
+#1: mb_ereg_match(^[a-z]{2}?/?ajax/json/,) called at [D:\Work\www\dkphobos\classes\Bootstrap.class.php:47]
+#2: process_query() called at [D:\Work\www\dkphobos\classes\Bootstrap.class.php:24]
+#3: run() called at [D:\Work\www\dkphobos\public_html\index.php:4]
+
+

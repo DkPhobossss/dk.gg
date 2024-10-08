@@ -1,0 +1,419 @@
+div.comment_block > div[id] 
+{
+    margin          : 12px 0;
+}
+
+div.comment_block > div[id] + div.post
+{
+    margin-top   : -6px;
+}
+
+div.comment_block > div.post + div[id]
+{
+    margin-top      : 6px;
+}
+
+div.comment_block > div.big + div.pagination
+{
+    margin-top              : 0;
+}
+    
+div.user
+{
+    width           : 150px;
+}
+
+    div.user > div.online
+    {
+        background-image    : url('/images/system/user_online.png');
+    }
+
+    div.user > div.offline
+    {
+        background-image    : url('/images/system/user_offline.png');
+    }
+
+
+    div.user > div.avatar_block
+    {
+        padding             : 15px;
+        background-color    : #000;
+        background-repeat   : no-repeat;
+        background-position : 0 15px;
+
+        -webkit-border-radius   : 6px;
+        -moz-border-radius		: 6px;
+        border-radius			: 6px;
+    }
+
+    div.user > div.stats
+    {
+        margin-top                  : 2px;
+        padding                     : 7px 15px;
+        color                       : #999;
+        background-color            : #666;
+        line-height                 : 14px;
+
+        -webkit-border-radius       : 6px;
+        -moz-border-radius          : 6px;
+        border-radius               : 6px;
+    }
+
+        div.user > div.stats > table tr + tr > *
+        {
+            padding-top             : 5px;
+        }
+
+        div.user > div.stats > table th
+        {
+            width                   : 14px;
+            line-height             : 6px;
+            padding-right           : 4px;
+        }
+
+        div.user > div.stats > table td
+        {
+            padding-left            : 2px;
+            width                   : 38px;
+            background-color        : #444;
+        }
+
+        div.user > div.stats > table td + th
+        {
+            padding-left            : 4px;
+        }
+
+    div.user > div.awards
+    {
+        background-color            : #888;
+        padding                     : 5px;
+        margin-top                  : 2px;
+        line-height                 : 0;
+        font-size                   : 0;
+
+        border-radius               : 6px;
+        -moz-border-radius          : 6px;
+        -webkit-border-radius       : 6px;
+    }
+
+        div.user > div.awards > img
+        {
+            margin                  : 3px;
+        }
+div.comment
+{
+    margin-left             : 185px;
+    min-height              : 200px;
+    background-color:       #fff;
+    padding                 : 9px;
+    position                : relative;
+
+    -webkit-border-radius   : 6px;
+    -moz-border-radius		: 6px;
+    border-radius			: 6px;
+    
+    -moz-box-shadow                 : 0px 0px 6px #aaa;
+    -webkit-box-shadow              : 0px 0px 6px #aaa;
+    box-shadow                      : 0px 0px 6px #aaa;
+    border                  : 1px solid #fff;
+}
+
+div.comment:before
+{
+    display             : block;
+    content             : '';
+    border-color        : inherit;
+    top                 : 59px;
+    left                : -27px;
+    position            : absolute;
+    width               : 0;
+    height              : 0;
+    border-top          : 20px solid transparent;
+    border-bottom       : 20px solid transparent;
+    border-right-color  : inherit;
+    border-right-style  : solid;
+    border-right-width  : 26px;
+    z-index             : 3;
+}
+
+div.comment:after
+{
+    display             : block;
+    content             : '';
+    top                 : 60px;
+    left                : -2px;
+    position            : absolute;
+    
+    width               : 6px;
+    height              : 38px;
+    -moz-box-shadow                 : -15px 3px 28px 0px #aaa;
+    -webkit-box-shadow              : -15px 3px 28px 0px #aaa;
+    box-shadow                      : -15px 3px 28px 0px #aaa;
+    z-index             : 2;
+}
+
+    div.comment > div.hovered
+    {
+        padding         : 10px;
+        margin-top      : 10px;
+        background-color    : #fff;
+    }
+
+    div.comment:hover > div.hovered
+    {
+        background-color    : #f1f3f4;
+    }
+    
+    div.comment > div.head
+    {
+        padding             : 5px;
+        background-color    : #fff;
+    }
+    
+    div.comment > div.head:not([style])
+    {
+        border-bottom       : 1px solid #d0d0d0;
+    }
+    
+    div.comment > div.head[style]
+    {
+        -webkit-border-radius   : 6px;
+        -moz-border-radius		: 6px;
+        border-radius			: 6px;
+    }
+    
+        div.comment > div.head img + a
+        {
+            color           : #3a3a3a;
+        }
+        
+        div.comment > div.head a[href] + span
+        {
+            margin-left     : 10px;
+        }
+        
+        div.comment > div.head > div.right
+        {
+            padding         : 2px 3px;
+            line-height     : 14px;
+            background-color: #000;
+            -webkit-border-radius   : 4px;
+            -moz-border-radius		: 4px;
+            border-radius			: 4px;
+        }
+        
+            div.comment > div.head > div.right img
+            {
+                cursor          : pointer;
+            }
+        
+        div.comment > div.head > a.right
+        {
+            margin-left    : 15px;
+        }
+        
+    
+    div.comment .body
+    {
+        margin              : 0 0 12px 0;
+        min-height          : 108px;
+        color               : #777;
+    }
+    
+    div.comment .bottom
+    {
+        line-height             : 22px;
+    }
+    
+    div.comment .bottom > a.button
+    {
+        margin-right        : 10px;
+    }
+    
+    div.comment .bottom > div.right
+    {
+        color               : #aaa;
+        font-weight         : bold;
+        width               : 77px;
+        text-align          : right;
+        
+        -webkit-border-radius   : 4px;
+        -moz-border-radius		: 4px;
+        border-radius			: 4px;
+        
+        padding                 : 0 4px 0 0;
+        background-color        : #555;
+    }
+    
+        div.comment .bottom > div.right > span:first-child
+        {
+            margin-right    : 4px;
+        }
+    
+        div.comment .bottom > div.right > span + span
+        {
+            vertical-align  : text-bottom;
+            background-position : 0 100%;
+        }
+
+    div.comment .bottom .positive
+    {
+        color                   : #8dc63f;
+    }
+
+    div.comment .bottom .negative
+    {
+        color                   : #ec5e00;
+    }
+    
+    div.comment .bottom span.gold_info
+    {
+        margin-right            : 4px;
+    }
+    
+        div.comment .bottom span.gold_info span.date_info
+        {
+            opacity             : 0;
+            margin-right        : 5px;
+        }
+        
+        div.comment .bottom:hover span.gold_info span.date_info
+        {
+            opacity             : 1;
+        }
+    
+        div.comment .bottom span.gold_info span.date_info + span
+        {
+            padding             : 0px 4px;
+            background-color    : #000;
+            color               : #ffdb00;
+            display             : inline-block;
+            
+            -webkit-border-radius   : 4px;
+            -moz-border-radius		: 4px;
+            border-radius			: 4px;
+        }
+        
+            div.comment .bottom span.gold_info span + span img
+            {
+                vertical-align      : text-bottom;
+            }
+    
+        div.comment .bottom span.gold_info > img
+        {
+            vertical-align      : text-top;
+        }
+
+        
+        
+div.post
+{
+    padding                     : 6px 20px;
+    background-color            : #c2c2c2;
+    margin                      : 6px -20px;
+}
+
+div.clear + div.post
+{
+    padding                     : 12px 20px;
+}
+    
+
+    div.post > div.left
+    {
+        background-color        : #000;
+        
+        -webkit-border-radius   : 6px;
+        -moz-border-radius		: 6px;
+        border-radius			: 6px;
+    }
+
+        div.post > div.left > img
+        {
+            margin                  : 15px;
+
+            -webkit-border-radius   : 6px;
+            -moz-border-radius		: 6px;
+            border-radius			: 6px;
+        }
+        
+    div.post div.comment
+    {
+        padding                     : 10px;
+    }
+    
+    div.post div.comment > form
+    {
+        padding                     : 10px;
+        background                  : #e1e9ec;
+        
+        -webkit-border-radius   : 6px;
+        -moz-border-radius		: 6px;
+        border-radius			: 6px;
+    }
+
+        div.post div.comment textarea
+        {
+            width                       : 725px;
+            max-width                   : 725px;
+            min-height                  : 150px;
+            border                      : 1px solid #96C7E2;
+            padding                     : 5px;
+            margin-bottom               : 10px;
+
+
+            -webkit-border-radius   : 6px;
+            -moz-border-radius		: 6px;
+            border-radius			: 6px;
+        }
+
+        div.post div.comment div.gray
+        {
+            margin-top                  : 15px;
+            clear                       : left;
+        }
+    
+img.close
+{
+    cursor                      : pointer;
+}
+
+
+div.comment .body  blockquote
+{
+    background-color            : rgba(215,225,232,0.5);
+    border                      : 1px solid rgba(0,0,0,0.1);
+    margin                      : 10px 0;
+    padding                     : 10px;
+    
+    -webkit-border-radius   : 6px;
+    -moz-border-radius		: 6px;
+    border-radius			: 6px;
+}
+
+    div.comment .body  blockquote div.quote_head
+    {
+        font-weight         : bold;
+    }
+
+div.comment_block div.auth_info
+{
+    line-height             : 24px;
+    margin-left             : 185px;
+    font-size               : 15px;
+}
+
+    div.comment_block div.auth_info x-publisher
+    {
+        color               : #508DD0;
+    }
+    
+
+    
+div.comment .bottom:after , div.comment_block:after
+{
+    content             : '';
+    clear               : both;
+    display             : inline-block;
+}
+

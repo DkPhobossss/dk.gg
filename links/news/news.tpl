@@ -1,0 +1,1 @@
+<?= $this->module( 'page', $this->module( 'main' , 'read/news', intval( Input::get('page' ) ) , 1 ) ) ?>

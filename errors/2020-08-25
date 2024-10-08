@@ -1,0 +1,752 @@
+2020-08-25 02:55:03 http://dkphobos.gg/js/highcharts.js.map /js/highcharts.js.map:
+Site: http://dkphobos.gg
+Time: 2020-08-25 02:55:03
+Error #: 2
+Message: mb_ereg_match(): mbregex compile err: target of repeat operator is invalid
+File: D:\Work\www\dkphobos\classes\Bootstrap.class.php
+Line: 47
+User IP: 127.0.0.1
+User ID: 1
+
+Debug backtrace:
+#1: mb_ereg_match(^[a-z]{2}?/?ajax/json/,js/highcharts.js.map) called at [D:\Work\www\dkphobos\classes\Bootstrap.class.php:47]
+#2: process_query() called at [D:\Work\www\dkphobos\classes\Bootstrap.class.php:24]
+#3: run() called at [D:\Work\www\dkphobos\public_html\index.php:4]
+
+
+2020-08-25 02:57:59 http://dkphobos.gg/en/ajax/json/learn/draft/calculate /en/ajax/json/learn/draft/calculate:
+Site: http://dkphobos.gg/en
+Time: 2020-08-25 02:57:59
+Error #: 8
+Message: Undefined index: role_id
+File: D:\Work\www\dkphobos\links\ajax\json\learn\draft\calculate\calculate.php
+Line: 27
+User IP: 127.0.0.1
+User ID: 1
+
+Debug backtrace:
+#1: include(D:\Work\www\dkphobos\links\ajax\json\learn\draft\calculate\calculate.php) called at [D:\Work\www\dkphobos\classes\Module.class.php:84]
+#2: execute() called at [D:\Work\www\dkphobos\classes\Link\JSON.class.php:81]
+#3: execute() called at [D:\Work\www\dkphobos\classes\Bootstrap.class.php:56]
+#4: process_query() called at [D:\Work\www\dkphobos\classes\Bootstrap.class.php:24]
+#5: run() called at [D:\Work\www\dkphobos\public_html\index.php:4]
+
+
+2020-08-25 02:57:59 http://dkphobos.gg/en/ajax/json/learn/draft/calculate /en/ajax/json/learn/draft/calculate:
+Site: http://dkphobos.gg/en
+Time: 2020-08-25 02:57:59
+Error #: 8
+Message: Undefined index: role_id
+File: D:\Work\www\dkphobos\links\ajax\json\learn\draft\calculate\calculate.php
+Line: 27
+User IP: 127.0.0.1
+User ID: 1
+
+Debug backtrace:
+#1: include(D:\Work\www\dkphobos\links\ajax\json\learn\draft\calculate\calculate.php) called at [D:\Work\www\dkphobos\classes\Module.class.php:84]
+#2: execute() called at [D:\Work\www\dkphobos\classes\Link\JSON.class.php:81]
+#3: execute() called at [D:\Work\www\dkphobos\classes\Bootstrap.class.php:56]
+#4: process_query() called at [D:\Work\www\dkphobos\classes\Bootstrap.class.php:24]
+#5: run() called at [D:\Work\www\dkphobos\public_html\index.php:4]
+
+
+2020-08-25 02:57:59 http://dkphobos.gg/en/ajax/json/learn/draft/calculate /en/ajax/json/learn/draft/calculate:
+Site: http://dkphobos.gg/en
+Time: 2020-08-25 02:57:59
+Error #: 8
+Message: Undefined index: role_id
+File: D:\Work\www\dkphobos\links\ajax\json\learn\draft\calculate\calculate.php
+Line: 27
+User IP: 127.0.0.1
+User ID: 1
+
+Debug backtrace:
+#1: include(D:\Work\www\dkphobos\links\ajax\json\learn\draft\calculate\calculate.php) called at [D:\Work\www\dkphobos\classes\Module.class.php:84]
+#2: execute() called at [D:\Work\www\dkphobos\classes\Link\JSON.class.php:81]
+#3: execute() called at [D:\Work\www\dkphobos\classes\Bootstrap.class.php:56]
+#4: process_query() called at [D:\Work\www\dkphobos\classes\Bootstrap.class.php:24]
+#5: run() called at [D:\Work\www\dkphobos\public_html\index.php:4]
+
+
+2020-08-25 02:57:59 http://dkphobos.gg/en/ajax/json/learn/draft/calculate /en/ajax/json/learn/draft/calculate:
+Site: http://dkphobos.gg/en
+Time: 2020-08-25 02:57:59
+Error #: 8
+Message: Undefined index: role_id
+File: D:\Work\www\dkphobos\links\ajax\json\learn\draft\calculate\calculate.php
+Line: 27
+User IP: 127.0.0.1
+User ID: 1
+
+Debug backtrace:
+#1: include(D:\Work\www\dkphobos\links\ajax\json\learn\draft\calculate\calculate.php) called at [D:\Work\www\dkphobos\classes\Module.class.php:84]
+#2: execute() called at [D:\Work\www\dkphobos\classes\Link\JSON.class.php:81]
+#3: execute() called at [D:\Work\www\dkphobos\classes\Bootstrap.class.php:56]
+#4: process_query() called at [D:\Work\www\dkphobos\classes\Bootstrap.class.php:24]
+#5: run() called at [D:\Work\www\dkphobos\public_html\index.php:4]
+
+
+2020-08-25 02:57:59 http://dkphobos.gg/en/ajax/json/learn/draft/calculate /en/ajax/json/learn/draft/calculate:
+Site: http://dkphobos.gg/en
+Time: 2020-08-25 02:57:59
+Error #: 8
+Message: Undefined index: role_id
+File: D:\Work\www\dkphobos\links\ajax\json\learn\draft\calculate\calculate.php
+Line: 27
+User IP: 127.0.0.1
+User ID: 1
+
+Debug backtrace:
+#1: include(D:\Work\www\dkphobos\links\ajax\json\learn\draft\calculate\calculate.php) called at [D:\Work\www\dkphobos\classes\Module.class.php:84]
+#2: execute() called at [D:\Work\www\dkphobos\classes\Link\JSON.class.php:81]
+#3: execute() called at [D:\Work\www\dkphobos\classes\Bootstrap.class.php:56]
+#4: process_query() called at [D:\Work\www\dkphobos\classes\Bootstrap.class.php:24]
+#5: run() called at [D:\Work\www\dkphobos\public_html\index.php:4]
+
+
+2020-08-25 02:57:59 http://dkphobos.gg/en/ajax/json/learn/draft/calculate /en/ajax/json/learn/draft/calculate:
+Site: http://dkphobos.gg/en
+Time: 2020-08-25 02:57:59
+Error #: 8
+Message: Undefined index: role_id
+File: D:\Work\www\dkphobos\links\ajax\json\learn\draft\calculate\calculate.php
+Line: 27
+User IP: 127.0.0.1
+User ID: 1
+
+Debug backtrace:
+#1: include(D:\Work\www\dkphobos\links\ajax\json\learn\draft\calculate\calculate.php) called at [D:\Work\www\dkphobos\classes\Module.class.php:84]
+#2: execute() called at [D:\Work\www\dkphobos\classes\Link\JSON.class.php:81]
+#3: execute() called at [D:\Work\www\dkphobos\classes\Bootstrap.class.php:56]
+#4: process_query() called at [D:\Work\www\dkphobos\classes\Bootstrap.class.php:24]
+#5: run() called at [D:\Work\www\dkphobos\public_html\index.php:4]
+
+
+2020-08-25 02:57:59 http://dkphobos.gg/en/ajax/json/learn/draft/calculate /en/ajax/json/learn/draft/calculate:
+Site: http://dkphobos.gg/en
+Time: 2020-08-25 02:57:59
+Error #: 8
+Message: Undefined index: role_id
+File: D:\Work\www\dkphobos\links\ajax\json\learn\draft\calculate\calculate.php
+Line: 27
+User IP: 127.0.0.1
+User ID: 1
+
+Debug backtrace:
+#1: include(D:\Work\www\dkphobos\links\ajax\json\learn\draft\calculate\calculate.php) called at [D:\Work\www\dkphobos\classes\Module.class.php:84]
+#2: execute() called at [D:\Work\www\dkphobos\classes\Link\JSON.class.php:81]
+#3: execute() called at [D:\Work\www\dkphobos\classes\Bootstrap.class.php:56]
+#4: process_query() called at [D:\Work\www\dkphobos\classes\Bootstrap.class.php:24]
+#5: run() called at [D:\Work\www\dkphobos\public_html\index.php:4]
+
+
+2020-08-25 02:57:59 http://dkphobos.gg/en/ajax/json/learn/draft/calculate /en/ajax/json/learn/draft/calculate:
+Site: http://dkphobos.gg/en
+Time: 2020-08-25 02:57:59
+Error #: 8
+Message: Undefined index: role_id
+File: D:\Work\www\dkphobos\links\ajax\json\learn\draft\calculate\calculate.php
+Line: 27
+User IP: 127.0.0.1
+User ID: 1
+
+Debug backtrace:
+#1: include(D:\Work\www\dkphobos\links\ajax\json\learn\draft\calculate\calculate.php) called at [D:\Work\www\dkphobos\classes\Module.class.php:84]
+#2: execute() called at [D:\Work\www\dkphobos\classes\Link\JSON.class.php:81]
+#3: execute() called at [D:\Work\www\dkphobos\classes\Bootstrap.class.php:56]
+#4: process_query() called at [D:\Work\www\dkphobos\classes\Bootstrap.class.php:24]
+#5: run() called at [D:\Work\www\dkphobos\public_html\index.php:4]
+
+
+2020-08-25 02:57:59 http://dkphobos.gg/en/ajax/json/learn/draft/calculate /en/ajax/json/learn/draft/calculate:
+Site: http://dkphobos.gg/en
+Time: 2020-08-25 02:57:59
+Error #: 8
+Message: Undefined index: role_id
+File: D:\Work\www\dkphobos\links\ajax\json\learn\draft\calculate\calculate.php
+Line: 27
+User IP: 127.0.0.1
+User ID: 1
+
+Debug backtrace:
+#1: include(D:\Work\www\dkphobos\links\ajax\json\learn\draft\calculate\calculate.php) called at [D:\Work\www\dkphobos\classes\Module.class.php:84]
+#2: execute() called at [D:\Work\www\dkphobos\classes\Link\JSON.class.php:81]
+#3: execute() called at [D:\Work\www\dkphobos\classes\Bootstrap.class.php:56]
+#4: process_query() called at [D:\Work\www\dkphobos\classes\Bootstrap.class.php:24]
+#5: run() called at [D:\Work\www\dkphobos\public_html\index.php:4]
+
+
+2020-08-25 02:57:59 http://dkphobos.gg/en/ajax/json/learn/draft/calculate /en/ajax/json/learn/draft/calculate:
+Site: http://dkphobos.gg/en
+Time: 2020-08-25 02:57:59
+Error #: 8
+Message: Undefined index: role_id
+File: D:\Work\www\dkphobos\links\ajax\json\learn\draft\calculate\calculate.php
+Line: 27
+User IP: 127.0.0.1
+User ID: 1
+
+Debug backtrace:
+#1: include(D:\Work\www\dkphobos\links\ajax\json\learn\draft\calculate\calculate.php) called at [D:\Work\www\dkphobos\classes\Module.class.php:84]
+#2: execute() called at [D:\Work\www\dkphobos\classes\Link\JSON.class.php:81]
+#3: execute() called at [D:\Work\www\dkphobos\classes\Bootstrap.class.php:56]
+#4: process_query() called at [D:\Work\www\dkphobos\classes\Bootstrap.class.php:24]
+#5: run() called at [D:\Work\www\dkphobos\public_html\index.php:4]
+
+
+2020-08-25 03:03:47 http://dkphobos.gg/ajax/json/learn/draft/calculate /ajax/json/learn/draft/calculate:
+Site: http://dkphobos.gg/
+Time: 2020-08-25 03:03:47
+Error #: 8
+Message: Undefined index: role_id
+File: D:\Work\www\dkphobos\links\ajax\json\learn\draft\calculate\calculate.php
+Line: 27
+User IP: 127.0.0.1
+User ID: 1
+
+Debug backtrace:
+#1: include(D:\Work\www\dkphobos\links\ajax\json\learn\draft\calculate\calculate.php) called at [D:\Work\www\dkphobos\classes\Module.class.php:84]
+#2: execute() called at [D:\Work\www\dkphobos\classes\Link\JSON.class.php:81]
+#3: execute() called at [D:\Work\www\dkphobos\classes\Bootstrap.class.php:56]
+#4: process_query() called at [D:\Work\www\dkphobos\classes\Bootstrap.class.php:24]
+#5: run() called at [D:\Work\www\dkphobos\public_html\index.php:4]
+
+
+2020-08-25 03:03:47 http://dkphobos.gg/ajax/json/learn/draft/calculate /ajax/json/learn/draft/calculate:
+Site: http://dkphobos.gg/
+Time: 2020-08-25 03:03:47
+Error #: 8
+Message: Undefined index: role_id
+File: D:\Work\www\dkphobos\links\ajax\json\learn\draft\calculate\calculate.php
+Line: 27
+User IP: 127.0.0.1
+User ID: 1
+
+Debug backtrace:
+#1: include(D:\Work\www\dkphobos\links\ajax\json\learn\draft\calculate\calculate.php) called at [D:\Work\www\dkphobos\classes\Module.class.php:84]
+#2: execute() called at [D:\Work\www\dkphobos\classes\Link\JSON.class.php:81]
+#3: execute() called at [D:\Work\www\dkphobos\classes\Bootstrap.class.php:56]
+#4: process_query() called at [D:\Work\www\dkphobos\classes\Bootstrap.class.php:24]
+#5: run() called at [D:\Work\www\dkphobos\public_html\index.php:4]
+
+
+2020-08-25 03:03:47 http://dkphobos.gg/ajax/json/learn/draft/calculate /ajax/json/learn/draft/calculate:
+Site: http://dkphobos.gg/
+Time: 2020-08-25 03:03:47
+Error #: 8
+Message: Undefined index: role_id
+File: D:\Work\www\dkphobos\links\ajax\json\learn\draft\calculate\calculate.php
+Line: 27
+User IP: 127.0.0.1
+User ID: 1
+
+Debug backtrace:
+#1: include(D:\Work\www\dkphobos\links\ajax\json\learn\draft\calculate\calculate.php) called at [D:\Work\www\dkphobos\classes\Module.class.php:84]
+#2: execute() called at [D:\Work\www\dkphobos\classes\Link\JSON.class.php:81]
+#3: execute() called at [D:\Work\www\dkphobos\classes\Bootstrap.class.php:56]
+#4: process_query() called at [D:\Work\www\dkphobos\classes\Bootstrap.class.php:24]
+#5: run() called at [D:\Work\www\dkphobos\public_html\index.php:4]
+
+
+2020-08-25 03:03:47 http://dkphobos.gg/ajax/json/learn/draft/calculate /ajax/json/learn/draft/calculate:
+Site: http://dkphobos.gg/
+Time: 2020-08-25 03:03:47
+Error #: 8
+Message: Undefined index: role_id
+File: D:\Work\www\dkphobos\links\ajax\json\learn\draft\calculate\calculate.php
+Line: 27
+User IP: 127.0.0.1
+User ID: 1
+
+Debug backtrace:
+#1: include(D:\Work\www\dkphobos\links\ajax\json\learn\draft\calculate\calculate.php) called at [D:\Work\www\dkphobos\classes\Module.class.php:84]
+#2: execute() called at [D:\Work\www\dkphobos\classes\Link\JSON.class.php:81]
+#3: execute() called at [D:\Work\www\dkphobos\classes\Bootstrap.class.php:56]
+#4: process_query() called at [D:\Work\www\dkphobos\classes\Bootstrap.class.php:24]
+#5: run() called at [D:\Work\www\dkphobos\public_html\index.php:4]
+
+
+2020-08-25 03:03:47 http://dkphobos.gg/ajax/json/learn/draft/calculate /ajax/json/learn/draft/calculate:
+Site: http://dkphobos.gg/
+Time: 2020-08-25 03:03:47
+Error #: 8
+Message: Undefined index: role_id
+File: D:\Work\www\dkphobos\links\ajax\json\learn\draft\calculate\calculate.php
+Line: 27
+User IP: 127.0.0.1
+User ID: 1
+
+Debug backtrace:
+#1: include(D:\Work\www\dkphobos\links\ajax\json\learn\draft\calculate\calculate.php) called at [D:\Work\www\dkphobos\classes\Module.class.php:84]
+#2: execute() called at [D:\Work\www\dkphobos\classes\Link\JSON.class.php:81]
+#3: execute() called at [D:\Work\www\dkphobos\classes\Bootstrap.class.php:56]
+#4: process_query() called at [D:\Work\www\dkphobos\classes\Bootstrap.class.php:24]
+#5: run() called at [D:\Work\www\dkphobos\public_html\index.php:4]
+
+
+2020-08-25 03:03:47 http://dkphobos.gg/ajax/json/learn/draft/calculate /ajax/json/learn/draft/calculate:
+Site: http://dkphobos.gg/
+Time: 2020-08-25 03:03:47
+Error #: 8
+Message: Undefined index: role_id
+File: D:\Work\www\dkphobos\links\ajax\json\learn\draft\calculate\calculate.php
+Line: 27
+User IP: 127.0.0.1
+User ID: 1
+
+Debug backtrace:
+#1: include(D:\Work\www\dkphobos\links\ajax\json\learn\draft\calculate\calculate.php) called at [D:\Work\www\dkphobos\classes\Module.class.php:84]
+#2: execute() called at [D:\Work\www\dkphobos\classes\Link\JSON.class.php:81]
+#3: execute() called at [D:\Work\www\dkphobos\classes\Bootstrap.class.php:56]
+#4: process_query() called at [D:\Work\www\dkphobos\classes\Bootstrap.class.php:24]
+#5: run() called at [D:\Work\www\dkphobos\public_html\index.php:4]
+
+
+2020-08-25 03:03:47 http://dkphobos.gg/ajax/json/learn/draft/calculate /ajax/json/learn/draft/calculate:
+Site: http://dkphobos.gg/
+Time: 2020-08-25 03:03:47
+Error #: 8
+Message: Undefined index: role_id
+File: D:\Work\www\dkphobos\links\ajax\json\learn\draft\calculate\calculate.php
+Line: 27
+User IP: 127.0.0.1
+User ID: 1
+
+Debug backtrace:
+#1: include(D:\Work\www\dkphobos\links\ajax\json\learn\draft\calculate\calculate.php) called at [D:\Work\www\dkphobos\classes\Module.class.php:84]
+#2: execute() called at [D:\Work\www\dkphobos\classes\Link\JSON.class.php:81]
+#3: execute() called at [D:\Work\www\dkphobos\classes\Bootstrap.class.php:56]
+#4: process_query() called at [D:\Work\www\dkphobos\classes\Bootstrap.class.php:24]
+#5: run() called at [D:\Work\www\dkphobos\public_html\index.php:4]
+
+
+2020-08-25 03:03:47 http://dkphobos.gg/ajax/json/learn/draft/calculate /ajax/json/learn/draft/calculate:
+Site: http://dkphobos.gg/
+Time: 2020-08-25 03:03:47
+Error #: 8
+Message: Undefined index: role_id
+File: D:\Work\www\dkphobos\links\ajax\json\learn\draft\calculate\calculate.php
+Line: 27
+User IP: 127.0.0.1
+User ID: 1
+
+Debug backtrace:
+#1: include(D:\Work\www\dkphobos\links\ajax\json\learn\draft\calculate\calculate.php) called at [D:\Work\www\dkphobos\classes\Module.class.php:84]
+#2: execute() called at [D:\Work\www\dkphobos\classes\Link\JSON.class.php:81]
+#3: execute() called at [D:\Work\www\dkphobos\classes\Bootstrap.class.php:56]
+#4: process_query() called at [D:\Work\www\dkphobos\classes\Bootstrap.class.php:24]
+#5: run() called at [D:\Work\www\dkphobos\public_html\index.php:4]
+
+
+2020-08-25 03:03:47 http://dkphobos.gg/ajax/json/learn/draft/calculate /ajax/json/learn/draft/calculate:
+Site: http://dkphobos.gg/
+Time: 2020-08-25 03:03:47
+Error #: 8
+Message: Undefined index: role_id
+File: D:\Work\www\dkphobos\links\ajax\json\learn\draft\calculate\calculate.php
+Line: 27
+User IP: 127.0.0.1
+User ID: 1
+
+Debug backtrace:
+#1: include(D:\Work\www\dkphobos\links\ajax\json\learn\draft\calculate\calculate.php) called at [D:\Work\www\dkphobos\classes\Module.class.php:84]
+#2: execute() called at [D:\Work\www\dkphobos\classes\Link\JSON.class.php:81]
+#3: execute() called at [D:\Work\www\dkphobos\classes\Bootstrap.class.php:56]
+#4: process_query() called at [D:\Work\www\dkphobos\classes\Bootstrap.class.php:24]
+#5: run() called at [D:\Work\www\dkphobos\public_html\index.php:4]
+
+
+2020-08-25 03:03:47 http://dkphobos.gg/ajax/json/learn/draft/calculate /ajax/json/learn/draft/calculate:
+Site: http://dkphobos.gg/
+Time: 2020-08-25 03:03:47
+Error #: 8
+Message: Undefined index: role_id
+File: D:\Work\www\dkphobos\links\ajax\json\learn\draft\calculate\calculate.php
+Line: 27
+User IP: 127.0.0.1
+User ID: 1
+
+Debug backtrace:
+#1: include(D:\Work\www\dkphobos\links\ajax\json\learn\draft\calculate\calculate.php) called at [D:\Work\www\dkphobos\classes\Module.class.php:84]
+#2: execute() called at [D:\Work\www\dkphobos\classes\Link\JSON.class.php:81]
+#3: execute() called at [D:\Work\www\dkphobos\classes\Bootstrap.class.php:56]
+#4: process_query() called at [D:\Work\www\dkphobos\classes\Bootstrap.class.php:24]
+#5: run() called at [D:\Work\www\dkphobos\public_html\index.php:4]
+
+
+2020-08-25 03:13:20 http://dkphobos.gg/ajax/json/learn/draft/calculate /ajax/json/learn/draft/calculate:
+Site: http://dkphobos.gg/
+Time: 2020-08-25 03:13:20
+Error #: 8
+Message: Undefined index: role_id
+File: D:\Work\www\dkphobos\links\ajax\json\learn\draft\calculate\calculate.php
+Line: 27
+User IP: 127.0.0.1
+User ID: 1
+
+Debug backtrace:
+#1: include(D:\Work\www\dkphobos\links\ajax\json\learn\draft\calculate\calculate.php) called at [D:\Work\www\dkphobos\classes\Module.class.php:84]
+#2: execute() called at [D:\Work\www\dkphobos\classes\Link\JSON.class.php:81]
+#3: execute() called at [D:\Work\www\dkphobos\classes\Bootstrap.class.php:56]
+#4: process_query() called at [D:\Work\www\dkphobos\classes\Bootstrap.class.php:24]
+#5: run() called at [D:\Work\www\dkphobos\public_html\index.php:4]
+
+
+2020-08-25 03:13:20 http://dkphobos.gg/ajax/json/learn/draft/calculate /ajax/json/learn/draft/calculate:
+Site: http://dkphobos.gg/
+Time: 2020-08-25 03:13:20
+Error #: 8
+Message: Undefined index: role_id
+File: D:\Work\www\dkphobos\links\ajax\json\learn\draft\calculate\calculate.php
+Line: 27
+User IP: 127.0.0.1
+User ID: 1
+
+Debug backtrace:
+#1: include(D:\Work\www\dkphobos\links\ajax\json\learn\draft\calculate\calculate.php) called at [D:\Work\www\dkphobos\classes\Module.class.php:84]
+#2: execute() called at [D:\Work\www\dkphobos\classes\Link\JSON.class.php:81]
+#3: execute() called at [D:\Work\www\dkphobos\classes\Bootstrap.class.php:56]
+#4: process_query() called at [D:\Work\www\dkphobos\classes\Bootstrap.class.php:24]
+#5: run() called at [D:\Work\www\dkphobos\public_html\index.php:4]
+
+
+2020-08-25 03:13:20 http://dkphobos.gg/ajax/json/learn/draft/calculate /ajax/json/learn/draft/calculate:
+Site: http://dkphobos.gg/
+Time: 2020-08-25 03:13:20
+Error #: 8
+Message: Undefined index: role_id
+File: D:\Work\www\dkphobos\links\ajax\json\learn\draft\calculate\calculate.php
+Line: 27
+User IP: 127.0.0.1
+User ID: 1
+
+Debug backtrace:
+#1: include(D:\Work\www\dkphobos\links\ajax\json\learn\draft\calculate\calculate.php) called at [D:\Work\www\dkphobos\classes\Module.class.php:84]
+#2: execute() called at [D:\Work\www\dkphobos\classes\Link\JSON.class.php:81]
+#3: execute() called at [D:\Work\www\dkphobos\classes\Bootstrap.class.php:56]
+#4: process_query() called at [D:\Work\www\dkphobos\classes\Bootstrap.class.php:24]
+#5: run() called at [D:\Work\www\dkphobos\public_html\index.php:4]
+
+
+2020-08-25 03:13:20 http://dkphobos.gg/ajax/json/learn/draft/calculate /ajax/json/learn/draft/calculate:
+Site: http://dkphobos.gg/
+Time: 2020-08-25 03:13:20
+Error #: 8
+Message: Undefined index: role_id
+File: D:\Work\www\dkphobos\links\ajax\json\learn\draft\calculate\calculate.php
+Line: 27
+User IP: 127.0.0.1
+User ID: 1
+
+Debug backtrace:
+#1: include(D:\Work\www\dkphobos\links\ajax\json\learn\draft\calculate\calculate.php) called at [D:\Work\www\dkphobos\classes\Module.class.php:84]
+#2: execute() called at [D:\Work\www\dkphobos\classes\Link\JSON.class.php:81]
+#3: execute() called at [D:\Work\www\dkphobos\classes\Bootstrap.class.php:56]
+#4: process_query() called at [D:\Work\www\dkphobos\classes\Bootstrap.class.php:24]
+#5: run() called at [D:\Work\www\dkphobos\public_html\index.php:4]
+
+
+2020-08-25 03:13:20 http://dkphobos.gg/ajax/json/learn/draft/calculate /ajax/json/learn/draft/calculate:
+Site: http://dkphobos.gg/
+Time: 2020-08-25 03:13:20
+Error #: 8
+Message: Undefined index: role_id
+File: D:\Work\www\dkphobos\links\ajax\json\learn\draft\calculate\calculate.php
+Line: 27
+User IP: 127.0.0.1
+User ID: 1
+
+Debug backtrace:
+#1: include(D:\Work\www\dkphobos\links\ajax\json\learn\draft\calculate\calculate.php) called at [D:\Work\www\dkphobos\classes\Module.class.php:84]
+#2: execute() called at [D:\Work\www\dkphobos\classes\Link\JSON.class.php:81]
+#3: execute() called at [D:\Work\www\dkphobos\classes\Bootstrap.class.php:56]
+#4: process_query() called at [D:\Work\www\dkphobos\classes\Bootstrap.class.php:24]
+#5: run() called at [D:\Work\www\dkphobos\public_html\index.php:4]
+
+
+2020-08-25 03:13:20 http://dkphobos.gg/ajax/json/learn/draft/calculate /ajax/json/learn/draft/calculate:
+Site: http://dkphobos.gg/
+Time: 2020-08-25 03:13:20
+Error #: 8
+Message: Undefined index: role_id
+File: D:\Work\www\dkphobos\links\ajax\json\learn\draft\calculate\calculate.php
+Line: 27
+User IP: 127.0.0.1
+User ID: 1
+
+Debug backtrace:
+#1: include(D:\Work\www\dkphobos\links\ajax\json\learn\draft\calculate\calculate.php) called at [D:\Work\www\dkphobos\classes\Module.class.php:84]
+#2: execute() called at [D:\Work\www\dkphobos\classes\Link\JSON.class.php:81]
+#3: execute() called at [D:\Work\www\dkphobos\classes\Bootstrap.class.php:56]
+#4: process_query() called at [D:\Work\www\dkphobos\classes\Bootstrap.class.php:24]
+#5: run() called at [D:\Work\www\dkphobos\public_html\index.php:4]
+
+
+2020-08-25 03:13:20 http://dkphobos.gg/ajax/json/learn/draft/calculate /ajax/json/learn/draft/calculate:
+Site: http://dkphobos.gg/
+Time: 2020-08-25 03:13:20
+Error #: 8
+Message: Undefined index: role_id
+File: D:\Work\www\dkphobos\links\ajax\json\learn\draft\calculate\calculate.php
+Line: 27
+User IP: 127.0.0.1
+User ID: 1
+
+Debug backtrace:
+#1: include(D:\Work\www\dkphobos\links\ajax\json\learn\draft\calculate\calculate.php) called at [D:\Work\www\dkphobos\classes\Module.class.php:84]
+#2: execute() called at [D:\Work\www\dkphobos\classes\Link\JSON.class.php:81]
+#3: execute() called at [D:\Work\www\dkphobos\classes\Bootstrap.class.php:56]
+#4: process_query() called at [D:\Work\www\dkphobos\classes\Bootstrap.class.php:24]
+#5: run() called at [D:\Work\www\dkphobos\public_html\index.php:4]
+
+
+2020-08-25 03:13:20 http://dkphobos.gg/ajax/json/learn/draft/calculate /ajax/json/learn/draft/calculate:
+Site: http://dkphobos.gg/
+Time: 2020-08-25 03:13:20
+Error #: 8
+Message: Undefined index: role_id
+File: D:\Work\www\dkphobos\links\ajax\json\learn\draft\calculate\calculate.php
+Line: 27
+User IP: 127.0.0.1
+User ID: 1
+
+Debug backtrace:
+#1: include(D:\Work\www\dkphobos\links\ajax\json\learn\draft\calculate\calculate.php) called at [D:\Work\www\dkphobos\classes\Module.class.php:84]
+#2: execute() called at [D:\Work\www\dkphobos\classes\Link\JSON.class.php:81]
+#3: execute() called at [D:\Work\www\dkphobos\classes\Bootstrap.class.php:56]
+#4: process_query() called at [D:\Work\www\dkphobos\classes\Bootstrap.class.php:24]
+#5: run() called at [D:\Work\www\dkphobos\public_html\index.php:4]
+
+
+2020-08-25 03:13:20 http://dkphobos.gg/ajax/json/learn/draft/calculate /ajax/json/learn/draft/calculate:
+Site: http://dkphobos.gg/
+Time: 2020-08-25 03:13:20
+Error #: 8
+Message: Undefined index: role_id
+File: D:\Work\www\dkphobos\links\ajax\json\learn\draft\calculate\calculate.php
+Line: 27
+User IP: 127.0.0.1
+User ID: 1
+
+Debug backtrace:
+#1: include(D:\Work\www\dkphobos\links\ajax\json\learn\draft\calculate\calculate.php) called at [D:\Work\www\dkphobos\classes\Module.class.php:84]
+#2: execute() called at [D:\Work\www\dkphobos\classes\Link\JSON.class.php:81]
+#3: execute() called at [D:\Work\www\dkphobos\classes\Bootstrap.class.php:56]
+#4: process_query() called at [D:\Work\www\dkphobos\classes\Bootstrap.class.php:24]
+#5: run() called at [D:\Work\www\dkphobos\public_html\index.php:4]
+
+
+2020-08-25 03:13:20 http://dkphobos.gg/ajax/json/learn/draft/calculate /ajax/json/learn/draft/calculate:
+Site: http://dkphobos.gg/
+Time: 2020-08-25 03:13:20
+Error #: 8
+Message: Undefined index: role_id
+File: D:\Work\www\dkphobos\links\ajax\json\learn\draft\calculate\calculate.php
+Line: 27
+User IP: 127.0.0.1
+User ID: 1
+
+Debug backtrace:
+#1: include(D:\Work\www\dkphobos\links\ajax\json\learn\draft\calculate\calculate.php) called at [D:\Work\www\dkphobos\classes\Module.class.php:84]
+#2: execute() called at [D:\Work\www\dkphobos\classes\Link\JSON.class.php:81]
+#3: execute() called at [D:\Work\www\dkphobos\classes\Bootstrap.class.php:56]
+#4: process_query() called at [D:\Work\www\dkphobos\classes\Bootstrap.class.php:24]
+#5: run() called at [D:\Work\www\dkphobos\public_html\index.php:4]
+
+
+2020-08-25 14:03:18 http://dkphobos.gg/ajax/json/learn/draft/calculate /ajax/json/learn/draft/calculate:
+Site: http://dkphobos.gg/
+Time: 2020-08-25 14:03:18
+Error #: 8
+Message: Undefined index: role_id
+File: D:\Work\www\dkphobos\links\ajax\json\learn\draft\calculate\calculate.php
+Line: 27
+User IP: 127.0.0.1
+User ID: 1
+
+Debug backtrace:
+#1: include(D:\Work\www\dkphobos\links\ajax\json\learn\draft\calculate\calculate.php) called at [D:\Work\www\dkphobos\classes\Module.class.php:84]
+#2: execute() called at [D:\Work\www\dkphobos\classes\Link\JSON.class.php:81]
+#3: execute() called at [D:\Work\www\dkphobos\classes\Bootstrap.class.php:56]
+#4: process_query() called at [D:\Work\www\dkphobos\classes\Bootstrap.class.php:24]
+#5: run() called at [D:\Work\www\dkphobos\public_html\index.php:4]
+
+
+2020-08-25 14:03:18 http://dkphobos.gg/ajax/json/learn/draft/calculate /ajax/json/learn/draft/calculate:
+Site: http://dkphobos.gg/
+Time: 2020-08-25 14:03:18
+Error #: 8
+Message: Undefined index: role_id
+File: D:\Work\www\dkphobos\links\ajax\json\learn\draft\calculate\calculate.php
+Line: 27
+User IP: 127.0.0.1
+User ID: 1
+
+Debug backtrace:
+#1: include(D:\Work\www\dkphobos\links\ajax\json\learn\draft\calculate\calculate.php) called at [D:\Work\www\dkphobos\classes\Module.class.php:84]
+#2: execute() called at [D:\Work\www\dkphobos\classes\Link\JSON.class.php:81]
+#3: execute() called at [D:\Work\www\dkphobos\classes\Bootstrap.class.php:56]
+#4: process_query() called at [D:\Work\www\dkphobos\classes\Bootstrap.class.php:24]
+#5: run() called at [D:\Work\www\dkphobos\public_html\index.php:4]
+
+
+2020-08-25 14:03:18 http://dkphobos.gg/ajax/json/learn/draft/calculate /ajax/json/learn/draft/calculate:
+Site: http://dkphobos.gg/
+Time: 2020-08-25 14:03:18
+Error #: 8
+Message: Undefined index: role_id
+File: D:\Work\www\dkphobos\links\ajax\json\learn\draft\calculate\calculate.php
+Line: 27
+User IP: 127.0.0.1
+User ID: 1
+
+Debug backtrace:
+#1: include(D:\Work\www\dkphobos\links\ajax\json\learn\draft\calculate\calculate.php) called at [D:\Work\www\dkphobos\classes\Module.class.php:84]
+#2: execute() called at [D:\Work\www\dkphobos\classes\Link\JSON.class.php:81]
+#3: execute() called at [D:\Work\www\dkphobos\classes\Bootstrap.class.php:56]
+#4: process_query() called at [D:\Work\www\dkphobos\classes\Bootstrap.class.php:24]
+#5: run() called at [D:\Work\www\dkphobos\public_html\index.php:4]
+
+
+2020-08-25 14:03:18 http://dkphobos.gg/ajax/json/learn/draft/calculate /ajax/json/learn/draft/calculate:
+Site: http://dkphobos.gg/
+Time: 2020-08-25 14:03:18
+Error #: 8
+Message: Undefined index: role_id
+File: D:\Work\www\dkphobos\links\ajax\json\learn\draft\calculate\calculate.php
+Line: 27
+User IP: 127.0.0.1
+User ID: 1
+
+Debug backtrace:
+#1: include(D:\Work\www\dkphobos\links\ajax\json\learn\draft\calculate\calculate.php) called at [D:\Work\www\dkphobos\classes\Module.class.php:84]
+#2: execute() called at [D:\Work\www\dkphobos\classes\Link\JSON.class.php:81]
+#3: execute() called at [D:\Work\www\dkphobos\classes\Bootstrap.class.php:56]
+#4: process_query() called at [D:\Work\www\dkphobos\classes\Bootstrap.class.php:24]
+#5: run() called at [D:\Work\www\dkphobos\public_html\index.php:4]
+
+
+2020-08-25 14:03:18 http://dkphobos.gg/ajax/json/learn/draft/calculate /ajax/json/learn/draft/calculate:
+Site: http://dkphobos.gg/
+Time: 2020-08-25 14:03:18
+Error #: 8
+Message: Undefined index: role_id
+File: D:\Work\www\dkphobos\links\ajax\json\learn\draft\calculate\calculate.php
+Line: 27
+User IP: 127.0.0.1
+User ID: 1
+
+Debug backtrace:
+#1: include(D:\Work\www\dkphobos\links\ajax\json\learn\draft\calculate\calculate.php) called at [D:\Work\www\dkphobos\classes\Module.class.php:84]
+#2: execute() called at [D:\Work\www\dkphobos\classes\Link\JSON.class.php:81]
+#3: execute() called at [D:\Work\www\dkphobos\classes\Bootstrap.class.php:56]
+#4: process_query() called at [D:\Work\www\dkphobos\classes\Bootstrap.class.php:24]
+#5: run() called at [D:\Work\www\dkphobos\public_html\index.php:4]
+
+
+2020-08-25 14:03:18 http://dkphobos.gg/ajax/json/learn/draft/calculate /ajax/json/learn/draft/calculate:
+Site: http://dkphobos.gg/
+Time: 2020-08-25 14:03:18
+Error #: 8
+Message: Undefined index: role_id
+File: D:\Work\www\dkphobos\links\ajax\json\learn\draft\calculate\calculate.php
+Line: 27
+User IP: 127.0.0.1
+User ID: 1
+
+Debug backtrace:
+#1: include(D:\Work\www\dkphobos\links\ajax\json\learn\draft\calculate\calculate.php) called at [D:\Work\www\dkphobos\classes\Module.class.php:84]
+#2: execute() called at [D:\Work\www\dkphobos\classes\Link\JSON.class.php:81]
+#3: execute() called at [D:\Work\www\dkphobos\classes\Bootstrap.class.php:56]
+#4: process_query() called at [D:\Work\www\dkphobos\classes\Bootstrap.class.php:24]
+#5: run() called at [D:\Work\www\dkphobos\public_html\index.php:4]
+
+
+2020-08-25 14:03:18 http://dkphobos.gg/ajax/json/learn/draft/calculate /ajax/json/learn/draft/calculate:
+Site: http://dkphobos.gg/
+Time: 2020-08-25 14:03:18
+Error #: 8
+Message: Undefined index: role_id
+File: D:\Work\www\dkphobos\links\ajax\json\learn\draft\calculate\calculate.php
+Line: 27
+User IP: 127.0.0.1
+User ID: 1
+
+Debug backtrace:
+#1: include(D:\Work\www\dkphobos\links\ajax\json\learn\draft\calculate\calculate.php) called at [D:\Work\www\dkphobos\classes\Module.class.php:84]
+#2: execute() called at [D:\Work\www\dkphobos\classes\Link\JSON.class.php:81]
+#3: execute() called at [D:\Work\www\dkphobos\classes\Bootstrap.class.php:56]
+#4: process_query() called at [D:\Work\www\dkphobos\classes\Bootstrap.class.php:24]
+#5: run() called at [D:\Work\www\dkphobos\public_html\index.php:4]
+
+
+2020-08-25 14:03:18 http://dkphobos.gg/ajax/json/learn/draft/calculate /ajax/json/learn/draft/calculate:
+Site: http://dkphobos.gg/
+Time: 2020-08-25 14:03:18
+Error #: 8
+Message: Undefined index: role_id
+File: D:\Work\www\dkphobos\links\ajax\json\learn\draft\calculate\calculate.php
+Line: 27
+User IP: 127.0.0.1
+User ID: 1
+
+Debug backtrace:
+#1: include(D:\Work\www\dkphobos\links\ajax\json\learn\draft\calculate\calculate.php) called at [D:\Work\www\dkphobos\classes\Module.class.php:84]
+#2: execute() called at [D:\Work\www\dkphobos\classes\Link\JSON.class.php:81]
+#3: execute() called at [D:\Work\www\dkphobos\classes\Bootstrap.class.php:56]
+#4: process_query() called at [D:\Work\www\dkphobos\classes\Bootstrap.class.php:24]
+#5: run() called at [D:\Work\www\dkphobos\public_html\index.php:4]
+
+
+2020-08-25 14:03:18 http://dkphobos.gg/ajax/json/learn/draft/calculate /ajax/json/learn/draft/calculate:
+Site: http://dkphobos.gg/
+Time: 2020-08-25 14:03:18
+Error #: 8
+Message: Undefined index: role_id
+File: D:\Work\www\dkphobos\links\ajax\json\learn\draft\calculate\calculate.php
+Line: 27
+User IP: 127.0.0.1
+User ID: 1
+
+Debug backtrace:
+#1: include(D:\Work\www\dkphobos\links\ajax\json\learn\draft\calculate\calculate.php) called at [D:\Work\www\dkphobos\classes\Module.class.php:84]
+#2: execute() called at [D:\Work\www\dkphobos\classes\Link\JSON.class.php:81]
+#3: execute() called at [D:\Work\www\dkphobos\classes\Bootstrap.class.php:56]
+#4: process_query() called at [D:\Work\www\dkphobos\classes\Bootstrap.class.php:24]
+#5: run() called at [D:\Work\www\dkphobos\public_html\index.php:4]
+
+
+2020-08-25 14:03:18 http://dkphobos.gg/ajax/json/learn/draft/calculate /ajax/json/learn/draft/calculate:
+Site: http://dkphobos.gg/
+Time: 2020-08-25 14:03:18
+Error #: 8
+Message: Undefined index: role_id
+File: D:\Work\www\dkphobos\links\ajax\json\learn\draft\calculate\calculate.php
+Line: 27
+User IP: 127.0.0.1
+User ID: 1
+
+Debug backtrace:
+#1: include(D:\Work\www\dkphobos\links\ajax\json\learn\draft\calculate\calculate.php) called at [D:\Work\www\dkphobos\classes\Module.class.php:84]
+#2: execute() called at [D:\Work\www\dkphobos\classes\Link\JSON.class.php:81]
+#3: execute() called at [D:\Work\www\dkphobos\classes\Bootstrap.class.php:56]
+#4: process_query() called at [D:\Work\www\dkphobos\classes\Bootstrap.class.php:24]
+#5: run() called at [D:\Work\www\dkphobos\public_html\index.php:4]
+
+
+2020-08-25 14:07:02 http://95.67.115.86:80/ /:
+Site: http://dkphobos.gg
+Time: 2020-08-25 14:07:02
+Error #: 2
+Message: mb_ereg_match(): mbregex compile err: target of repeat operator is invalid
+File: D:\Work\www\dkphobos\classes\Bootstrap.class.php
+Line: 47
+User IP: 95.67.90.200
+User ID: 0
+
+Debug backtrace:
+#1: mb_ereg_match(^[a-z]{2}?/?ajax/json/,) called at [D:\Work\www\dkphobos\classes\Bootstrap.class.php:47]
+#2: process_query() called at [D:\Work\www\dkphobos\classes\Bootstrap.class.php:24]
+#3: run() called at [D:\Work\www\dkphobos\public_html\index.php:4]
+
+

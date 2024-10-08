@@ -1,0 +1,67 @@
+2020-08-21 14:34:53 http://95.67.115.86:8080/ /:
+Site: http://dkphobos.gg
+Time: 2020-08-21 14:34:53
+Error #: 2
+Message: mb_ereg_match(): mbregex compile err: undefined type (bug)
+File: D:\Work\www\dkphobos\classes\Bootstrap.class.php
+Line: 47
+User IP: 95.67.223.81
+User ID: 0
+
+Debug backtrace:
+#1: mb_ereg_match(^[a-z]{2}?/?ajax/json/,) called at [D:\Work\www\dkphobos\classes\Bootstrap.class.php:47]
+#2: process_query() called at [D:\Work\www\dkphobos\classes\Bootstrap.class.php:24]
+#3: run() called at [D:\Work\www\dkphobos\public_html\index.php:4]
+
+
+\index.php:4]
+
+
+2020-08-21 19:07:26 http://95.67.115.86:8080/ /:
+Site: http://dkphobos.gg
+Time: 2020-08-21 19:07:26
+Error #: 2
+Message: mb_ereg_match(): mbregex compile err: undefined type (bug)
+File: D:\Work\www\dkphobos\classes\Bootstrap.class.php
+Line: 47
+User IP: 95.67.171.85
+User ID: 0
+
+Debug backtrace:
+#1: mb_ereg_match(^[a-z]{2}?/?ajax/json/,) called at [D:\Work\www\dkphobos\classes\Bootstrap.class.php:47]
+#2: process_query() called at [D:\Work\www\dkphobos\classes\Bootstrap.class.php:24]
+#3: run() called at [D:\Work\www\dkphobos\public_html\index.php:4]
+
+
+2020-08-21 19:07:26 http://95.67.115.86:80/ /:
+Site: http://dkphobos.gg
+Time: 2020-08-21 19:07:26
+Error #: 2
+Message: mb_ereg_match(): mbregex compile err: undefined type (bug)
+File: D:\Work\www\dkphobos\classes\Bootstrap.class.php
+Line: 47
+User IP: 95.67.171.85
+User ID: 0
+
+Debug backtrace:
+#1: mb_ereg_match(^[a-z]{2}?/?ajax/json/,) called at [D:\Work\www\dkphobos\classes\Bootstrap.class.php:47]
+#2: process_query() called at [D:\Work\www\dkphobos\classes\Bootstrap.class.php:24]
+#3: run() called at [D:\Work\www\dkphobos\public_html\index.php:4]
+
+
+2020-08-21 20:22:58 http://95.67.115.86:80/ /:
+Site: http://dkphobos.gg
+Time: 2020-08-21 20:22:58
+Error #: 2
+Message: mb_ereg_match(): mbregex compile err: undefined type (bug)
+File: D:\Work\www\dkphobos\classes\Bootstrap.class.php
+Line: 47
+User IP: 95.67.223.81
+User ID: 0
+
+Debug backtrace:
+#1: mb_ereg_match(^[a-z]{2}?/?ajax/json/,) called at [D:\Work\www\dkphobos\classes\Bootstrap.class.php:47]
+#2: process_query() called at [D:\Work\www\dkphobos\classes\Bootstrap.class.php:24]
+#3: run() called at [D:\Work\www\dkphobos\public_html\index.php:4]
+
+

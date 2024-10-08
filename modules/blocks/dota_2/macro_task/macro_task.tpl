@@ -1,0 +1,60 @@
+<script type="text/javascript">
+    $(document).ready(function() {
+        $('#update').click(function() {
+            f.ajax({
+                type: 'post',
+                url: 'ajax/json/blocks/dota_2/macro_task'
+            },
+            $('#update'),
+            function( response ){
+                $('#refresh > tbody').html( response.data.html );
+                $('#refresh').trigger("update");
+            });
+        });
+    });
+</script>
+
+<table class="counter sortable" id="refresh">
+    <thead style="font-size:12px;">
+    <tr>
+        <th width="180">
+            <?=__('Hero') ?>
+        </th>
+
+        <th width="80">
+            <?=__('Role') ?>
+        </th>
+
+        <? foreach ( $this->macrotasks as $row ) : ?>
+            <th width="7.25%">
+                <?= $row['text'] ?>
+            </th>
+        <? endforeach;?>
+    </tr>
+    </thead>
+    <tbody>
+    <? foreach ( $this->data as $row ) : ?>
+        <tr>
+            <td>
+                <a target="_blank" href="learn/heroes/<?= $row['url'] ?>?role=<?= $row['role'] ?>"><?= \DOTA_2\Hero::icon_html( $row['name'] , $row['url'])?>
+                    <? if ( !is_null( $row['type'] ) ) : ?>
+                        <span class="role_name" type="<?= $row['type']?>"><?= $row['name'] ?></span>
+                    <? else: ?>
+                        <span class="role_name"><?= $row['name'] ?></span>
+                    <? endif; ?>
+                </a>
+            </td>
+
+            <th data-text="<?= $row['role'] ?>">
+                <img src="<?= Config::$static_url ?>images/dota_2/role_<?= $row['role'] ?>.png" alt="<?= $this->roles_description[ $row['role'] ][ 'name' ] ?>" title="<?= $this->roles_description[ $row['role'] ][ 'name' ] ?>">
+            </th>
+
+            <? foreach ( $this->macrotasks as $macrotask => $macrotask_data ) : ?>
+                <th data-text="<?= $row[ $macrotask ] ?>>">
+                    <?= DB\DOTA_2\Heroes_macrotask::description_from_value( $row[ $macrotask ] , true ) ?>
+                </th>
+            <? endforeach;?>
+        </tr>
+    <? endforeach;?>
+    </tbody>
+</table>

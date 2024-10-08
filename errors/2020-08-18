@@ -1,0 +1,854 @@
+2020-08-18 18:31:30 http://95.67.115.86:30468/status /status:
+Site: http://dkphobos.gg
+Time: 2020-08-18 18:31:30
+Error #: 2
+Message: mb_ereg_match(): mbregex compile err: undefined type (bug)
+File: D:\Work\www\dkphobos\classes\Bootstrap.class.php
+Line: 47
+User IP: 37.252.95.33
+User ID: 0
+
+Debug backtrace:
+#1: mb_ereg_match(^[a-z]{2}?/?ajax/json/,status) called at [D:\Work\www\dkphobos\classes\Bootstrap.class.php:47]
+#2: process_query() called at [D:\Work\www\dkphobos\classes\Bootstrap.class.php:24]
+#3: run() called at [D:\Work\www\dkphobos\public_html\index.php:4]
+
+
+2020-08-18 18:32:44 http://95.67.115.86:30712/status /status:
+Site: http://dkphobos.gg
+Time: 2020-08-18 18:32:44
+Error #: 2
+Message: mb_ereg_match(): mbregex compile err: undefined type (bug)
+File: D:\Work\www\dkphobos\classes\Bootstrap.class.php
+Line: 47
+User IP: 37.252.95.33
+User ID: 0
+
+Debug backtrace:
+#1: mb_ereg_match(^[a-z]{2}?/?ajax/json/,status) called at [D:\Work\www\dkphobos\classes\Bootstrap.class.php:47]
+#2: process_query() called at [D:\Work\www\dkphobos\classes\Bootstrap.class.php:24]
+#3: run() called at [D:\Work\www\dkphobos\public_html\index.php:4]
+
+
+2020-08-18 18:32:50 http://95.67.115.86:32435/status /status:
+Site: http://dkphobos.gg
+Time: 2020-08-18 18:32:50
+Error #: 2
+Message: mb_ereg_match(): mbregex compile err: undefined type (bug)
+File: D:\Work\www\dkphobos\classes\Bootstrap.class.php
+Line: 47
+User IP: 37.252.95.33
+User ID: 0
+
+Debug backtrace:
+#1: mb_ereg_match(^[a-z]{2}?/?ajax/json/,status) called at [D:\Work\www\dkphobos\classes\Bootstrap.class.php:47]
+#2: process_query() called at [D:\Work\www\dkphobos\classes\Bootstrap.class.php:24]
+#3: run() called at [D:\Work\www\dkphobos\public_html\index.php:4]
+
+
+2020-08-18 18:32:50 http://95.67.115.86:32434/status /status:
+Site: http://dkphobos.gg
+Time: 2020-08-18 18:32:50
+Error #: 2
+Message: mb_ereg_match(): mbregex compile err: undefined type (bug)
+File: D:\Work\www\dkphobos\classes\Bootstrap.class.php
+Line: 47
+User IP: 37.252.95.33
+User ID: 0
+
+Debug backtrace:
+#1: mb_ereg_match(^[a-z]{2}?/?ajax/json/,status) called at [D:\Work\www\dkphobos\classes\Bootstrap.class.php:47]
+#2: process_query() called at [D:\Work\www\dkphobos\classes\Bootstrap.class.php:24]
+#3: run() called at [D:\Work\www\dkphobos\public_html\index.php:4]
+
+
+2020-08-18 18:32:56 http://95.67.115.86:30790/status /status:
+Site: http://dkphobos.gg
+Time: 2020-08-18 18:32:56
+Error #: 2
+Message: mb_ereg_match(): mbregex compile err: undefined type (bug)
+File: D:\Work\www\dkphobos\classes\Bootstrap.class.php
+Line: 47
+User IP: 37.252.95.33
+User ID: 0
+
+Debug backtrace:
+#1: mb_ereg_match(^[a-z]{2}?/?ajax/json/,status) called at [D:\Work\www\dkphobos\classes\Bootstrap.class.php:47]
+#2: process_query() called at [D:\Work\www\dkphobos\classes\Bootstrap.class.php:24]
+#3: run() called at [D:\Work\www\dkphobos\public_html\index.php:4]
+
+
+2020-08-18 18:32:56 http://95.67.115.86:31300/status /status:
+Site: http://dkphobos.gg
+Time: 2020-08-18 18:32:56
+Error #: 2
+Message: mb_ereg_match(): mbregex compile err: undefined type (bug)
+File: D:\Work\www\dkphobos\classes\Bootstrap.class.php
+Line: 47
+User IP: 37.252.95.33
+User ID: 0
+
+Debug backtrace:
+#1: mb_ereg_match(^[a-z]{2}?/?ajax/json/,status) called at [D:\Work\www\dkphobos\classes\Bootstrap.class.php:47]
+#2: process_query() called at [D:\Work\www\dkphobos\classes\Bootstrap.class.php:24]
+#3: run() called at [D:\Work\www\dkphobos\public_html\index.php:4]
+
+
+2020-08-18 18:33:19 http://95.67.115.86:32381/status /status:
+Site: http://dkphobos.gg
+Time: 2020-08-18 18:33:19
+Error #: 2
+Message: Unknown: Failed to write session data (user). Please verify that the current setting of session.save_path is correct ()
+File: Unknown
+Line: 0
+User IP: 37.252.95.33
+User ID: 0
+
+Debug backtrace:
+
+
+2020-08-18 18:33:25 http://95.67.115.86:32327/status /status:
+Site: http://dkphobos.gg
+Time: 2020-08-18 18:33:25
+Error #: 2
+Message: mb_ereg_match(): mbregex compile err: undefined type (bug)
+File: D:\Work\www\dkphobos\classes\Bootstrap.class.php
+Line: 47
+User IP: 37.252.95.33
+User ID: 0
+
+Debug backtrace:
+#1: mb_ereg_match(^[a-z]{2}?/?ajax/json/,status) called at [D:\Work\www\dkphobos\classes\Bootstrap.class.php:47]
+#2: process_query() called at [D:\Work\www\dkphobos\classes\Bootstrap.class.php:24]
+#3: run() called at [D:\Work\www\dkphobos\public_html\index.php:4]
+
+
+\index.php:4]
+
+
+2020-08-18 18:33:25 http://95.67.115.86:32338/status /status:
+Site: http://dkphobos.gg
+Time: 2020-08-18 18:33:25
+Error #: 2
+Message: mb_ereg_match(): mbregex compile err: undefined type (bug)
+File: D:\Work\www\dkphobos\classes\Bootstrap.class.php
+Line: 47
+User IP: 37.252.95.33
+User ID: 0
+
+Debug backtrace:
+#1: mb_ereg_match(^[a-z]{2}?/?ajax/json/,status) called at [D:\Work\www\dkphobos\classes\Bootstrap.class.php:47]
+#2: process_query() called at [D:\Work\www\dkphobos\classes\Bootstrap.class.php:24]
+#3: run() called at [D:\Work\www\dkphobos\public_html\index.php:4]
+
+
+\index.php:4]
+
+
+2020-08-18 18:34:17 http://95.67.115.86:31445/status /status:
+Site: http://dkphobos.gg
+Time: 2020-08-18 18:34:17
+Error #: 2
+Message: mb_ereg_match(): mbregex compile err: undefined type (bug)
+File: D:\Work\www\dkphobos\classes\Bootstrap.class.php
+Line: 47
+User IP: 37.252.95.33
+User ID: 0
+
+Debug backtrace:
+#1: mb_ereg_match(^[a-z]{2}?/?ajax/json/,status) called at [D:\Work\www\dkphobos\classes\Bootstrap.class.php:47]
+#2: process_query() called at [D:\Work\www\dkphobos\classes\Bootstrap.class.php:24]
+#3: run() called at [D:\Work\www\dkphobos\public_html\index.php:4]
+
+
+2020-08-18 18:34:34 http://95.67.115.86:31918/status /status:
+Site: http://dkphobos.gg
+Time: 2020-08-18 18:34:34
+Error #: 2
+Message: mb_ereg_match(): mbregex compile err: undefined type (bug)
+File: D:\Work\www\dkphobos\classes\Bootstrap.class.php
+Line: 47
+User IP: 37.252.95.33
+User ID: 0
+
+Debug backtrace:
+#1: mb_ereg_match(^[a-z]{2}?/?ajax/json/,status) called at [D:\Work\www\dkphobos\classes\Bootstrap.class.php:47]
+#2: process_query() called at [D:\Work\www\dkphobos\classes\Bootstrap.class.php:24]
+#3: run() called at [D:\Work\www\dkphobos\public_html\index.php:4]
+
+
+2020-08-18 18:34:36 http://95.67.115.86:30414/status /status:
+Site: http://dkphobos.gg
+Time: 2020-08-18 18:34:36
+Error #: 2
+Message: mb_ereg_match(): mbregex compile err: target of repeat operator is invalid
+File: D:\Work\www\dkphobos\classes\Bootstrap.class.php
+Line: 47
+User IP: 37.252.95.33
+User ID: 0
+
+Debug backtrace:
+#1: mb_ereg_match(^[a-z]{2}?/?ajax/json/,status) called at [D:\Work\www\dkphobos\classes\Bootstrap.class.php:47]
+#2: process_query() called at [D:\Work\www\dkphobos\classes\Bootstrap.class.php:24]
+#3: run() called at [D:\Work\www\dkphobos\public_html\index.php:4]
+
+
+2020-08-18 18:35:12 http://95.67.115.86:30395/status /status:
+Site: http://dkphobos.gg
+Time: 2020-08-18 18:35:12
+Error #: 2
+Message: Unknown: Failed to write session data (user). Please verify that the current setting of session.save_path is correct ()
+File: Unknown
+Line: 0
+User IP: 37.252.95.33
+User ID: 0
+
+Debug backtrace:
+
+
+2020-08-18 18:35:13 http://95.67.115.86:31594/status /status:
+Site: http://dkphobos.gg
+Time: 2020-08-18 18:35:13
+Error #: 2
+Message: mb_ereg_match(): mbregex compile err: undefined type (bug)
+File: D:\Work\www\dkphobos\classes\Bootstrap.class.php
+Line: 47
+User IP: 37.252.95.33
+User ID: 0
+
+Debug backtrace:
+#1: mb_ereg_match(^[a-z]{2}?/?ajax/json/,status) called at [D:\Work\www\dkphobos\classes\Bootstrap.class.php:47]
+#2: process_query() called at [D:\Work\www\dkphobos\classes\Bootstrap.class.php:24]
+#3: run() called at [D:\Work\www\dkphobos\public_html\index.php:4]
+
+
+2020-08-18 18:35:13 http://95.67.115.86:30737/status /status:
+Site: http://dkphobos.gg
+Time: 2020-08-18 18:35:13
+Error #: 2
+Message: mb_ereg_match(): mbregex compile err: undefined type (bug)
+File: D:\Work\www\dkphobos\modules\menu\top\top.tpl
+Line: 13
+User IP: 37.252.95.33
+User ID: 0
+
+Debug backtrace:
+#1: mb_ereg_match((/|$|\?),) called at [D:\Work\www\dkphobos\modules\menu\top\top.tpl:13]
+#2: include(D:\Work\www\dkphobos\modules\menu\top\top.tpl) called at [D:\Work\www\dkphobos\classes\Module.class.php:89]
+#3: execute() called at [D:\Work\www\dkphobos\classes\Module.class.php:131]
+#4: module(/menu/top) called at [D:\Work\www\dkphobos\modules\errors\errors.tpl:27]
+#5: include(D:\Work\www\dkphobos\modules\errors\errors.tpl) called at [D:\Work\www\dkphobos\classes\Module.class.php:89]
+#6: execute() called at [D:\Work\www\dkphobos\classes\Module.class.php:131]
+#7: module(errors,404) called at [D:\Work\www\dkphobos\classes\Link\Error.class.php:16]
+#8: execute() called at [D:\Work\www\dkphobos\classes\_Error.class.php:49]
+#9: render(404) called at [D:\Work\www\dkphobos\classes\Link.class.php:100]
+#10: error(D:\Work\www\dkphobos\links/$arg) called at [D:\Work\www\dkphobos\classes\Link.class.php:83]
+#11: __construct(status) called at [D:\Work\www\dkphobos\classes\Bootstrap.class.php:53]
+#12: process_query() called at [D:\Work\www\dkphobos\classes\Bootstrap.class.php:24]
+#13: run() called at [D:\Work\www\dkphobos\public_html\index.php:4]
+
+
+2020-08-18 18:35:22 http://64.233.161.100http://64.233.161.100/ http://64.233.161.100/:
+Site: http://dkphobos.gg
+Time: 2020-08-18 18:35:22
+Error #: 2
+Message: mb_ereg_match(): mbregex compile err: target of repeat operator is invalid
+File: D:\Work\www\dkphobos\classes\Bootstrap.class.php
+Line: 47
+User IP: 176.113.83.85
+User ID: 0
+
+Debug backtrace:
+#1: mb_ereg_match(^[a-z]{2}?/?ajax/json/,ttp://64.233.161.100/) called at [D:\Work\www\dkphobos\classes\Bootstrap.class.php:47]
+#2: process_query() called at [D:\Work\www\dkphobos\classes\Bootstrap.class.php:24]
+#3: run() called at [D:\Work\www\dkphobos\public_html\index.php:4]
+
+
+2020-08-18 18:35:23 http://95.67.115.86:31301/status /status:
+Site: http://dkphobos.gg
+Time: 2020-08-18 18:35:23
+Error #: 2
+Message: mb_ereg_match(): mbregex compile err: undefined type (bug)
+File: D:\Work\www\dkphobos\classes\Bootstrap.class.php
+Line: 47
+User IP: 37.252.95.33
+User ID: 0
+
+Debug backtrace:
+#1: mb_ereg_match(^[a-z]{2}?/?ajax/json/,status) called at [D:\Work\www\dkphobos\classes\Bootstrap.class.php:47]
+#2: process_query() called at [D:\Work\www\dkphobos\classes\Bootstrap.class.php:24]
+#3: run() called at [D:\Work\www\dkphobos\public_html\index.php:4]
+
+
+2020-08-18 18:35:23 http://95.67.115.86:31852/status /status:
+Site: http://dkphobos.gg
+Time: 2020-08-18 18:35:23
+Error #: 2
+Message: mb_ereg_match(): mbregex compile err: target of repeat operator is invalid
+File: D:\Work\www\dkphobos\classes\Bootstrap.class.php
+Line: 47
+User IP: 37.252.95.33
+User ID: 0
+
+Debug backtrace:
+#1: mb_ereg_match(^[a-z]{2}?/?ajax/json/,status) called at [D:\Work\www\dkphobos\classes\Bootstrap.class.php:47]
+#2: process_query() called at [D:\Work\www\dkphobos\classes\Bootstrap.class.php:24]
+#3: run() called at [D:\Work\www\dkphobos\public_html\index.php:4]
+
+
+2020-08-18 18:35:23 http://95.67.115.86:32032/status /status:
+Site: http://dkphobos.gg
+Time: 2020-08-18 18:35:23
+Error #: 2
+Message: mb_ereg_match(): mbregex compile err: undefined type (bug)
+File: D:\Work\www\dkphobos\classes\Bootstrap.class.php
+Line: 47
+User IP: 37.252.95.33
+User ID: 0
+
+Debug backtrace:
+#1: mb_ereg_match(^[a-z]{2}?/?ajax/json/,status) called at [D:\Work\www\dkphobos\classes\Bootstrap.class.php:47]
+#2: process_query() called at [D:\Work\www\dkphobos\classes\Bootstrap.class.php:24]
+#3: run() called at [D:\Work\www\dkphobos\public_html\index.php:4]
+
+
+2020-08-18 18:36:11 http://95.67.115.86:30899/status /status:
+Site: http://dkphobos.gg
+Time: 2020-08-18 18:36:11
+Error #: 2
+Message: Unknown: Failed to write session data (user). Please verify that the current setting of session.save_path is correct ()
+File: Unknown
+Line: 0
+User IP: 37.252.95.33
+User ID: 0
+
+Debug backtrace:
+
+
+2020-08-18 18:36:11 http://95.67.115.86:32236/status /status:
+Site: http://dkphobos.gg
+Time: 2020-08-18 18:36:11
+Error #: 2
+Message: Unknown: Failed to write session data (user). Please verify that the current setting of session.save_path is correct ()
+File: Unknown
+Line: 0
+User IP: 37.252.95.33
+User ID: 0
+
+Debug backtrace:
+
+
+2020-08-18 18:36:37 http://95.67.115.86:32092/status /status:
+Site: http://dkphobos.gg
+Time: 2020-08-18 18:36:37
+Error #: 2
+Message: mb_ereg_match(): mbregex compile err: undefined type (bug)
+File: D:\Work\www\dkphobos\classes\Bootstrap.class.php
+Line: 47
+User IP: 37.252.95.33
+User ID: 0
+
+Debug backtrace:
+#1: mb_ereg_match(^[a-z]{2}?/?ajax/json/,status) called at [D:\Work\www\dkphobos\classes\Bootstrap.class.php:47]
+#2: process_query() called at [D:\Work\www\dkphobos\classes\Bootstrap.class.php:24]
+#3: run() called at [D:\Work\www\dkphobos\public_html\index.php:4]
+
+
+2020-08-18 18:37:49 http://95.67.115.86:31552/status /status:
+Site: http://dkphobos.gg
+Time: 2020-08-18 18:37:49
+Error #: 2
+Message: mb_ereg_match(): mbregex compile err: target of repeat operator is invalid
+File: D:\Work\www\dkphobos\classes\Bootstrap.class.php
+Line: 47
+User IP: 37.252.95.33
+User ID: 0
+
+Debug backtrace:
+#1: mb_ereg_match(^[a-z]{2}?/?ajax/json/,status) called at [D:\Work\www\dkphobos\classes\Bootstrap.class.php:47]
+#2: process_query() called at [D:\Work\www\dkphobos\classes\Bootstrap.class.php:24]
+#3: run() called at [D:\Work\www\dkphobos\public_html\index.php:4]
+
+
+2020-08-18 18:38:36 http://95.67.115.86:30869/status /status:
+Site: http://dkphobos.gg
+Time: 2020-08-18 18:38:36
+Error #: 2
+Message: mb_ereg_match(): mbregex compile err: target of repeat operator is invalid
+File: D:\Work\www\dkphobos\classes\Bootstrap.class.php
+Line: 47
+User IP: 37.252.95.33
+User ID: 0
+
+Debug backtrace:
+#1: mb_ereg_match(^[a-z]{2}?/?ajax/json/,status) called at [D:\Work\www\dkphobos\classes\Bootstrap.class.php:47]
+#2: process_query() called at [D:\Work\www\dkphobos\classes\Bootstrap.class.php:24]
+#3: run() called at [D:\Work\www\dkphobos\public_html\index.php:4]
+
+
+2020-08-18 18:38:36 http://95.67.115.86:30806/status /status:
+Site: http://dkphobos.gg
+Time: 2020-08-18 18:38:36
+Error #: 2
+Message: mb_ereg_match(): mbregex compile err: target of repeat operator is invalid
+File: D:\Work\www\dkphobos\classes\Bootstrap.class.php
+Line: 47
+User IP: 37.252.95.33
+User ID: 0
+
+Debug backtrace:
+#1: mb_ereg_match(^[a-z]{2}?/?ajax/json/,status) called at [D:\Work\www\dkphobos\classes\Bootstrap.class.php:47]
+#2: process_query() called at [D:\Work\www\dkphobos\classes\Bootstrap.class.php:24]
+#3: run() called at [D:\Work\www\dkphobos\public_html\index.php:4]
+
+
+2020-08-18 18:38:43 http://95.67.115.86:32038/status /status:
+Site: http://dkphobos.gg
+Time: 2020-08-18 18:38:43
+Error #: 2
+Message: mb_ereg_match(): mbregex compile err: undefined type (bug)
+File: D:\Work\www\dkphobos\classes\Bootstrap.class.php
+Line: 47
+User IP: 37.252.95.33
+User ID: 0
+
+Debug backtrace:
+#1: mb_ereg_match(^[a-z]{2}?/?ajax/json/,status) called at [D:\Work\www\dkphobos\classes\Bootstrap.class.php:47]
+#2: process_query() called at [D:\Work\www\dkphobos\classes\Bootstrap.class.php:24]
+#3: run() called at [D:\Work\www\dkphobos\public_html\index.php:4]
+
+
+2020-08-18 18:38:43 http://95.67.115.86:30342/status /status:
+Site: http://dkphobos.gg
+Time: 2020-08-18 18:38:43
+Error #: 2
+Message: mb_ereg_match(): mbregex compile err: undefined type (bug)
+File: D:\Work\www\dkphobos\classes\Bootstrap.class.php
+Line: 47
+User IP: 37.252.95.33
+User ID: 0
+
+Debug backtrace:
+#1: mb_ereg_match(^[a-z]{2}?/?ajax/json/,status) called at [D:\Work\www\dkphobos\classes\Bootstrap.class.php:47]
+#2: process_query() called at [D:\Work\www\dkphobos\classes\Bootstrap.class.php:24]
+#3: run() called at [D:\Work\www\dkphobos\public_html\index.php:4]
+
+
+2020-08-18 18:39:11 http://95.67.115.86:32128/status /status:
+Site: http://dkphobos.gg
+Time: 2020-08-18 18:39:11
+Error #: 2
+Message: mb_ereg_match(): mbregex compile err: undefined type (bug)
+File: D:\Work\www\dkphobos\classes\Bootstrap.class.php
+Line: 47
+User IP: 37.252.95.33
+User ID: 0
+
+Debug backtrace:
+#1: mb_ereg_match(^[a-z]{2}?/?ajax/json/,status) called at [D:\Work\www\dkphobos\classes\Bootstrap.class.php:47]
+#2: process_query() called at [D:\Work\www\dkphobos\classes\Bootstrap.class.php:24]
+#3: run() called at [D:\Work\www\dkphobos\public_html\index.php:4]
+
+
+2020-08-18 18:39:14 http://95.67.115.86:31510/status /status:
+Site: http://dkphobos.gg
+Time: 2020-08-18 18:39:14
+Error #: 2
+Message: Unknown: Failed to write session data (user). Please verify that the current setting of session.save_path is correct ()
+File: Unknown
+Line: 0
+User IP: 37.252.95.33
+User ID: 0
+
+Debug backtrace:
+
+
+2020-08-18 18:39:29 http://64.233.161.100http://64.233.161.100/ http://64.233.161.100/:
+Site: http://dkphobos.gg
+Time: 2020-08-18 18:39:29
+Error #: 2
+Message: mb_ereg_match(): mbregex compile err: undefined type (bug)
+File: D:\Work\www\dkphobos\classes\Link.class.php
+Line: 75
+User IP: 176.113.83.85
+User ID: 0
+
+Debug backtrace:
+#1: mb_ereg_match(^\w+$,ttp:) called at [D:\Work\www\dkphobos\classes\Link.class.php:75]
+#2: __construct(ttp://64.233.161.100/) called at [D:\Work\www\dkphobos\classes\Bootstrap.class.php:53]
+#3: process_query() called at [D:\Work\www\dkphobos\classes\Bootstrap.class.php:24]
+#4: run() called at [D:\Work\www\dkphobos\public_html\index.php:4]
+
+
+2020-08-18 18:39:45 http://95.67.115.86:30773/status /status:
+Site: http://dkphobos.gg
+Time: 2020-08-18 18:39:45
+Error #: 2
+Message: mb_ereg_match(): mbregex compile err: undefined type (bug)
+File: D:\Work\www\dkphobos\classes\Bootstrap.class.php
+Line: 47
+User IP: 37.252.95.33
+User ID: 0
+
+Debug backtrace:
+#1: mb_ereg_match(^[a-z]{2}?/?ajax/json/,status) called at [D:\Work\www\dkphobos\classes\Bootstrap.class.php:47]
+#2: process_query() called at [D:\Work\www\dkphobos\classes\Bootstrap.class.php:24]
+#3: run() called at [D:\Work\www\dkphobos\public_html\index.php:4]
+
+
+2020-08-18 18:40:32 http://95.67.115.86:31085/status /status:
+Site: http://dkphobos.gg
+Time: 2020-08-18 18:40:32
+Error #: 2
+Message: mb_ereg_match(): mbregex compile err: undefined type (bug)
+File: D:\Work\www\dkphobos\classes\Bootstrap.class.php
+Line: 47
+User IP: 37.252.95.33
+User ID: 0
+
+Debug backtrace:
+#1: mb_ereg_match(^[a-z]{2}?/?ajax/json/,status) called at [D:\Work\www\dkphobos\classes\Bootstrap.class.php:47]
+#2: process_query() called at [D:\Work\www\dkphobos\classes\Bootstrap.class.php:24]
+#3: run() called at [D:\Work\www\dkphobos\public_html\index.php:4]
+
+
+2020-08-18 22:48:35 http://95.67.115.86:33124/status /status:
+Site: http://dkphobos.gg
+Time: 2020-08-18 22:48:35
+Error #: 2
+Message: mb_ereg_match(): mbregex compile err: undefined type (bug)
+File: D:\Work\www\dkphobos\classes\Bootstrap.class.php
+Line: 47
+User IP: 37.252.95.33
+User ID: 0
+
+Debug backtrace:
+#1: mb_ereg_match(^[a-z]{2}?/?ajax/json/,status) called at [D:\Work\www\dkphobos\classes\Bootstrap.class.php:47]
+#2: process_query() called at [D:\Work\www\dkphobos\classes\Bootstrap.class.php:24]
+#3: run() called at [D:\Work\www\dkphobos\public_html\index.php:4]
+
+
+2020-08-18 22:50:44 http://95.67.115.86:34955/status /status:
+Site: http://dkphobos.gg
+Time: 2020-08-18 22:50:44
+Error #: 2
+Message: Unknown: Failed to write session data (user). Please verify that the current setting of session.save_path is correct ()
+File: Unknown
+Line: 0
+User IP: 37.252.95.33
+User ID: 0
+
+Debug backtrace:
+
+
+2020-08-18 22:51:52 http://95.67.115.86:36570/status /status:
+Site: http://dkphobos.gg
+Time: 2020-08-18 22:51:52
+Error #: 2
+Message: mb_ereg_match(): mbregex compile err: target of repeat operator is invalid
+File: D:\Work\www\dkphobos\classes\Bootstrap.class.php
+Line: 47
+User IP: 37.252.95.33
+User ID: 0
+
+Debug backtrace:
+#1: mb_ereg_match(^[a-z]{2}?/?ajax/json/,status) called at [D:\Work\www\dkphobos\classes\Bootstrap.class.php:47]
+#2: process_query() called at [D:\Work\www\dkphobos\classes\Bootstrap.class.php:24]
+#3: run() called at [D:\Work\www\dkphobos\public_html\index.php:4]
+
+
+2020-08-18 22:51:52 http://95.67.115.86:36571/status /status:
+Site: http://dkphobos.gg
+Time: 2020-08-18 22:51:52
+Error #: 2
+Message: mb_ereg_match(): mbregex compile err: undefined type (bug)
+File: D:\Work\www\dkphobos\classes\Bootstrap.class.php
+Line: 47
+User IP: 37.252.95.33
+User ID: 0
+
+Debug backtrace:
+#1: mb_ereg_match(^[a-z]{2}?/?ajax/json/,status) called at [D:\Work\www\dkphobos\classes\Bootstrap.class.php:47]
+#2: process_query() called at [D:\Work\www\dkphobos\classes\Bootstrap.class.php:24]
+#3: run() called at [D:\Work\www\dkphobos\public_html\index.php:4]
+
+
+2020-08-18 22:56:06 http://95.67.115.86:33203/status /status:
+Site: http://dkphobos.gg
+Time: 2020-08-18 22:56:06
+Error #: 2
+Message: mb_ereg_match(): mbregex compile err: undefined type (bug)
+File: D:\Work\www\dkphobos\classes\Bootstrap.class.php
+Line: 47
+User IP: 37.252.95.33
+User ID: 0
+
+Debug backtrace:
+#1: mb_ereg_match(^[a-z]{2}?/?ajax/json/,status) called at [D:\Work\www\dkphobos\classes\Bootstrap.class.php:47]
+#2: process_query() called at [D:\Work\www\dkphobos\classes\Bootstrap.class.php:24]
+#3: run() called at [D:\Work\www\dkphobos\public_html\index.php:4]
+
+
+2020-08-18 22:56:06 http://95.67.115.86:32957/status /status:
+Site: http://dkphobos.gg
+Time: 2020-08-18 22:56:06
+Error #: 2
+Message: mb_ereg_match(): mbregex compile err: undefined type (bug)
+File: D:\Work\www\dkphobos\classes\Bootstrap.class.php
+Line: 47
+User IP: 37.252.95.33
+User ID: 0
+
+Debug backtrace:
+#1: mb_ereg_match(^[a-z]{2}?/?ajax/json/,status) called at [D:\Work\www\dkphobos\classes\Bootstrap.class.php:47]
+#2: process_query() called at [D:\Work\www\dkphobos\classes\Bootstrap.class.php:24]
+#3: run() called at [D:\Work\www\dkphobos\public_html\index.php:4]
+
+
+2020-08-18 22:57:37 http://95.67.115.86:36463/status /status:
+Site: http://dkphobos.gg
+Time: 2020-08-18 22:57:37
+Error #: 2
+Message: mb_ereg_match(): mbregex compile err: undefined type (bug)
+File: D:\Work\www\dkphobos\classes\Bootstrap.class.php
+Line: 47
+User IP: 37.252.95.33
+User ID: 0
+
+Debug backtrace:
+#1: mb_ereg_match(^[a-z]{2}?/?ajax/json/,status) called at [D:\Work\www\dkphobos\classes\Bootstrap.class.php:47]
+#2: process_query() called at [D:\Work\www\dkphobos\classes\Bootstrap.class.php:24]
+#3: run() called at [D:\Work\www\dkphobos\public_html\index.php:4]
+
+
+\index.php:4]
+
+
+2020-08-18 22:58:03 http://95.67.115.86:33775/status /status:
+Site: http://dkphobos.gg
+Time: 2020-08-18 22:58:03
+Error #: 2
+Message: mb_ereg_match(): mbregex compile err: undefined type (bug)
+File: D:\Work\www\dkphobos\classes\Bootstrap.class.php
+Line: 47
+User IP: 37.252.95.33
+User ID: 0
+
+Debug backtrace:
+#1: mb_ereg_match(^[a-z]{2}?/?ajax/json/,status) called at [D:\Work\www\dkphobos\classes\Bootstrap.class.php:47]
+#2: process_query() called at [D:\Work\www\dkphobos\classes\Bootstrap.class.php:24]
+#3: run() called at [D:\Work\www\dkphobos\public_html\index.php:4]
+
+
+2020-08-18 22:59:18 http://95.67.115.86:35159/status /status:
+Site: http://dkphobos.gg
+Time: 2020-08-18 22:59:18
+Error #: 2
+Message: mb_ereg_match(): mbregex compile err: undefined type (bug)
+File: D:\Work\www\dkphobos\classes\Bootstrap.class.php
+Line: 47
+User IP: 37.252.95.33
+User ID: 0
+
+Debug backtrace:
+#1: mb_ereg_match(^[a-z]{2}?/?ajax/json/,status) called at [D:\Work\www\dkphobos\classes\Bootstrap.class.php:47]
+#2: process_query() called at [D:\Work\www\dkphobos\classes\Bootstrap.class.php:24]
+#3: run() called at [D:\Work\www\dkphobos\public_html\index.php:4]
+
+
+2020-08-18 22:59:21 http://95.67.115.86:33028/status /status:
+Site: http://dkphobos.gg
+Time: 2020-08-18 22:59:21
+Error #: 2
+Message: Unknown: Failed to write session data (user). Please verify that the current setting of session.save_path is correct ()
+File: Unknown
+Line: 0
+User IP: 37.252.95.33
+User ID: 0
+
+Debug backtrace:
+
+
+2020-08-18 22:59:30 http://95.67.115.86:34673/status /status:
+Site: http://dkphobos.gg
+Time: 2020-08-18 22:59:30
+Error #: 2
+Message: Unknown: Failed to write session data (user). Please verify that the current setting of session.save_path is correct ()
+File: Unknown
+Line: 0
+User IP: 37.252.95.33
+User ID: 0
+
+Debug backtrace:
+
+
+2020-08-18 22:59:39 http://64.233.161.100http://64.233.161.100/ http://64.233.161.100/:
+Site: http://dkphobos.gg
+Time: 2020-08-18 22:59:39
+Error #: 2
+Message: mb_ereg_match(): mbregex compile err: undefined type (bug)
+File: D:\Work\www\dkphobos\classes\Bootstrap.class.php
+Line: 47
+User IP: 176.113.83.85
+User ID: 0
+
+Debug backtrace:
+#1: mb_ereg_match(^[a-z]{2}?/?ajax/json/,ttp://64.233.161.100/) called at [D:\Work\www\dkphobos\classes\Bootstrap.class.php:47]
+#2: process_query() called at [D:\Work\www\dkphobos\classes\Bootstrap.class.php:24]
+#3: run() called at [D:\Work\www\dkphobos\public_html\index.php:4]
+
+
+2020-08-18 22:59:39 http://95.67.115.86:35147/status /status:
+Site: http://dkphobos.gg
+Time: 2020-08-18 22:59:39
+Error #: 2
+Message: mb_ereg_match(): mbregex compile err: undefined type (bug)
+File: D:\Work\www\dkphobos\classes\Bootstrap.class.php
+Line: 47
+User IP: 37.252.95.33
+User ID: 0
+
+Debug backtrace:
+#1: mb_ereg_match(^[a-z]{2}?/?ajax/json/,status) called at [D:\Work\www\dkphobos\classes\Bootstrap.class.php:47]
+#2: process_query() called at [D:\Work\www\dkphobos\classes\Bootstrap.class.php:24]
+#3: run() called at [D:\Work\www\dkphobos\public_html\index.php:4]
+
+
+2020-08-18 23:00:02 http://95.67.115.86:33598/status /status:
+Site: http://dkphobos.gg
+Time: 2020-08-18 23:00:02
+Error #: 2
+Message: mb_ereg_match(): mbregex compile err: target of repeat operator is invalid
+File: D:\Work\www\dkphobos\classes\Bootstrap.class.php
+Line: 47
+User IP: 37.252.95.33
+User ID: 0
+
+Debug backtrace:
+#1: mb_ereg_match(^[a-z]{2}?/?ajax/json/,status) called at [D:\Work\www\dkphobos\classes\Bootstrap.class.php:47]
+#2: process_query() called at [D:\Work\www\dkphobos\classes\Bootstrap.class.php:24]
+#3: run() called at [D:\Work\www\dkphobos\public_html\index.php:4]
+
+
+2020-08-18 23:00:46 http://95.67.115.86:35045/status /status:
+Site: http://dkphobos.gg
+Time: 2020-08-18 23:00:46
+Error #: 2
+Message: mb_ereg_match(): mbregex compile err: undefined type (bug)
+File: D:\Work\www\dkphobos\classes\Bootstrap.class.php
+Line: 47
+User IP: 37.252.95.33
+User ID: 0
+
+Debug backtrace:
+#1: mb_ereg_match(^[a-z]{2}?/?ajax/json/,status) called at [D:\Work\www\dkphobos\classes\Bootstrap.class.php:47]
+#2: process_query() called at [D:\Work\www\dkphobos\classes\Bootstrap.class.php:24]
+#3: run() called at [D:\Work\www\dkphobos\public_html\index.php:4]
+
+
+2020-08-18 23:02:08 http://95.67.115.86:34871/status /status:
+Site: http://dkphobos.gg
+Time: 2020-08-18 23:02:08
+Error #: 2
+Message: mb_ereg_match(): mbregex compile err: undefined type (bug)
+File: D:\Work\www\dkphobos\modules\menu\top\top.tpl
+Line: 13
+User IP: 37.252.95.33
+User ID: 0
+
+Debug backtrace:
+#1: mb_ereg_match((/|$|\?),) called at [D:\Work\www\dkphobos\modules\menu\top\top.tpl:13]
+#2: include(D:\Work\www\dkphobos\modules\menu\top\top.tpl) called at [D:\Work\www\dkphobos\classes\Module.class.php:89]
+#3: execute() called at [D:\Work\www\dkphobos\classes\Module.class.php:131]
+#4: module(/menu/top) called at [D:\Work\www\dkphobos\modules\errors\errors.tpl:27]
+#5: include(D:\Work\www\dkphobos\modules\errors\errors.tpl) called at [D:\Work\www\dkphobos\classes\Module.class.php:89]
+#6: execute() called at [D:\Work\www\dkphobos\classes\Module.class.php:131]
+#7: module(errors,404) called at [D:\Work\www\dkphobos\classes\Link\Error.class.php:16]
+#8: execute() called at [D:\Work\www\dkphobos\classes\_Error.class.php:49]
+#9: render(404) called at [D:\Work\www\dkphobos\classes\Link.class.php:100]
+#10: error(D:\Work\www\dkphobos\links/$arg) called at [D:\Work\www\dkphobos\classes\Link.class.php:83]
+#11: __construct(status) called at [D:\Work\www\dkphobos\classes\Bootstrap.class.php:53]
+#12: process_query() called at [D:\Work\www\dkphobos\classes\Bootstrap.class.php:24]
+#13: run() called at [D:\Work\www\dkphobos\public_html\index.php:4]
+
+
+2020-08-18 23:02:10 http://95.67.115.86:33622/status /status:
+Site: http://dkphobos.gg
+Time: 2020-08-18 23:02:10
+Error #: 2
+Message: mb_ereg_match(): mbregex compile err: undefined type (bug)
+File: D:\Work\www\dkphobos\classes\Bootstrap.class.php
+Line: 47
+User IP: 37.252.95.33
+User ID: 0
+
+Debug backtrace:
+#1: mb_ereg_match(^[a-z]{2}?/?ajax/json/,status) called at [D:\Work\www\dkphobos\classes\Bootstrap.class.php:47]
+#2: process_query() called at [D:\Work\www\dkphobos\classes\Bootstrap.class.php:24]
+#3: run() called at [D:\Work\www\dkphobos\public_html\index.php:4]
+
+
+2020-08-18 23:02:38 http://95.67.115.86:34694/status /status:
+Site: http://dkphobos.gg
+Time: 2020-08-18 23:02:38
+Error #: 2
+Message: mb_ereg_match(): mbregex compile err: undefined type (bug)
+File: D:\Work\www\dkphobos\classes\Bootstrap.class.php
+Line: 47
+User IP: 37.252.95.33
+User ID: 0
+
+Debug backtrace:
+#1: mb_ereg_match(^[a-z]{2}?/?ajax/json/,status) called at [D:\Work\www\dkphobos\classes\Bootstrap.class.php:47]
+#2: process_query() called at [D:\Work\www\dkphobos\classes\Bootstrap.class.php:24]
+#3: run() called at [D:\Work\www\dkphobos\public_html\index.php:4]
+
+
+2020-08-18 23:02:52 http://95.67.115.86:33274/status /status:
+Site: http://dkphobos.gg
+Time: 2020-08-18 23:02:52
+Error #: 2
+Message: mb_ereg_match(): mbregex compile err: undefined type (bug)
+File: D:\Work\www\dkphobos\classes\Bootstrap.class.php
+Line: 47
+User IP: 37.252.95.33
+User ID: 0
+
+Debug backtrace:
+#1: mb_ereg_match(^[a-z]{2}?/?ajax/json/,status) called at [D:\Work\www\dkphobos\classes\Bootstrap.class.php:47]
+#2: process_query() called at [D:\Work\www\dkphobos\classes\Bootstrap.class.php:24]
+#3: run() called at [D:\Work\www\dkphobos\public_html\index.php:4]
+
+
+2020-08-18 23:03:16 http://95.67.115.86:33697/status /status:
+Site: http://dkphobos.gg
+Time: 2020-08-18 23:03:16
+Error #: 2
+Message: mb_ereg_match(): mbregex compile err: target of repeat operator is invalid
+File: D:\Work\www\dkphobos\classes\Bootstrap.class.php
+Line: 47
+User IP: 37.252.95.33
+User ID: 0
+
+Debug backtrace:
+#1: mb_ereg_match(^[a-z]{2}?/?ajax/json/,status) called at [D:\Work\www\dkphobos\classes\Bootstrap.class.php:47]
+#2: process_query() called at [D:\Work\www\dkphobos\classes\Bootstrap.class.php:24]
+#3: run() called at [D:\Work\www\dkphobos\public_html\index.php:4]
+
+
+2020-08-18 23:04:11 http://95.67.115.86:33976/status /status:
+Site: http://dkphobos.gg
+Time: 2020-08-18 23:04:11
+Error #: 2
+Message: mb_ereg_match(): mbregex compile err: undefined type (bug)
+File: D:\Work\www\dkphobos\classes\Bootstrap.class.php
+Line: 47
+User IP: 37.252.95.33
+User ID: 0
+
+Debug backtrace:
+#1: mb_ereg_match(^[a-z]{2}?/?ajax/json/,status) called at [D:\Work\www\dkphobos\classes\Bootstrap.class.php:47]
+#2: process_query() called at [D:\Work\www\dkphobos\classes\Bootstrap.class.php:24]
+#3: run() called at [D:\Work\www\dkphobos\public_html\index.php:4]
+
+

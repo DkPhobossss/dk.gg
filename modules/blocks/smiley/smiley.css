@@ -1,0 +1,10 @@
+div.smiley_container
+{
+    border              : 1px solid #ccc;
+    margin              : 20px 0;
+}
+
+div.smiley_container img[code]
+{
+    cursor              : pointer;
+}

@@ -1,0 +1,126 @@
+fieldset
+{
+    -webkit-border-radius   : 6px;
+    -moz-border-radius		: 6px;
+    border-radius			: 6px;
+    border                  : 0;
+    background-color        : #f6f6f6;
+}
+
+    #fieldset > div.right
+    {
+        width               : 110px;
+        margin              : 0;
+        text-align          : center;
+    }
+
+
+    #fieldset > div
+    {
+        width               : 260px;
+        display             : inline-block;
+        margin              : 1px 0px;
+        line-height         : 43px;
+    }
+    
+    
+    #fieldset > div  *
+    {
+        text-align          : center;
+        vertical-align      : top;
+    }
+    
+    #fieldset > div a,
+    #fieldset > div span
+    {
+
+    }
+    
+    #fieldset > div > a:first-child + a
+    {
+        display             : inline-block;
+        background-color    : #dedede 
+    }
+    
+    #fieldset > div > span
+    {
+        display             : inline-block;
+        background-color    : #999;
+        padding             : 0 10px;
+        width               : 40px;
+        
+        -webkit-border-radius   : 0px 6px 6px 0px;
+        -moz-border-radius		: 0px 6px 6px 0px;
+        border-radius			: 0px 6px 6px 0px;
+        color               : #000;
+    }
+
+    #fieldset > div > a + a
+    {
+        width               : 150px;
+        
+        -webkit-border-radius   : 6px 0 0 6px;
+        -moz-border-radius		: 6px 0 0 6px;
+        border-radius			: 6px 0 0 6px;
+    }
+    
+    #fieldset > div > a + a,
+    #fieldset > div > span
+    {
+        height              : 41px;
+        margin-top          : 1px;
+    }
+    
+    
+    
+#income
+{
+    margin-top          : 20px;
+    background-color        : #f0f0f0;
+}
+
+#income > div
+{
+    width               : 260px;
+    display             : inline-block;
+    margin              : 1px 0px;
+    line-height         : 43px;
+}
+    
+    
+    #income > div  *
+    {
+        text-align          : center;
+        vertical-align      : top;
+    }
+    
+    
+    #income > div > span:first-of-type
+    {
+        display             : inline-block;
+        background-color    : #d0d0d0;
+        width               : 150px;
+        
+        -webkit-border-radius   : 6px 0 0 6px;
+        -moz-border-radius		: 6px 0 0 6px;
+        border-radius			: 6px 0 0 6px;
+    }
+    
+    #income > div > span:first-of-type + span
+    {
+        display             : inline-block;
+        background-color    : #999;
+        padding             : 0px;
+        width               : 60px;
+        
+        -webkit-border-radius   : 0px 6px 6px 0px;
+        -moz-border-radius		: 0px 6px 6px 0px;
+        border-radius			: 0px 6px 6px 0px;
+        color               : #000;
+    }
+
+    #income > div > span
+    {
+        height              : 41px;
+        margin-top          : 1px;
+    }

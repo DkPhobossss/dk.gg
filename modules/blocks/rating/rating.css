@@ -1,0 +1,66 @@
+/*********************/
+/** jRating CSS **/
+/*********************/
+
+div.rating_block
+{
+    font-size:11px;
+}
+
+div.jrating
+{
+    width       : 115px;
+    height      : 20px;
+    margin-bottom: 5px;
+}
+/**Div containing the color of the stars */
+.jRatingAverage {
+	background-color:#ffcc00;
+	position:relative;
+	top:0;
+	left:0;
+	z-index:2;
+	height:100%;
+}
+.jRatingColor {
+	background-color:#000; /* bgcolor of the stars*/
+	position:relative;
+	top:0;
+	left:0;
+	z-index:2;
+	height:100%;
+}
+
+/** Div containing the stars **/
+.jStar {
+	position:relative;
+	left:0;
+	z-index:3;
+    width   : 115px;
+    height  : 20px;
+    top     : -40px;
+    background: url('/images/system/rating_star.png') repeat-x;
+}
+
+div.w .jStar {
+    background-image: url('/images/system/rating_star_w.png') !important;
+}
+
+/** P containing the rate informations **/
+p.jRatingInfos {
+	position:		absolute;
+	z-index:9999;
+	background:	transparent url('images/rating_bg.png') no-repeat;
+	color:			#fc0;
+	display:		none;
+	width:			71px;
+	height:			18px;	
+    padding:        8px 10px;
+	font-size:16px;
+	text-align:center;
+    opacity         : 0.8;
+}
+	p.jRatingInfos span.maxRate {
+		color:#c9c9c9;
+		font-size:14px;
+	}

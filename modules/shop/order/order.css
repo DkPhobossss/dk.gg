@@ -1,0 +1,21 @@
+form > table td
+{
+    padding             : 5px;
+}
+
+
+form > table td[colspan]
+{
+    padding-top         : 20px;
+}
+
+form > table input[type="text"]
+{
+    padding             : 2px 5px;
+    width               : 400px;
+}
+
+form > table textarea
+{
+    min-height          : 100px !important;
+}

@@ -1,0 +1,1 @@
+<?= $this->module( 'page', $this->module( 'main' , 'forgot_password', Input::get('email') , Input::get('forgot_password_hash') ) ) ?>

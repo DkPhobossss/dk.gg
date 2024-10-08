@@ -1,0 +1,355 @@
+div.comment_block
+{
+    padding-top     : 10px;
+    margin-top      : 10px;
+    border-top      : 1px solid #ccc;
+}
+    div.comment_block img
+    {
+        vertical-align: bottom;
+    }
+
+div.comment_block > div[id] 
+{
+    margin          : 12px 0;
+}
+
+div.comment_block > div[id] + div.post
+{
+    margin-top   : -6px;
+}
+
+div.comment_block > div.post + div[id]
+{
+    margin-top      : 6px;
+}
+
+div.comment_block > div.big + div.pagination
+{
+    margin-top              : 0;
+}
+    
+div.user
+{
+    width           : 60px;
+}
+
+    div.user > div.online
+    {
+        background-image    : url('/images/system/user_online.png');
+        background-size     : 5px 10px;
+    }
+
+    div.user > div.offline
+    {
+        background-image    : url('/images/system/user_offline.png');
+        background-size     : 5px 10px;
+    }
+
+
+    div.user > div.avatar_block
+    {
+        padding             : 6px;
+        background-color    : #000;
+        background-repeat   : no-repeat;
+        background-position : 0 6px;
+
+        -webkit-border-radius   : 4px;
+        -moz-border-radius	: 4px;
+        border-radius		: 4px;
+    }
+
+
+div.comment
+{
+    margin-left             : 75px;
+    min-height              : 60px;
+    background-color        : #fff;
+    padding                 : 3px;
+    position                : relative;
+
+    -webkit-border-radius   : 6px;
+    -moz-border-radius      : 6px;
+    border-radius           : 6px;
+    
+    -moz-box-shadow                 : 0px 0px 3px #aaa;
+    -webkit-box-shadow              : 0px 0px 3px #aaa;
+    box-shadow                      : 0px 0px 3px #aaa;
+    border                  : 1px solid #fff;
+}
+
+div.comment:before
+{
+    display             : block;
+    content             : '';
+    border-color        : inherit;
+    top                 : 8px;
+    left                : -12px;
+    position            : absolute;
+    width               : 0;
+    height              : 0;
+    border-top          : 8px solid transparent;
+    border-bottom       : 8px solid transparent;
+    border-right-color  : inherit;
+    border-right-style  : solid;
+    border-right-width  : 13px;
+    z-index             : 3;
+}
+
+
+    div.comment > div.hovered
+    {
+        padding         : 3px;
+        margin-top      : 3px;
+        background-color    : #fff;
+    }
+
+    div.comment:hover > div.hovered
+    {
+        background-color    : #f1f3f4;
+    }
+    
+    div.comment > div.head
+    {
+        padding             : 2px 5px;
+        background-color    : #fff;
+    }
+    
+    div.comment > div.head:not([style])
+    {
+        border-bottom       : 1px solid #d0d0d0;
+    }
+    
+    div.comment > div.head[style]
+    {
+        -webkit-border-radius   : 6px;
+        -moz-border-radius		: 6px;
+        border-radius			: 6px;
+    }
+    
+        div.comment > div.head img + a
+        {
+            color           : #3a3a3a;
+        }
+        
+        div.comment > div.head a[href] + span
+        {
+            margin-left     : 10px;
+        }
+        
+        div.comment > div.head > div.right
+        {
+            padding         : 2px 3px;
+            line-height     : 14px;
+            background-color: #000;
+            -webkit-border-radius   : 4px;
+            -moz-border-radius		: 4px;
+            border-radius			: 4px;
+        }
+        
+            div.comment > div.head > div.right img
+            {
+                cursor          : pointer;
+            }
+        
+        div.comment > div.head > a.right
+        {
+            margin-left    : 15px;
+        }
+        
+    
+    div.comment .body
+    {
+        margin              : 0 0 5px 0;
+        min-height          : 36px;
+        color               : #777;
+    }
+    
+    div.comment .bottom
+    {
+        line-height             : 22px;
+    }
+    
+    div.comment .bottom > a.button
+    {
+        margin-right        : 10px;
+    }
+    
+    div.comment .bottom > div.right
+    {
+        color               : #aaa;
+        font-weight         : bold;
+        width               : 77px;
+        text-align          : right;
+        background-color    : #f0f0f0;
+        padding             : 0 4px 0 0;
+        -webkit-border-radius   : 4px;
+            -moz-border-radius		: 4px;
+            border-radius			: 4px;
+    }
+    
+        div.comment .bottom > div.right > span:first-child
+        {
+            margin-right    : 4px;
+        }
+    
+        div.comment .bottom > div.right > span + span
+        {
+            vertical-align  : text-bottom;
+            background-position : 0 100%;
+        }
+
+    div.comment .bottom .positive
+    {
+        color                   : #090;
+    }
+
+    div.comment .bottom .negative
+    {
+        color                   : #900;
+    }
+    
+    div.comment .bottom span.gold_info
+    {
+        margin-right            : 4px;
+    }
+    
+        div.comment .bottom span.gold_info span.date_info
+        {
+            opacity             : 0;
+            margin-right        : 5px;
+        }
+        
+        div.comment .bottom:hover span.gold_info span.date_info
+        {
+            opacity             : 1;
+        }
+    
+        div.comment .bottom span.gold_info span.date_info + span
+        {
+            padding             : 0px 4px;
+            background-color    : #000;
+            color               : #ffdb00;
+            display             : inline-block;
+            
+            -webkit-border-radius   : 4px;
+            -moz-border-radius		: 4px;
+            border-radius			: 4px;
+        }
+        
+            div.comment .bottom span.gold_info span + span img
+            {
+                vertical-align      : text-bottom;
+            }
+    
+        div.comment .bottom span.gold_info > img
+        {
+            vertical-align      : text-top;
+        }
+
+        
+        
+div.post
+{
+    padding                     : 6px 20px;
+    background-color            : #c2c2c2;
+    margin                      : 0px -20px;
+}
+
+div.clear + div.post
+{
+    padding                     : 12px 20px;
+}
+    
+
+    div.post > div.left
+    {
+        background-color        : #000;
+        
+        -webkit-border-radius   : 6px;
+        -moz-border-radius		: 6px;
+        border-radius			: 6px;
+    }
+
+        div.post > div.left > img
+        {
+            margin                  : 5px;
+        }
+        
+
+    div.post div.comment > form
+    {
+        padding                     : 5px;
+        background                  : #e1e9ec;
+        
+        -webkit-border-radius   : 6px;
+        -moz-border-radius		: 6px;
+        border-radius			: 6px;
+    }
+
+        div.post div.comment textarea
+        {
+            width                       : 100%;
+            max-width                   : 100%;
+            box-sizing                  : border-box;
+            min-height                  : 80px;
+            border                      : 1px solid #96C7E2;
+            padding                     : 5px;
+            margin-bottom               : 10px;
+
+
+            -webkit-border-radius   : 6px;
+            -moz-border-radius		: 6px;
+            border-radius			: 6px;
+        }
+
+        div.post div.comment div.gray
+        {
+            margin-top                  : 15px;
+            clear                       : left;
+        }
+    
+img.close
+{
+    cursor                      : pointer;
+}
+
+
+div.comment .body  blockquote
+{
+    background-color            : rgba(215,225,232,0.5);
+    border                      : 1px solid rgba(0,0,0,0.1);
+    margin                      : 10px 0;
+    padding                     : 10px;
+    
+    -webkit-border-radius   : 6px;
+    -moz-border-radius		: 6px;
+    border-radius			: 6px;
+}
+
+    div.comment .body  blockquote div.quote_head
+    {
+        font-weight         : bold;
+    }
+
+div.comment_block div.auth_info
+{
+    line-height             : 24px;
+    margin-left             : 185px;
+    font-size               : 15px;
+}
+
+    div.comment_block div.auth_info x-publisher
+    {
+        color               : #508DD0;
+    }
+    
+
+    
+div.comment .bottom:after , div.comment_block:after
+{
+    content             : '';
+    clear               : both;
+    display             : inline-block;
+}
+
